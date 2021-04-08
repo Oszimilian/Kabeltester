@@ -1,0 +1,21 @@
+Circuit: * C:\Users\107475\OneDrive - BMK Group GmbH & Co. KG\BMK-Abschlussprojekt\03_Simulation\Prog-Vorgang\Draft2.asc
+
+.OP point found by inspection.
+
+Date: Fri Mar 12 10:28:07 2021
+Total elapsed time: 0.040 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2998
+traniter = 2998
+tranpoints = 1500
+accept = 1276
+rejected = 224
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 150 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 321 bytes object code size  0.1/0.1/[0.1]
+
