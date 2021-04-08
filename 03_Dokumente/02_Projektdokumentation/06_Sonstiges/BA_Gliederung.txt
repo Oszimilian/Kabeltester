@@ -1,0 +1,47 @@
+Beschreibung der Ausgangssituation
+	- Was macht die BMK-Entwicklung
+	- Was macht das BMK-Testentwicklungslabor
+	- Wie werden zur Zeit die Prog-Kabel getestet und eingesetzt
+
+Beschreibung der Herrangehensweiße	
+	- Wie kam die Idee des Themas?
+	- Erste Gedanken über Anforderungen...
+
+Klärung verschiedener Begrifflichkeiten
+	- BMK-IOT Modul
+	- Eval-Board Programmer
+	- Testadapter
+	- JTAG & SW Interface
+	- Logic-Analycer
+	- EDA-Software
+	- LaTeX
+	- Simulationsprogramme (Multisim & LTSpice)
+
+Planung des Auftrages
+	- Ziel des Auftrages
+	- Technische Anforderungen
+	- Planung der Teilaufträge
+	- Zeitplanung
+
+Auftragsdurchführung
+	- Erstellen eines Blockschaltbildes
+	- Erstellen eines Pflichtenheftes
+	- Entwicklung der Einzelnen Schaltungsblöcke
+	- Teilauftrag an Layout-Abteilung
+	- Teilauftrag an PCB-Bestückung
+	
+Inbetriebnahme
+	- Inbetriebnahme Protokoll im Vorfeld erstellen
+	- Inbetriebnahme der Schaltung
+	- Documentation der Inbetriebnahme
+
+Sonstiges
+	- Bauteilauswahl
+	- Stromaufnahme (Soll und Ist Wert)
+	- Analyse des maximalen Leitungswiderstandes während des Programmiervorganges
+
+Anhang
+	- Datenblätter (Auszüge)
+	- Schaltplan
+	- Stückliste
+	- Layout / Bestückungsplan 
