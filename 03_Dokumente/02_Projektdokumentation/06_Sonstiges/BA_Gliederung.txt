@@ -15,7 +15,6 @@ Klärung verschiedener Begrifflichkeiten
 	- Logic-Analycer
 	- EDA-Software
 	- LaTeX
-	- Simulationsprogramme (Multisim & LTSpice)
 
 Planung des Auftrages
 	- Ziel des Auftrages

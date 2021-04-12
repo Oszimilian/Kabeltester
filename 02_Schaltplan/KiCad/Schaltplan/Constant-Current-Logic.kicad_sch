@@ -2,6 +2,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Kabeltester")
+    (company "BMK Group")
+    (comment 1 "Erstellt: Maximilian Hoffmann")
+    (comment 2 "Geprüft: Robert Schulz")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
@@ -4287,7 +4294,7 @@
     (property "Datasheet" "https://www.mouser.de/datasheet/2/916/74AHC_AHCT2G08-1318688.pdf" (id 3) (at 257.175 267.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "BMK-Nr" "-" (id 4) (at 260.35 269.875 0)
+    (property "BMK-Nr" "06-0948-1" (id 4) (at 260.35 269.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "771-AHC2G08DC125" (id 5) (at 261.62 271.78 0)
@@ -4451,7 +4458,7 @@
     (property "Datasheet" "https://www.mouser.de/datasheet/2/916/74AHC_AHCT2G08-1318688.pdf" (id 3) (at 253.365 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "BMK-Nr" "-" (id 4) (at 256.54 125.095 0)
+    (property "BMK-Nr" "06-0948-1" (id 4) (at 256.54 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "771-AHC2G08DC125" (id 5) (at 257.81 127 0)
@@ -4475,7 +4482,7 @@
     (property "Datasheet" "https://www.mouser.de/datasheet/2/916/74AHC_AHCT2G08-1318688.pdf" (id 3) (at 272.415 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "BMK-Nr" "-" (id 4) (at 275.59 131.445 0)
+    (property "BMK-Nr" "06-0948-1" (id 4) (at 275.59 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "771-AHC2G08DC125" (id 5) (at 276.86 133.35 0)

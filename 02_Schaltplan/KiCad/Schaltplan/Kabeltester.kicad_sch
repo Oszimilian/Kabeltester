@@ -2,6 +2,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Kabeltester")
+    (date "2021-04-12")
+    (company "BMK Group")
+    (comment 1 "Erstellt: Maximilian Hoffmann")
+    (comment 2 "Geprüft: Robert Schulz")
+  )
+
   (lib_symbols
     (symbol "Connector:DB9_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 13.97 0)
@@ -1684,7 +1692,7 @@
       (reference "D4") (unit 1) (value "LED/GELB") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/3cdba8fb-98a3-41b2-b01f-0d3910abb0f2"
-      (reference "D43") (unit 1) (value "D") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D43") (unit 1) (value "BAS416") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/19479609-6703-4575-a33f-ec8b8db026b7"
       (reference "J3") (unit 1) (value "SPEED (20k-POTI)") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")

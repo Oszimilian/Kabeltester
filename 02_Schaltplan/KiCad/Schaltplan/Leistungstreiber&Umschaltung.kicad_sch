@@ -2,6 +2,13 @@
 
   (paper "User" 540.893 350.012)
 
+  (title_block
+    (title "Kabeltester")
+    (company "BMK Group")
+    (comment 1 "Erstellt: Maximilian Hoffmann")
+    (comment 2 "Geprüft: Robert Schulz")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
@@ -4104,6 +4111,10 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right bottom))
     (uuid c7669297-3cc0-4f1d-a5df-3e39d4d20ea0)
   )
+  (text "Falsche BMK-Nr\n" (at 93.345 65.405 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 71af16fb-7002-4cb1-9677-5cbd8011c217)
+  )
   (text "Leistungstreiber & Umschaltung\n" (at 325.12 27.305 180)
     (effects (font (size 5 5) (thickness 1) bold) (justify right bottom))
     (uuid 281cc2f2-501e-4b5e-83df-e0ff1386b308)
@@ -5501,7 +5512,7 @@
     (property "Datasheet" "http://www.vishay.com/docs/63924/si2371eds.pdf" (id 3) (at 73.66 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "BMK-Nr" "06-6269" (id 4) (at 73.66 59.055 0)
+    (property "BMK-Nr" "08-0150" (id 4) (at 73.66 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser" "833-SI2301" (id 4) (at 73.66 59.055 0)

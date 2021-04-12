@@ -2,6 +2,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Kabeltester")
+    (company "BMK Group")
+    (comment 1 "Erstellt: Maximilian Hoffmann")
+    (comment 2 "Geprüft: Robert Schulz")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
