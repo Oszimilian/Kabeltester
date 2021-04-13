@@ -3,9 +3,6 @@ Beschreibung der Ausgangssituation
 	- Was macht das BMK-Testentwicklungslabor
 	- Wie werden zur Zeit die Prog-Kabel getestet und eingesetzt
 
-Beschreibung der Herrangehensweiße	
-	- Wie kam die Idee des Themas?
-	- Erste Gedanken über Anforderungen...
 
 Klärung verschiedener Begrifflichkeiten
 	- BMK-IOT Modul
@@ -33,6 +30,7 @@ Inbetriebnahme
 	- Inbetriebnahme Protokoll im Vorfeld erstellen
 	- Inbetriebnahme der Schaltung
 	- Documentation der Inbetriebnahme
+	- Fehleranalyse
 
 Sonstiges
 	- Bauteilauswahl
