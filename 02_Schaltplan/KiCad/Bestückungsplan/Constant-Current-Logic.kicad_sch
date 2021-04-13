@@ -2886,10 +2886,6 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right bottom))
     (uuid bc63c014-9224-4a67-a8c9-3e564dd47fc0)
   )
-  (text "Hysterese-Widerstand\n" (at 178.435 168.275 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid aadb620e-bf89-48f9-8bb9-ce48e972d9ae)
-  )
   (text "LVC-Variante nehmen \nist bei BMK vorrätig\n\n1* 4AND\n1 * 2NOT\n\n"
     (at 268.605 211.455 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))

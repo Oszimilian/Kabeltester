@@ -305,7 +305,7 @@
       (tstamp 4de54da5-8ee1-47ca-84fa-268e45ffc4e7)
     )
     (fp_text value "74LVC1G175" (at 0 2 180) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.5 0.5) (thickness 0.15)))
       (tstamp 3bc5189a-5b4a-4b66-9653-35453c2825e9)
     )
     (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
