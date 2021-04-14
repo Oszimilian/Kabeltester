@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T12:11:52.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="sz8kaGWE7Xhp7KG1fBb7" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T12:23:08.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="7uXxA9KEcV0o5ueCQz4W" version="14.6.0" type="github">
   <diagram id="B3rYayY2tbYsLDFPoK3e" name="Seite-1">
-    <mxGraphModel dx="2753" dy="1647" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2360" dy="1411" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
@@ -40,22 +40,22 @@
           <mxGeometry x="210" y="207.98000000000002" width="37.55" height="44.04" as="geometry" />
         </mxCell>
         <mxCell id="-_F_x0G-cXw1YpBZ0UIK-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="692" y="1116" width="8" height="8" as="geometry" />
+          <mxGeometry x="1438" y="1008" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-65" value="&lt;font style=&quot;font-size: 6px&quot;&gt;Analoge Leitung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="702" y="1108" width="60" height="20" as="geometry" />
+        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-65" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Analoge Leitung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1454" y="1004" width="76" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-_F_x0G-cXw1YpBZ0UIK-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="692" y="1132" width="8" height="8" as="geometry" />
+          <mxGeometry x="1438" y="1032" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-67" value="&lt;font style=&quot;font-size: 6px&quot;&gt;Digitale Leitung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1130" width="62" height="10" as="geometry" />
+        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-67" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Digitale Leitung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1461" y="1034" width="62" height="10" as="geometry" />
         </mxCell>
         <mxCell id="-_F_x0G-cXw1YpBZ0UIK-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="692" y="1148" width="8" height="8" as="geometry" />
+          <mxGeometry x="1438" y="1056" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-69" value="&lt;font style=&quot;font-size: 6px&quot;&gt;Spannungsversorgung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="1140" width="40" height="20" as="geometry" />
+        <mxCell id="-_F_x0G-cXw1YpBZ0UIK-69" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Spannungsversorgung&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1484" y="1052" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-_F_x0G-cXw1YpBZ0UIK-71" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;&lt;u&gt;Abschlussprojekt Kabeltester&amp;nbsp;&lt;br&gt;Blockschaltplan&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="588" y="58" width="456" height="176" as="geometry" />
