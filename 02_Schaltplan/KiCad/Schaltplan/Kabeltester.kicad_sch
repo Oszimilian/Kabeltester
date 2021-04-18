@@ -1895,9 +1895,6 @@
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/bead8f60-981e-4f22-9d49-46f4e49fefa3"
       (reference "C51") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/7dff65a8-73ff-4b17-80da-3fb7fdf8b7b8"
-      (reference "C52") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/439f6c65-a3fe-4ca7-a676-bd7e2011157c"
       (reference "JP1") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
@@ -1909,9 +1906,6 @@
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/6ea6a8de-841e-4e9f-a6c2-4de4ea9d4909"
       (reference "Q1") (unit 1) (value "SI2318") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/08d9af6a-1eea-4048-9698-a7c8f82f8300"
-      (reference "Q?") (unit 1) (value "BCY58") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/328fd013-4b38-4d2a-97de-905f3a6de769"
       (reference "R9") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
