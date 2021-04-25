@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{tikz}   
+\usepackage[scaled]{helvet}
+\usepackage{tabto} 
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+
+\setkomafont{section}{\huge}
+\setkomafont{subsection}{\Large}
+
+
+\lhead{Maximilian Hoffmann}
+\chead{Betrieblicher Auftrag \\ \textbf{Kabeltester}}
+\rhead{\includegraphics[width=3cm]{Bilder/BMK_LOGO.png}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																			 %
+%														Inbetriebnahme																     	 %
+%																																		     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\section{Inbetriebname}
+
+
+\begin{center}
+Die Inbetriebnahme der Schaltung erfolgt Blockweise. Um gegebenenfalls Fehler in der Schaltung analysieren zu 	 können, werden die einzelnen Schaltungsteile nacheinander aufgebaut und in betrieb genommen.
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														Spannungsversorgung												%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Spannungsversorgung}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			  %
+%								Vorgaben									  %
+%																			  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item{Spannungen sowie Ströme sind hierbei mit einem Multimeter zu messen.}
+	
+	\item{Die Funktion der "Meldeleuchte Sicherung", wird durch das entnehmen der Sicherung aus dem Sockel geprüft. Leuchtet die LED D33 auf, so ist die Funktion dieses Schaltungsteiles gegeben.}
+	
+	\item{Die Funktion des Verpolungsschutzes wird durch das anlegen einer verpolten Spannung geprüft. Dabei sollte die Strombegrenzung des Labornetzteiles auf ca. 5mA eingestellt sein. Geht das Netzteil bei diesem Test nicht in die Strombegrenzung, so ist die Funktion dieses Schatungsteiles gegeben.}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			  %
+%								Tabelle  									  %
+%																			  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{p{0.2\textwidth}| p{0.6\textwidth} | p{0.05\textwidth} | p{0.1\textwidth}}
+
+ &  & i.o & n.i.o \\
+
+\hline
+
+Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
+
+\hline
+
+\multirow{3}{*}{Spannungen}
+		& $U_{0}$:					&	[ ] & [ ] 	\\
+		& $U_{TP8}$: 				&	[ ]	& [ ] 	\\
+		& $U_{TP9}$: 				&	[ ] & [ ]  	\\
+		
+\hline		
+		
+\multirow{2}{*}{Funktionen}
+		& Meldeleuchte Sicherung:  	& [ ] & [ ] 	\\
+		& Verpolschutz:				& [ ] & [ ] 	\\ 
+
+\end{tabularx}
+\renewcommand{\arraystretch}{1}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														Taktgeber       												%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Taktgeber}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			  %
+%								Vorgaben									  %
+%																			  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item
+\end{itemize}
+
+
+
+\end{document}
