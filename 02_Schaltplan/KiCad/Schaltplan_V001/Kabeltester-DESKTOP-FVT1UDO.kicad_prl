@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -16,12 +16,12 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
       "pads": true,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -63,8 +63,8 @@
       39,
       40
     ],
-    "visible_layers": "ffc0008_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "80190d0_7ffffff8",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "Kabeltester.kicad_prl",
