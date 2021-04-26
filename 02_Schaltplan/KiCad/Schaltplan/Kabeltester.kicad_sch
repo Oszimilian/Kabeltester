@@ -1695,10 +1695,10 @@
       (reference "D43") (unit 1) (value "BAS416") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/19479609-6703-4575-a33f-ec8b8db026b7"
-      (reference "J3") (unit 1) (value "SPEED (20k-POTI)") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+      (reference "J3") (unit 1) (value "5k Poti") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/64df60c5-dc9d-4f59-aa7e-63d35635e464"
-      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R2") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/f7a1bd7b-d22e-4a91-b51b-11b7634c12a6"
       (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -1719,7 +1719,7 @@
       (reference "R8") (unit 1) (value "1k6") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/6aadfef8-a9fb-4e20-983a-1feca20239a7"
-      (reference "R72") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R72") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/04656841-9b05-4025-b7e3-41e0a2719a12"
       (reference "R76") (unit 1) (value "560k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -1728,7 +1728,7 @@
       (reference "R77") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/44a5cc24-037e-429b-9f1d-192fe3d2b3ce"
-      (reference "R82") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R82") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c6ec6d-ce00-421a-80b5-f5c992dce673/1be471e9-5e94-4786-82d1-572750b7fdb0"
       (reference "SW2") (unit 1) (value "MODE") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
