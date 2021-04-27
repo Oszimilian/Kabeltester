@@ -37,7 +37,7 @@
 
 
 \begin{center}
-Die Inbetriebnahme der Schaltung erfolgt Blockweise. Um gegebenenfalls Fehler in der Schaltung analysieren zu können, werden die einzelnen Schaltungsteile nacheinander aufgebaut und in betrieb genommen. Die Funktion der zu prüfenden Schaltungsteile wird oberhalb der Tabelle in Stichpunkten erläutert. Bei fehlerhafter Funktion wird diese in der Sektion "Fehleranalyse" behandelt.
+Die Inbetriebnahme der Schaltung erfolgt blockweise. Um gegebenenfalls Fehler in der Schaltung analysieren zu können, werden die einzelnen Schaltungsteile nacheinander aufgebaut und in betrieb genommen. Die Funktion der zu prüfenden Schaltungsteile wird oberhalb der Tabelle in Stichpunkten erläutert. Bei fehlerhafter Funktion wird diese in der Sektion "Fehleranalyse" behandelt.
 \end{center}
 
 
@@ -57,9 +57,9 @@ Die Inbetriebnahme der Schaltung erfolgt Blockweise. Um gegebenenfalls Fehler in
 \begin{itemize}
 	\item{Spannungen sowie Ströme sind hierbei mit einem Multimeter zu messen.}
 	
-	\item{Die Funktion der "Meldeleuchte Sicherung", wird durch das entnehmen der Sicherung aus dem Sockel geprüft. Leuchtet die LED D33 auf, so ist die Funktion dieses Schaltungsteiles gegeben.}
+	\item{Die Funktion der "Meldeleuchte Sicherung" wird durch das entnehmen der Sicherung aus dem Sockel geprüft. Leuchtet die LED D33 auf, so ist die Funktion dieses Schaltungsteiles gegeben.}
 	
-	\item{Die Funktion des Verpolungsschutzes wird durch das anlegen einer verpolten Spannung geprüft. Dabei sollte die Strombegrenzung des Labornetzteiles auf ca. 5mA eingestellt sein. Geht das Netzteil bei diesem Test nicht in die Strombegrenzung, so ist die Funktion dieses Schaltungsteiles gegeben.}
+	\item{Die Funktion des Verpolungsschutz wird durch das Anlegen einer verpolten Spannung geprüft. Dabei sollte die Strombegrenzung des Labornetzteiles auf ca. 5mA eingestellt sein. Geht das Netzteil bei diesem Test nicht in die Strombegrenzung, so ist die Funktion dieses Schaltungsteiles gegeben.}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,7 +88,7 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 		
 \multirow{2}{*}{Funktionen}
 		& Meldeleuchte Sicherung:  	& [ ] & [ ] 	\\
-		& Verpolschutz:				& [ ] & [ ] 	\\ 
+		& Verpolungsschutz:				& [ ] & [ ] 	\\ 
 
 \end{tabularx}
 \renewcommand{\arraystretch}{1}
@@ -109,11 +109,11 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{itemize}
-	\item{Überprüfung der Systemtakte mit Hilfe eines Logik Analysators.}
+	\item{Überprüfung der Systemtakte mithilfe eines Logikanalysators.}
 	
-	 \item{Über das Poti soll an dem TP24 eine Frequenz von 5Hz (+-$5\%$) mit einem Tastgrad von 0,5 eingestellt werden.}
+	 \item{Über das Poti soll an TP24 eine Frequenz von 5Hz (+-$5\%$) mit einem Tastgrad von 0,5 eingestellt werden.}
 	 
-	 \item{Durch betätigen von SW2 kann der Pegel von TP26 gewechselt werden, was durch das optische Signal von D1 oder D2 erkennbar wird}
+	 \item{Durch betätigen von SW2 kann der Pegel von TP26 gewechselt werden, was durch das optische Signal von D1 oder D2 erkennbar wird.}
 	 
 	 \item{Die Aufgabe von U14 ist die Signalentprellung des Tasters SW2. Diese Funktion wird durch das oszillieren der Signale U14 Pin 1 und TP25 überprüft. Die Kippzeit des Monoflop's soll ca. 500ms betragen.}
 	 
@@ -178,7 +178,7 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 	
 	\item{Im Einschaltmoment soll ein verspäteter Nadelimpuls für das korrekte Setzen(default-states) der Schaltung am TP23 gemessen werden können.}
 	
-	 \item{Leuchtet die LED D1 (Rot) so soll ein Starten der Messung durch Betätigung von SW1 (START) nicht möglich sein.}
+	 \item{Leuchtet die LED D1 (Rot), so soll ein Starten der Messung durch Betätigung von SW1 (START) nicht möglich sein.}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -230,9 +230,9 @@ Tastensperre & LED D1 und SW1 -> Messung Startet nicht & [ ] & [ ] \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{itemize}
-	\item{Bei einem High-Signal an TP10 muss das 5V Potential auf den Pin 1 von J6 durchgeschalten werden. Diese Messung muss mit einem Oszilloskop erfolgen um Pegelschwankungen eindeutig erkennen zu können.}
+	\item{Bei einem High-Signal an TP10 muss das 5V Potenzial auf den Pin 1 von J6 durchgeschaltet werden. Diese Messung muss mit einem Oszilloskop erfolgen, um Pegelschwankungen eindeutig erkennen zu können.}
 	
-	\item{Nach der Hälfte des High-Signal an TP10 muss auch ein High-Signal an TP11 gemessen werden können.}
+	\item{Nach der Hälfte des High-Signals an TP10 muss auch ein High-Signal an TP11 gemessen werden können.}
 	
 	\item{Um die Funktion des Analogschalters bestätigen zu können, muss bei gestecktem Jumper (J6) ein 5V Signal für $\dfrac{t_{TP10}}{2}$ an TP5 und TP32 anliegen.}
 \end{itemize}
@@ -288,7 +288,7 @@ Umschaltung & Umschaltung von U38A:	& [ ] & [ ] \\
 \begin{itemize}
 	\item{Analyse des Reset-Impulses, welcher die Schaltung in einen einheitlichen Startzustand bringt.}
 	
-	\item{Überprüfung der Nadelimpulsunterdrückung durch gleichzeitiges messen an TP32 und Pin6 von U30.}
+	\item{Überprüfung der Nadelimpulsunterdrückung durch gleichzeitiges messen an TP32 und Pin 6 von U30.}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -325,6 +325,58 @@ Reset-Impuls & $t_{RST}$: & [ ] & [ ] \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
-\subsection{Konstantstrom-Messung}
+\subsection{Konstantstrommessung}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			  %
+%								Vorgaben									  %
+%																			  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item{Funktion der Konstantstromquelle prüfen durch Stecken eines Jumpers auf J6 und Starten eines Messvorganges. Wenn RV2 und RV3 in Mittelstellung sind, dann ist an TP 6 ein High-Impuls zu erwarten.}
+	
+	\item{Prüfen, ob die richtigen Takte bzw. Steuersignale an dem Schieberegister anliegen.}
+	
+	\item{Prüftabelle mit verschiedenen Kabelwiderständen und den dazugehörigen rechnerischen Werten anlegen.}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			  %
+%								Tabelle  									  %
+%																			  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\arraystretch}{2}
+\begin{tabularx}{\textwidth}{p{0.25\textwidth}| p{0.55\textwidth} | p{0.05\textwidth} | p{0.1\textwidth}}
+
+ &  & i.o & n.i.o \\
+
+\hline
+
+Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
+
+\hline
+
+Konstantstromquelle & Funktion der Konstantstromquelle: 	& [ ] & [ ] \\
+
+\hline
+
+Schieberegister Takte & Funktion der Steuersignale: 		& [ ] & [ ] \\
+		
+\end{tabularx}
+\renewcommand{\arraystretch}{1}
+
+
+\vspace{1,5cm}
+\textbf{Bemerkung:}
+\\
+Die Inbetriebnahme dieses Schaltungsteiles hat auf Grund von verschiedenen Fehler einen größeren Zeitraum, als geplant eingenommen. Im Kapitel Fehleranalyse wird zwar auf die Fehler und deren Behebung eingegangen, aus zeitlichen Gründen ist dieser Teil aber kein offizieller Teil meines betrieblichen Auftrages.
+
+
+
+
+
+
 
 \end{document}
