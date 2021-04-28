@@ -1,0 +1,85 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{tikz}   
+\usepackage[scaled]{helvet}
+\usepackage{tabto} 
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+
+\setkomafont{section}{\huge}
+\setkomafont{subsection}{\Large}
+
+
+\lhead{Maximilian Hoffmann}
+\chead{Betrieblicher Auftrag \\ \textbf{Kabeltester}}
+\rhead{\includegraphics[width=3cm]{Bilder/BMK_LOGO.png}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																			 %
+%														Begrifflichkeiten																     	 %
+%																																		     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\section{Klärung der Begrifflichkeiten}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														BMK-IoT-Modul														%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{BMK-IoT Modul}
+Das „BMK-IoT Modul“ ist ein Design In Modul. Eine bereits entwickelte Hardwaregrundlage mit Mikrocontroller, WLAN-Chip, eMMC und weiteren Schnittstellen, sowie fertigen Softwaregrundlagen im Bereich der Embedded Security, RTOS und Cloud ermöglichen der BMK-Entwicklung kundenspezifische Projekte schneller und einheitlicher zu realisieren.
+Die dafür benötigte Hardware findet auf einer kleinen Platine mit BGA-Sockel Platz. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														Testadapter/ -system												%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Testadapter/-system}
+
+Um zu testen, ob eine Baugruppe ihre funktionalen Anforderungen erfüllt, wird nach Vorgaben des Entwicklers der Baugruppe ein Testkonzept/- System entworfen. Dabei kommen Standardisierte Testmethoden zum Einsatz (In-Circuit-Test, Funktionstest und Boundary-Scan). Das aus diesen Methoden entworfene Testsystem findet in einem Testadapter Platz. Die Verbindung zwischen Testsystem und Baugruppe erfolgt über Testnadeln.
+\\
+Im In-Circuit-Test steht die Prüfung von Leiterbahnführungen, Lötfehler und Bauteilfehler im Vordergrund. Kurzschlüsse, Unterbrechungen, falsche Widerstände, Kapazitäten sowie Induktivität können durch dieses Verfahren analysiert werden.
+\\
+Der Funktionstest überprüft die gesamte Funktion einer Baugruppe. Er simuliert dabei bestimmte Szenarien, in denen sich die Baugruppe befinden wird oder befinden könnte und analysiert dabei Funktionsfehler sowie Grenzwertüberschreitungen.
+\\
+Das Boundary-Scan Verfahren wird benutzt, um Verbindungstests zwischen Boundary-Scan fähigen IC’s, sowie die Simulation von Datenaustausch auf Bussystemen wie I²C oder SPI durchzuführen. Möglich macht dies eine spezielle Logik innerhalb des IC’s.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														Logic-Analysator												%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Logik Analysator}
+Ein Logic-Analycer ist ein Messgerät, welches den zeitlichen Verlauf eines digitalen Signals analysiert. Diese Signale können dann gespeichert und graphisch ausgewertet werden. In den meisten Fällen besitzt ein Logic-Analycer min. 8 parallele Eingänge um Datentransfer auf parallelen Busleitungen (typ. 8Bit) sampeln zu können. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														EDA Software													%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{EDA Software}
+EDA (Electronic Design Automation) ist Software für den Entwurf von Elektronik. Der Anwendungsbereich hierbei erstreckt sich vom Erstellen eines Schaltplans über Layout bis hin zu einem Chipdesign. Die Software soll dabei unterstützend wirken. Im Markt etablierte Programme sind: Altium-Designer, OrCad, Mentor und so weiter. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
+%														LaTeX													%
+%																														%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{LaTeX}
+LaTeX ist wie MS-Word oder Libre-Office ein Textverarbeitungsprogramm. Werden in einem klassischen Word.doc, Text und Grafik gleichzeitig erstellt und während des gesamten Erstellungsprozesses auf dem Monitor dargestellt, so werden unter Latex diese Bereiche separiert. Inhalt und Layout werden erst durch einen separaten Schritt in eine Ausgabedatei generiert. Über viele Jahre hinweg wurden durch eine große Community immer mehr Libraries, welche wissenschaftliche Standards etablierten veröffentlicht und können in ein LaTeX-Dokument sehr einfach importiert werden. Bei richtiger Einbindung der Libraries wird das Geschriebene von LaTeX automatisch in ein richtiges Layout gebracht. Aus diesem Grund ist LaTeX ein sehr beliebtes Tool, zum Verfassen von wissenschaftlichen Arbeiten.
+
+\end{document}

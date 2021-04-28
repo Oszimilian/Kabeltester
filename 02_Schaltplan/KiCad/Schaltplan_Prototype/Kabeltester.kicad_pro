@@ -430,12 +430,24 @@
       ""
     ],
     [
-      "063e2edb-5e99-4a04-84d2-ae5d0fe68c63",
-      "Dezimalcounter"
+      "d21b1f2e-88bf-449f-94dc-e93baaf52419",
+      "Versorgung"
     ],
     [
       "19c6ec6d-ce00-421a-80b5-f5c992dce673",
       "Taktgeber"
+    ],
+    [
+      "063e2edb-5e99-4a04-84d2-ae5d0fe68c63",
+      "Dezimalcounter"
+    ],
+    [
+      "c72c268a-6fa3-4fe8-ae82-930fa203e82f",
+      "Leistungstreiber&Umschaltung"
+    ],
+    [
+      "05f556c8-146f-473e-acb8-eac1505c9caa",
+      "Messumschaltung"
     ],
     [
       "9dfedc54-4d5e-45ef-a50a-32628d446e72",
@@ -444,18 +456,6 @@
     [
       "cc473c95-e3af-4552-8fe2-66b5279ed579",
       "Output"
-    ],
-    [
-      "d21b1f2e-88bf-449f-94dc-e93baaf52419",
-      "Versorgung"
-    ],
-    [
-      "05f556c8-146f-473e-acb8-eac1505c9caa",
-      "Messumschaltung"
-    ],
-    [
-      "c72c268a-6fa3-4fe8-ae82-930fa203e82f",
-      "Leistungstreiber&Umschaltung"
     ]
   ],
   "text_variables": {}

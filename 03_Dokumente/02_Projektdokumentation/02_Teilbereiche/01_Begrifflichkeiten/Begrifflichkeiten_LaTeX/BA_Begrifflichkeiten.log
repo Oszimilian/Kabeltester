@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  27 APR 2021 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  28 APR 2021 13:09
 entering extended mode
-**./BA_Fehleranalyse.tex
-(BA_Fehleranalyse.tex
+**./BA_Begrifflichkeiten.tex
+(BA_Begrifflichkeiten.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03>
 (C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.c
@@ -753,37 +753,36 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip78
 \bigstrutjot=\dimen274
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 33
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 32
 .
  (C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 33.
+(Font)              scaled to size 10.40245pt on input line 32.
 
 (C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box64
-)
-No file BA_Fehleranalyse.aux.
-\openout1 = `BA_Fehleranalyse.aux'.
+) (BA_Begrifflichkeiten.aux)
+\openout1 = `BA_Begrifflichkeiten.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
@@ -841,14 +840,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 35.
+(Font)              scaled to size 10.40245pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 35.
+(Font)              scaled to size 19.70294pt on input line 34.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 41.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+8.
+(C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 58.
 <Bilder/BMK_LOGO.png, id=4, 698.1282pt x 169.1118pt>
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 37.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 81.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -860,31 +869,45 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
  <./Bilder/BMK_LOGO.png>]
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 85.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[2]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     37.
+(LaTeX3)     85.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     37.
+(LaTeX3)     85.
 
- (BA_Fehleranalyse.aux) ) 
+ (BA_Begrifflichkeiten.aux) ) 
 Here is how much of TeX's memory you used:
- 16876 strings out of 479618
- 344118 string characters out of 2864551
- 737065 words of memory out of 3000000
- 33773 multiletter control sequences out of 15000+200000
- 412849 words of font info for 35 fonts, out of 3000000 for 9000
+ 16923 strings out of 479618
+ 345360 string characters out of 2864551
+ 743064 words of memory out of 3000000
+ 33813 multiletter control sequences out of 15000+200000
+ 415892 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,15n,116p,10613b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\107475\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/107475/AppData/Local/Programs/MiKTeX/
-fonts/enc/dvips/base/8r.enc}<C:/Users/107475/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Fehleranalyse.pdf (1 page, 81569 bytes).
+ 111i,15n,116p,10617b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\107475\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/107475/AppData/Local/Programs/MiK
+TeX/fonts/enc/dvips/base/8r.enc}<C:/Users/107475/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on BA_Begrifflichkeiten.pdf (2 pages, 97215 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

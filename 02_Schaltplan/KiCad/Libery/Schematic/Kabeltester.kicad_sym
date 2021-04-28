@@ -1185,7 +1185,7 @@
         (name "SRCLR" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -15.24 7.62 0) (length 5.08)
+      (pin input clock (at -15.24 7.62 0) (length 5.08)
         (name "SRCK" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
