@@ -720,7 +720,7 @@
     (uuid 7a08df61-a743-4dc9-b8d0-d74635c1bd93)
   )
 
-  (text "Abschlussprojekt\nKabeltester\nPrototype V-01\n" (at 177.8 43.18 180)
+  (text "Abschlussprojekt\nKabeltester\nPrototyp V-01\n" (at 177.8 43.18 180)
     (effects (font (size 5 5) (thickness 1) bold) (justify right bottom))
     (uuid b2d91933-8915-4052-852b-3d72759673b0)
   )
@@ -2481,13 +2481,13 @@
       (reference "U19") (unit 2) (value "INA826AIDRGT") (footprint "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/9b7f76d9-69f6-4452-ba17-132edaf9927d"
-      (reference "U20") (unit 1) (value "74HC595") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U20") (unit 1) (value "74HC595") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/a92ede32-c6e2-44a7-bfda-6ec7fae74b9a"
       (reference "U20") (unit 2) (value "74HC595") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/3c8d2cb5-7abf-4720-af24-5134a4acc7b7"
-      (reference "U21") (unit 1) (value "74HC595") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U21") (unit 1) (value "74HC595") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/c89a7242-604e-4ac2-9d9c-39d6f138c285"
       (reference "U21") (unit 2) (value "74HC595") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")

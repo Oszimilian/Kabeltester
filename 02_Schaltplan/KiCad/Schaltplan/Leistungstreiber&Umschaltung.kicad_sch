@@ -4103,10 +4103,6 @@
     (uuid c82cc202-b122-472f-a906-cf9418de7449)
   )
 
-  (text "Falsche BMK-Nr\n" (at 93.345 65.405 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 71af16fb-7002-4cb1-9677-5cbd8011c217)
-  )
   (text "Leistungstreiber & Umschaltung\n" (at 325.12 27.305 180)
     (effects (font (size 5 5) (thickness 1) bold) (justify right bottom))
     (uuid 281cc2f2-501e-4b5e-83df-e0ff1386b308)
