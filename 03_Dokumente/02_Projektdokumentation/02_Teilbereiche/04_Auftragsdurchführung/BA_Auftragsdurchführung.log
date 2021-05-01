@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  1 MAY 2021 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  1 MAY 2021 17:14
 entering extended mode
 **./BA_Auftragsdurchführung.tex
 (BA_Auftragsdurchführung.tex
@@ -960,18 +960,18 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
 [4 <./Bilder/Taktumschaltung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--146
+Underfull \hbox (badness 10000) in paragraph at lines 133--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--146
+Underfull \hbox (badness 10000) in paragraph at lines 133--148
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 147.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 149.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -985,16 +985,16 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 <Bilder/Taktteilung.png, id=39, 269.50688pt x 415.5525pt>
 File: Bilder/Taktteilung.png Graphic file (type png)
 <use Bilder/Taktteilung.png>
-Package pdftex.def Info: Bilder/Taktteilung.png  used on input line 152.
+Package pdftex.def Info: Bilder/Taktteilung.png  used on input line 154.
 (pdftex.def)             Requested size: 199.16928pt x 307.10455pt.
 <Bilder/Start.png, id=40, 554.07pt x 372.64218pt>
 File: Bilder/Start.png Graphic file (type png)
 <use Bilder/Start.png>
-Package pdftex.def Info: Bilder/Start.png  used on input line 165.
+Package pdftex.def Info: Bilder/Start.png  used on input line 167.
 (pdftex.def)             Requested size: 341.43306pt x 229.6313pt.
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 166.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 168.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1009,21 +1009,21 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 <Bilder/Reset.png, id=45, 554.07pt x 372.64218pt>
 File: Bilder/Reset.png Graphic file (type png)
 <use Bilder/Reset.png>
-Package pdftex.def Info: Bilder/Reset.png  used on input line 174.
+Package pdftex.def Info: Bilder/Reset.png  used on input line 176.
 (pdftex.def)             Requested size: 341.43306pt x 229.6313pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--186
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 184.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 186.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1036,7 +1036,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [7 <./Bilder/Start.png> <./Bilder/Reset.png>]
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 185.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 187.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1051,21 +1051,21 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 <Bilder/Controlling.png, id=55, 666.99188pt x 606.01407pt>
 File: Bilder/Controlling.png Graphic file (type png)
 <use Bilder/Controlling.png>
-Package pdftex.def Info: Bilder/Controlling.png  used on input line 189.
+Package pdftex.def Info: Bilder/Controlling.png  used on input line 191.
 (pdftex.def)             Requested size: 341.43306pt x 310.22821pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--207
+Underfull \hbox (badness 10000) in paragraph at lines 194--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--207
+Underfull \hbox (badness 10000) in paragraph at lines 194--209
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 209.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 211.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1078,11 +1078,11 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [9 <./Bilder/Controlling.png>]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     209.
+(LaTeX3)     211.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     209.
+(LaTeX3)     211.
 
  (BA_Auftragsdurchführung.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1104,7 +1104,7 @@ onts/cm/cmr8.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Maximilian/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Auftragsdurchführung.pdf (9 pages, 241320 bytes).
+Output written on BA_Auftragsdurchführung.pdf (9 pages, 241386 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

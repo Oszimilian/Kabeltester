@@ -64,7 +64,7 @@ Liegt eine korrekt gepolte Spannung an, so fließt der Strom durch die Z-Diode D
 In diesem Fall, liegt eine um ca. 5V negativere Spannung an Gate gegenüber Source an. Die Drain-Source Strecke leitet und es kann Strom fließen.
 \\ 
 Wird die Versorgungsspannung verpolt, so fließt der Strom durch den Widerstand R43 und durch die Diode D35. Die Diode D35 befindet sich dabei in Durchlassrichtung und besitzt somit die Eigenschaften einer Si-Diode.
-Die Spannung an Gate ist dabei um ca. 5V positiver gegenüber Source. Der P-Channel MOSFET sperrt und unterbindet einen Stromfluss.
+Die Spannung an dem Gate ist dabei um ca. 5V positiver gegenüber Source. Der P-Channel MOSFET sperrt und unterbindet einen Stromfluss.
 \\
 
 \subsubsection{DC/DC Wandler}
@@ -108,7 +108,7 @@ Allgemein wurde der Wandler für eine Ausgangsspannung von +5V und einen Ausgang
 Als Taktgeber kommt der \glqq NE555 \grqq{} zum Einsatz. Dieser wird als astabile Kippstufe betrieben. Mit Hilfe der Diode D43 gleichen sich Impulszeit und Pausenzeit an. Über das Poti (Connector) J3 soll die Ausgangsfrequenz auf ca. 10Hz eingestellt werden können. 
 \\
 \\
-Im Einschaltmoment ist C9 entladen. Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über den Strompfad R2 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang erfährt einen Low-Pegel. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange Energie von außen hinzugefügt wird. 
+Im Einschaltmoment ist C9 entladen. Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über R2 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang erfährt einen Low-Pegel. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange Energie von außen hinzugefügt wird. 
 
 \begin{center}
 \begin{align}
@@ -138,9 +138,11 @@ Der Schaltungsteil \glqq Taktumschaltung \grqq{} ist für das Umschalten der zwe
 Das nachgeschaltete D-FlipFlop ist in seiner Verschaltung, mit den auf den Dateneingang zurückgeführten invertierten Ausgang, als Toggle FlipFlop zu betrachten. Für einen Pegelwechsel am Ausgang Q des Toggle FlipFlop ist eine steigende und fallende Flanke notwendig. Eine Betätigung mit zwei dynamischen Flanken verursacht demnach einen Pegelwechsel an TP28 mit nur einer dynamischen Flanke. 
 \\
 \\
-Die auf TP28 folgende Schaltung ist als zweifach TOR-Schaltung mit nur einem Steuereingang zu verstehen. Ein High-Signal an TP28 führt dazu, dass die an den Pin 2 (U10A) anliegenden Taktsignale auf den Ausgang übertragen werden. Durch die Invertierung von TP28 werden Taktsignale, die an Pin 5 (U10B) anliegen unterdrückt. Der Ausgang bleibt Low.
+Die auf TP28 folgende Schaltung ist als zweifach TOR-Schaltung mit nur einem Steuereingang zu verstehen.
 \\
-Ein Low-Signal an TP28 führt zur unterdrückung der an Pin2 (U10A) anliegenden Signale. Das durch eine vorgeschaltene Messplatine der Schaltung ugeführte Signal an Pin 5 (U10B) wird nun an den Ausgang übertragen.
+Ein High-Signal an TP28 führt dazu, dass die an den Pin 2 (U10A) anliegenden Taktsignale auf den Ausgang übertragen werden. Durch die Invertierung von TP28 werden Taktsignale, die an Pin 5 (U10B) anliegen unterdrückt. Der Ausgang bleibt Low.
+\\
+Ein Low-Signal an TP28 führt zur unterdrückung der an Pin2 (U10A) anliegenden Signale. Das durch eine vorgeschaltene Messplatine der Schaltung zugeführte Signal an Pin 5 (U10B) wird nun an den Ausgang übertragen.
 \\
 Das Oder-Gatter überträgt entweder das Signal von U10B oder das Signal von U10A auf seinen Ausgang. 
 
@@ -177,10 +179,10 @@ Die Messung kann über Betätigung des Tasters SW1 (START) oder über ein extern
 Die Aufgabe der folgenden Schaltung besteht darin, kurze Zeit nach dem Einschalten einen Reset-Impuls für ausgewählte Schaltungsteile zu generieren. Wird dies nicht gemacht, so kann es unter zufälligen Umständen sein, dass die Messung nicht gestartet werden kann.
 \\
 \\
-Im Einschaltmoment fließt Strom über C16 und R81. C16 liegt dabei parallel zu den Anschlüssen \glqq Emitter und Basis\grqq{} des PNP-Transistors Q11. Da im Einschaltmoment C16 als Kurzschluss zu betrachten ist, liegen Emitter und Basis auf dem selben Potential. Ein Stromfluss ist daher nicht möglich und der Transistor Q11 sperrt. C16 beginnt sich über die Zeit langsam aufzuladen. Liegt ein bestimmtes Spannungspotetial über C16 an (ca. 0,7V $U_{BE}$), so ist ein Stromfluss durch die Basis möglich. Nach einer bestimmten Verzögerung ist nun auch ein Stromfluss durch den Transistor Q11, dem Kondensator C5 und dem Widerstand R80) möglich. Da C3 ebenfalls im ersten Moment als Kurzschluss zu betrachten ist, fällt über R80 angfänglich ein 5V pegel ab. Die Spannung über C3 baut sich dabei sehr schnell auf, was einen kurzen Nadelimpuls zur folge hat. Das globale Label \glqq RST DEZ\grqq{} resetet die Schaltungsteile.  
+Im Einschaltmoment fließt Strom über C16 und R81. C16 liegt dabei parallel zu den Anschlüssen \glqq Emitter und Basis\grqq{} des PNP-Transistors Q11. Da im Einschaltmoment C16 als Kurzschluss zu betrachten ist, liegen Emitter und Basis auf dem selben Potential. Ein Stromfluss ist daher nicht möglich und der Transistor Q11 sperrt. C16 beginnt sich über die Zeit langsam aufzuladen. Liegt ein bestimmtes Spannungspotetial über C16 an (ca. 0,7V $U_{BE}$), so ist ein Stromfluss durch die Basis möglich. Nach einer bestimmten Verzögerung ist nun auch ein Stromfluss durch den Transistor Q11, durch den Kondensator C5 und dem Widerstand R80) möglich. Da C3 ebenfalls im ersten Moment als Kurzschluss zu betrachten ist, fällt über R80 angfänglich ein 5V pegel ab. Die Spannung über C3 baut sich dabei sehr schnell auf, was einen kurzen Nadelimpuls zur folge hat. Das globale Label \glqq RST DEZ\grqq{} resetet die Schaltungsteile.  
 \\
 \\
-Das IC U28A dient zur Stromkreisentkopplung und soll beim Resetvorgang einen Kurzschluss vermeiden.
+Das IC U28A (Tri-State IC) dient zur Stromkreisentkopplung und soll beim Resetvorgang einen Kurzschluss vermeiden. Der Strom kann nur in eine Richtung fließen.
 
 \newpage
 \subsubsection{Controlling}
