@@ -105,10 +105,10 @@ Allgemein wurde der Wandler für eine Ausgangsspannung von +5V und einen Ausgang
 \includegraphics[width=10cm]{Bilder/Takt.png}
 \end{center}
 
-Als Taktgeber kommt der \glqq NE555 \grqq{} zum Einsatz. Dieser wird als astabile Kippstufe betrieben. Mit Hilfe der Diode D43 gleichen sich Impulszeit und Pausenzeit an. Über das Poti (Connector) J3 soll die Ausgangsfrequenz auf ca. 10Hz eingestellt werden können. 
+Als Taktgeber kommt der \glqq NE555 \grqq{} zum Einsatz. Dieser wird als astabile Kippstufe betrieben. Mit Hilfe der Diode D43 kommt eis zu einem symetrischen Verhältnis des Tastgrad. Über das Poti (Connector) J3 soll die Ausgangsfrequenz auf ca. 10Hz eingestellt werden können. 
 \\
 \\
-Im Einschaltmoment ist C9 entladen. Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über R2 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang erfährt einen Low-Pegel. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange Energie von außen hinzugefügt wird. 
+Im Einschaltmoment ist C9 entladen. Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über R2, J3 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang schaltet auf Low. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange eine Versorgungsspannung anliegt. 
 
 \begin{center}
 \begin{align}
@@ -132,13 +132,13 @@ Das IC „LTC6993“ ist eine Monostabile Kippstufe mit einer einstellbaren Puls
 
 \textbf{Funktion}
 \\
-Der Schaltungsteil \glqq Taktumschaltung \grqq{} ist für das Umschalten der zwei Taktquellen verantwortlich. Es kann zwischen den intern (durch den NE555 generierten) Takt und externen (durch eine vorgeschaltene Messplatine zugeführten) Takt umgeschalten werden . Ausschlaggebend dafür sind zwei Schaltungsteile. Durch betätigen des Tasters SW2 (MODE), wird zwischen den Taktquellen umgeschaltet. Da jede Tasterbetätigung ein mechanisch verursachtes prellen der Kontakte verursacht, muss dies durch das nachgeschaltete  Monoflop (U14) unterbunden werden. Die Zeit, die das Monoflop benötigt mit seinem Ausgang auf einen eingangsseitigen Triggerimpuls zu reagieren, dauert länger als das prellende Signal selbst. Somit kann am Ausgang des Monoflops eine saubere Signalflanke zustande kommen. 
+Der Schaltungsteil \glqq Taktumschaltung \grqq{} ist für das Umschalten der zwei Taktquellen verantwortlich. Es kann zwischen den intern (durch den NE555 generierten) Takt und externen (durch eine vorgeschaltene Messplatine zugeführten) Takt umgeschalten werden . Ausschlaggebend dafür sind zwei Schaltungsteile. Durch betätigen des Tasters SW2 (MODE), wird zwischen den Taktquellen umgeschaltet. Da jede Tasterbetätigung ein mechanisch verursachtes prellen der Kontakte verursacht, muss dies durch das nachgeschaltete  Monoflop (U14) unterbunden werden. Die Zeit, die das Monoflop benötigt mit seinem Ausgang auf einen eingangsseitigen Triggerimpuls zu reagieren, dauert länger als das prellende Signal selbst. Somit kommt am Ausgang des Monoflops eine saubere Signalflanke zustande. 
 \\
 \\
-Das nachgeschaltete D-FlipFlop ist in seiner Verschaltung, mit den auf den Dateneingang zurückgeführten invertierten Ausgang, als Toggle FlipFlop zu betrachten. Für einen Pegelwechsel am Ausgang Q des Toggle FlipFlop ist eine steigende und fallende Flanke notwendig. Eine Betätigung mit zwei dynamischen Flanken verursacht demnach einen Pegelwechsel an TP28 mit nur einer dynamischen Flanke. 
+Das nachgeschaltete D-FlipFlop ist in seiner Verschaltung, mit den auf den Dateneingang zurückgeführten invertierten Ausgang, als Toggle FlipFlop zu betrachten. Für einen Pegelwechsel am Ausgang Q des Toggle-FlipFlop ist eine steigende und fallende Flanke notwendig. Eine Betätigung mit zwei dynamischen Flanken verursacht demnach einen ausgangsseitigen Pegelwechsel an TP28 mit nur einer Flanke. 
 \\
 \\
-Die auf TP28 folgende Schaltung ist als zweifach TOR-Schaltung mit nur einem Steuereingang zu verstehen.
+Die auf TP28 folgende Schaltung bildet eine zweifach TOR-Schaltung mit nur einem Steuereingang zu verstehen.
 \\
 Ein High-Signal an TP28 führt dazu, dass die an den Pin 2 (U10A) anliegenden Taktsignale auf den Ausgang übertragen werden. Durch die Invertierung von TP28 werden Taktsignale, die an Pin 5 (U10B) anliegen unterdrückt. Der Ausgang bleibt Low.
 \\
@@ -176,16 +176,16 @@ Die Messung kann über Betätigung des Tasters SW1 (START) oder über ein extern
 \includegraphics[width=12cm]{Bilder/Reset.png}
 \end{center}
 
-Die Aufgabe der folgenden Schaltung besteht darin, kurze Zeit nach dem Einschalten einen Reset-Impuls für ausgewählte Schaltungsteile zu generieren. Wird dies nicht gemacht, so kann es unter zufälligen Umständen sein, dass die Messung nicht gestartet werden kann.
+Die Aufgabe dieser Schaltung besteht darin, kurze Zeit nach dem Einschalten einen Reset-Impuls für bestimmte Schaltungsteile zu generieren. Wird dies nicht gemacht, so kann es unter Umständen dazu kommen, dass die Messung nicht gestartet werden kann.
 \\
 \\
 Im Einschaltmoment fließt Strom über C16 und R81. C16 liegt dabei parallel zu den Anschlüssen \glqq Emitter und Basis\grqq{} des PNP-Transistors Q11. Da im Einschaltmoment C16 als Kurzschluss zu betrachten ist, liegen Emitter und Basis auf dem selben Potential. Ein Stromfluss ist daher nicht möglich und der Transistor Q11 sperrt. C16 beginnt sich über die Zeit langsam aufzuladen. Liegt ein bestimmtes Spannungspotetial über C16 an (ca. 0,7V $U_{BE}$), so ist ein Stromfluss durch die Basis möglich. Nach einer bestimmten Verzögerung ist nun auch ein Stromfluss durch den Transistor Q11, durch den Kondensator C5 und dem Widerstand R80) möglich. Da C3 ebenfalls im ersten Moment als Kurzschluss zu betrachten ist, fällt über R80 angfänglich ein 5V pegel ab. Die Spannung über C3 baut sich dabei sehr schnell auf, was einen kurzen Nadelimpuls zur folge hat. Das globale Label \glqq RST DEZ\grqq{} resetet die Schaltungsteile.  
 \\
 \\
-Das IC U28A (Tri-State IC) dient zur Stromkreisentkopplung und soll beim Resetvorgang einen Kurzschluss vermeiden. Der Strom kann nur in eine Richtung fließen.
+Das IC U28A (IC mit Tri-Sate Funktion) dient zur Stromkreisentkopplung und soll beim Resetvorgang einen Kurzschluss vermeiden. Der Strom kann dabei nur in eine Richtung fließen.
 
 \newpage
-\subsubsection{Controlling}
+\subsubsection{Ablauf Steuerung}
 
 \begin{center}
 \includegraphics[width=12cm]{Bilder/Controlling.png}
@@ -194,7 +194,7 @@ Das IC U28A (Tri-State IC) dient zur Stromkreisentkopplung und soll beim Resetvo
 Durch die voran gegangene Schaltung, welche die FlipFlops \textbf{FF1:} U2A und U2B \textbf{FF2:} U2C und U2D in die definierten Ausgangszustände bringt, kann nun ein einwandfreier Start der Messung durchgeführt werden. 
 \\
 \\
-Zum Start der Messung hat das IC U2A einen Ausgangsseitigen High-Pegel vorzuweisen. Der Ausgang ist dabei auf den Steuereingang des TOR-Gatter zurückgeführt.
+Zum Start der Messung muss das IC U2A einen Ausgangsseitigen High-Pegel ausgeben. Der Ausgang ist dabei auf den Steuereingang des TOR-Gatter zurückgeführt.
 \\
 Das TOR-Gatter U1C erfährt an seinem Steuereingang Pin 10 einen Low-Pegel. Der anliegende Messtakt wird gesperrt.
 \\
@@ -214,12 +214,37 @@ Der Nadelimpuls an TP19, führt somit zu einem Rücksetzen des IC U2D. Das darau
 \includegraphics[width=16cm]{Bilder/Dezimalzähler.png}
 \end{center}
 
+Die Aufgabe dieser Schaltung besteht darin, durch ein Eingangssignal "OUTPUT DEC" von 0 bis 15 dezimal hoch zu zählen. Dabei sollen alle Leitungen, des zu prüfenden Kabels ein, der Reihe nach ein Messsignal erhalten.
+\\
+\\
+U6A ist dabei ein Binärzähler. Liegt an Pin 2 und 3 ein Low-Signal an, kann das Signal an Pin 4 binär hochgezählt werden. Liegt an Pin 2 und 3 ein High-Signal an, werden die Ausgänge zurückgesetzt.
+\\
+\\
+Der Encoder U5A wandelt dabei das 4 Bit Binärsignal in ein 16 Fach Dezimal Signal um. Liegt an Pin 23 ein Low-Signal, so werden alle Ausgänge frei geschalten. Liegt ein High-Signal an, werden die Ausgänge gesperrt.
+\\
+\\
+der Ausgang Y0 (Pin11) wird für die Messung nicht verwendet, da die länge dieses Signales nicht konstant ist.
+\\
+Erreicht der Dezimalzähler den Wert 16, so wird die Schaltung zurückgesetzt und gegebenenfalls die Messung einer weiteren Messplatine gestartet.
+
+
 \newpage
 \subsection{Leitungstreiber und Umschaltung}
 
 \begin{center}
 \includegraphics[width=12cm]{Bilder/Leitungstreiber.png}
 \end{center}
+
+Liegt an TP10 ein High-Signal an, so leuchtet die LED D39.
+\\
+Q3 wird in Folge dessen leitend und zieht das Gate des P-Channel MOSFET auf GND. 
+\\
+Dadurch erlangt das Gate ein negativeres Potential als Source. Die Drain-Source Strecke von Q4 wird dadurch leitend. Ein 5V Messsignal liegt am Kabel zwischen J6 an. 
+\\
+\\
+Nach der Hälfte des Messzyklus, wechselt das Signal an TP11 durch das Signal an Pin 2 (U4A) von Low nach High. 
+\\
+Der Analogschalter wechselt somit den Messbetrieb von Konstantstrommessung auf Durchgangs- und Kurzschlussmessung.
 
 \newpage
 \subsection{Durchgangs und Kurzschlussprüfung}
@@ -228,13 +253,38 @@ Der Nadelimpuls an TP19, führt somit zu einem Rücksetzen des IC U2D. Das darau
 \includegraphics[width=12cm]{Bilder/Durchgangsprüfung.png}
 \end{center}
 
+Beim Start der Messung, wird durch das Signal an Pin 2 (U30A) der Ausgang Pin 4 (U30B) des FlipFlop gesetzt. 
+\\
+\\
+Dabei gibt es folgende Zustände:
+
+\begin{itemize}
+	\item{Liegt an den Eingängen Pin 1 und 2 (U29A) ein High-Signal,  so hat der Ausgang Pin 3 einen Low-Pegel. Das FlipFlop wird nicht zurück gesetzt.}
+	
+	\item{Liegt an Pin 2 durch eine Fehler des Kabel ein Low-Signal an, so hat der Ausgang Pin 3 einen High-Pegel. Das FlipFlop wird dabei zurück gesetzt.}
+	
+	\item{Liegt durch einen Kurzschluss an Pin 2 ein High-Signal und an Pin 1 kein High-Signal, so hat der Ausgang Pin 3 ebenfalls ein High-Pegel vorzuweisen. Das FlipFlop wird zurück gesetzt.}
+\end{itemize}
+
 \newpage
 \subsection{Konstantstrommessung}
 
 \subsubsection{Konstantstrommessung}
 \begin{center}
-\includegraphics[width=12cm]{Bilder/Konstantstromquelle.png}
+\includegraphics[width=16cm]{Bilder/Konstantstromquelle.png}
 \end{center}
+
+Der Instrumentenverstärker U19A misst durch den Spannungsfall an R13 den durch das zu messende Kabel fließenden Strom. Das Kabel liegt dabei zwischen +5V und dam Label: KS INPUT.
+\\
+\\
+Der Spannungsfall wird durch den INA um den Faktor 50,9 verstärkt. Diese Spannung wird dem Operationsverstärker U17A zugeführt. Dieser versucht durch sein Regelverhalten, den Stromfluss durch das Kabel so anzupassen, dass keine Spannungsdifferenz zwischen seinen Eingängen anliegt.
+\\
+\\
+Über den Spannungsteiler R88, RV2 und R87 wird der Messstrom eingestelt. 
+\\
+R92 begrenzt den Einschaltstrom, bis der Strom ausgeregelt ist. 
+\\
+Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indirekt erfasst. 
 
 \newpage
 \subsubsection{Auswertung}
@@ -242,21 +292,36 @@ Der Nadelimpuls an TP19, führt somit zu einem Rücksetzen des IC U2D. Das darau
 \includegraphics[width=15cm]{Bilder/Auswertung.png}
 \end{center}
 
+Der Operationsverstärker greift diese Spannung hochohmig an Q1 ab. 
+\\
+Über den nachfolgenden Low-Pass Filter R89 und C51, werden Störungen gefiltert.
+\\
+Der Komparator U18B vergleicht diese Spannung mit einer durch den Spannungsteiler R90, RV3 und R91 eigestelten Reverenzspannung. 
+\\
+Diese Reverenzspannung gibt den maximal zulässigen Leitungswiderstand des Prüflings an. 
+
 \newpage
 \subsubsection{Ausgabe}
 \begin{center}
 \includegraphics[width=15cm]{Bilder/Anzeige-Logik.png}
 \end{center}
 
+Aufgabe der Schaltung ist es, die seriellen Widerstandsmessergebnise parallel dazustellen. 
+\\
+\\
+U9A, U22A und U22B erzeugen den Takt für das Schieberegister. 
+
 \newpage
 \subsection{Anzeige}
-
 
 \begin{center}
 \includegraphics[width=12cm]{Bilder/Anzeige.png}
 \end{center}
 
+Ist das Ergebnis der Konstantstrommessung und der Durchgangsmessung in Ordnung (KS OUT n = 1 und DK OUT n = 1) leuchtet die grüne LED D6.
+\\
 
+Andernfalls leuchtet die rot LED D5 und signalisiert somit einen Fehler in der Ader. 
 
 
 \end{document}
