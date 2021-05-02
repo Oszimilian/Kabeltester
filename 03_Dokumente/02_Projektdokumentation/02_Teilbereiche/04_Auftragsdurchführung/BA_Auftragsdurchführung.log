@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  1 MAY 2021 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  2 MAY 2021 14:19
 entering extended mode
 **./BA_Auftragsdurchführung.tex
 (BA_Auftragsdurchführung.tex
@@ -1065,7 +1065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--209
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 211.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 210.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1076,20 +1076,155 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
 [9 <./Bilder/Controlling.png>]
+<Bilder/Dezimalzähler.png, id=60, 902.37125pt x 435.12563pt>
+File: Bilder/Dezimalzähler.png Graphic file (type png)
+<use Bilder/Dezimalzähler.png>
+Package pdftex.def Info: Bilder/Dezimalzähler.png  used on input line 214.
+(pdftex.def)             Requested size: 455.24408pt x 219.52092pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 217.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[10 <./Bilder/Dezimalzähler.png>]
+<Bilder/Leitungstreiber.png, id=65, 526.96875pt x 525.965pt>
+File: Bilder/Leitungstreiber.png Graphic file (type png)
+<use Bilder/Leitungstreiber.png>
+Package pdftex.def Info: Bilder/Leitungstreiber.png  used on input line 221.
+(pdftex.def)             Requested size: 341.43306pt x 340.79776pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 224.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[11 <./Bilder/Leitungstreiber.png>]
+<Bilder/Durchgangsprüfung.png, id=70, 520.94624pt x 351.3125pt>
+File: Bilder/Durchgangsprüfung.png Graphic file (type png)
+<use Bilder/Durchgangsprüfung.png>
+Package pdftex.def Info: Bilder/Durchgangsprüfung.png  used on input line 228.
+
+(pdftex.def)             Requested size: 341.43306pt x 230.25342pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 231.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[12 <./Bilder/Durchgangsprüfung.png>]
+<Bilder/Konstantstromquelle.png, id=75, 900.86563pt x 536.50438pt>
+File: Bilder/Konstantstromquelle.png Graphic file (type png)
+<use Bilder/Konstantstromquelle.png>
+Package pdftex.def Info: Bilder/Konstantstromquelle.png  used on input line 236
+.
+(pdftex.def)             Requested size: 341.43306pt x 203.34166pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 239.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[13 <./Bilder/Konstantstromquelle.png>]
+<Bilder/Auswertung.png, id=81, 949.04562pt x 566.61688pt>
+File: Bilder/Auswertung.png Graphic file (type png)
+<use Bilder/Auswertung.png>
+Package pdftex.def Info: Bilder/Auswertung.png  used on input line 242.
+(pdftex.def)             Requested size: 426.79134pt x 254.81096pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 245.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[14 <./Bilder/Auswertung.png>]
+<Bilder/Anzeige-Logik.png, id=86, 660.96938pt x 593.71812pt>
+File: Bilder/Anzeige-Logik.png Graphic file (type png)
+<use Bilder/Anzeige-Logik.png>
+Package pdftex.def Info: Bilder/Anzeige-Logik.png  used on input line 248.
+(pdftex.def)             Requested size: 426.79134pt x 383.37558pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 251.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[15 <./Bilder/Anzeige-Logik.png>]
+<Bilder/Anzeige.png, id=91, 187.19937pt x 176.66pt>
+File: Bilder/Anzeige.png Graphic file (type png)
+<use Bilder/Anzeige.png>
+Package pdftex.def Info: Bilder/Anzeige.png  used on input line 256.
+(pdftex.def)             Requested size: 341.43306pt x 322.22794pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 262.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[16 <./Bilder/Anzeige.png>]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     211.
+(LaTeX3)     262.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     211.
+(LaTeX3)     262.
 
  (BA_Auftragsdurchführung.aux) ) 
 Here is how much of TeX's memory you used:
- 16950 strings out of 479618
- 347185 string characters out of 2862651
- 741851 words of memory out of 3000000
- 33828 multiletter control sequences out of 15000+200000
+ 16992 strings out of 479618
+ 348307 string characters out of 2862651
+ 741853 words of memory out of 3000000
+ 33863 multiletter control sequences out of 15000+200000
  418692 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,15n,116p,10621b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1104,9 +1239,9 @@ onts/cm/cmr8.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Maximilian/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Auftragsdurchführung.pdf (9 pages, 241386 bytes).
+Output written on BA_Auftragsdurchführung.pdf (16 pages, 398488 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
