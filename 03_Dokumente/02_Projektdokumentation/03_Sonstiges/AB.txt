@@ -1,0 +1,83 @@
+Die Aufgabe dieser Schaltung besteht darin, durch ein Eingangssignal "OUTPUT DEC" von 0 bis 15 dezimal hoch zu zählen. Dabei sollen alle Leitungen, des zu prüfenden Kabels ein, der Reihe nach ein Messsignal erhalten.
+
+U6A ist dabei ein Binärzähler. Liegt an Pin 2 und 3 ein Low-Signal an, kann das Signal an Pin 4 binär hochgezählt werden. Liegt an Pin 2 und 3 ein High-Signal an, werden die Ausgänge zurückgesetzt.
+
+Der Encoder U5A wandelt dabei das 4 Bit Binärsignal in ein 16 Fach Dezimal Signal um. Liegt an Pin 23 ein Low-Signal, so werden alle Ausgänge frei geschalten. Liegt ein High-Signal an, werden die Ausgänge gesperrt.
+
+der Ausgang Y0 (Pin11) wird für die Messung nicht verwendet, da die länge dieses Signales nicht konstant ist.
+
+Erreicht der Dezimalzähler den Wert 16, so wird die Schaltung zurückgesetzt und gegebenenfalls die Messung einer weiteren Messplatine gestartet.
+
+
+
+
+Liegt an TP10 ein High-Signal an, so leuchtet die LED D39.
+
+Q3 wird in Folge dessen leitend und zieht das Gate des P-Channel MOSFET auf GND. 
+
+Dadurch erlangt das Gate ein negativeres Potential als Source. Die Drain-Source Strecke von Q4 wird dadurch leitend. Ein 5V Messsignal liegt am Kabel zwischen J6 an. 
+
+Nach der Hälfte des Messzyklus, wechselt das Signal an TP11 durch das Signal an Pin 2 (U4A) von Low nach High. 
+
+Der Analogschalter wechselt somit den Messbetrieb von Konstantstrommessung auf Durchgangs- und Kurzschlussmessung.
+
+
+
+
+Beim Start der Messung, wird durch das Signal an Pin 2 (U30A) der Ausgang Pin 4 (U30B) des FlipFlop gesetzt. 
+
+Dabei gibt es folgende Zustände:
+
+Liegt an den Eingängen Pin 1 und 2 (U29A) ein High-Signal,  so hat der Ausgang Pin 3 einen Low-Pegel. Das FlipFlop wird nicht zurück gesetzt. 
+
+Liegt an Pin 2 durch eine Fehler des Kabel ein Low-Signal an, so hat der Ausgang Pin 3 einen High-Pegel. Das FlipFlop wird dabei zurück gesetzt.
+
+Liegt durch einen Kurzschluss an Pin 2 ein High-Signal und an Pin 1 kein High-Signal, so hat der Ausgang Pin 3 ebenfalls ein High-Pegel vorzuweisen. Das FlipFlop wird zurück gesetzt.
+
+
+
+
+
+Der Instrumentenverstärker U19A misst durch den Spannungsfall an R13 den durch das zu messende Kabel fließenden Strom. Das Kabel liegt dabei zwischen +5V und dam Label: KS INPUT.
+
+Der Spannungsfall wird durch den INA um den Faktor 50,9 verstärkt. Diese Spannung wird dem Operationsverstärker U17A zugeführt. Dieser versucht durch sein Regelverhalten, den Stromfluss durch das Kabel so anzupassen, dass keine Spannungsdifferenz zwischen seinen Eingängen anliegt. 
+
+Über den Spannungsteiler R88, RV2 und R87 wird der Messstrom eingestelt. 
+
+R92 begrenzt den Einschaltstrom, bis der Strom ausgeregelt ist. 
+
+Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indirekt erfasst. 
+
+
+
+Der Operationsverstärker greift diese Spannung hochohmig an Q1 ab. 
+
+Über den nachfolgenden Low-Pass Filter R89 und C51, werden Störungen gefiltert.
+
+Der Komparator U18B vergleicht diese Spannung mit einer durch den Spannungsteiler R90, RV3 und R91 eigestelten Reverenzspannung. 
+
+Diese Reverenzspannung gibt den maximal zulässigen Leitungswiderstand des Prüflings an. 
+
+
+
+
+
+Aufgabe der Schaltung ist es, die seriellen Widerstandsmessergebnise parallel dazustellen. 
+
+U9A, U22A und U22B erzeugen den Takt für das Schieberegister. 
+
+
+
+
+Ist das Ergebnis der Konstantstrommessung und der Durchgangsmessung in Ordnung (KS OUT n == 1 && DK OUT n == 1) leuchtet die grüne LED D6.
+
+Andernfalls leuchtet die rot LED D5 und signalisiert somit einen Fehler in der Ader. 
+
+
+
+
+
+
+
+
+ 
