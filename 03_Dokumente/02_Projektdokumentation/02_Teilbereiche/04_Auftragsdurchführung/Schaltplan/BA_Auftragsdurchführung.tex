@@ -145,6 +145,14 @@ Ein High-Signal an TP28 führt dazu, dass die an den Pin 2 (U10A) anliegenden Ta
 Ein Low-Signal an TP28 führt zur unterdrückung der an Pin2 (U10A) anliegenden Signale. Das durch eine vorgeschaltene Messplatine der Schaltung zugeführte Signal an Pin 5 (U10B) wird nun an den Ausgang übertragen.
 \\
 Das Oder-Gatter überträgt entweder das Signal von U10B oder das Signal von U10A auf seinen Ausgang. 
+\\
+\\
+\textbf{Kippzeit für $N_{DIV} = 32 768$}
+\\
+\begin{align}
+	t_{Kipp} &= \frac{N_{DIV * R4}}{50k} * 1us = \frac{N_{32768 * 820k}}{50k} * 1us = 537ms
+\end{align}
+
 
 \newpage
 
@@ -284,7 +292,17 @@ Der Spannungsfall wird durch den INA um den Faktor 50,9 verstärkt. Diese Spannu
 \\
 R92 begrenzt den Einschaltstrom, bis der Strom ausgeregelt ist. 
 \\
-Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indirekt erfasst. 
+Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indirekt erfasst.
+\\
+\\
+\textbf{30mA Messstrom}
+\\
+\begin{center}
+\begin{align}
+	U_{PIN1_{U17A}} &= (1 + \dfrac{49,9k}{R12}) * (R13 * 0,03A) = (1 + \dfrac{49,9k}{1k}) * (1R * 0,03A) = 1,53V
+\end{align} 
+\end{center}
+
 
 \newpage
 \subsubsection{Auswertung}
@@ -299,6 +317,15 @@ Der Operationsverstärker greift diese Spannung hochohmig an Q1 ab.
 Der Komparator U18B vergleicht diese Spannung mit einer durch den Spannungsteiler R90, RV3 und R91 eigestelten Reverenzspannung. 
 \\
 Diese Reverenzspannung gibt den maximal zulässigen Leitungswiderstand des Prüflings an. 
+\\
+\\
+\textbf{5R max. Aderwiderstand}
+\\
+\begin{center}
+\begin{align}
+	U_{TP30} &= (\dfrac{5V}{30mA} - (R_{L_{MAX}} + R13 + R92)) * 0,03A = (\dfrac{5V}{30mA} - (5R + 1R + 22R)) * 0,03A = 4,16V
+\end{align}
+\end{center}
 
 \newpage
 \subsubsection{Ausgabe}

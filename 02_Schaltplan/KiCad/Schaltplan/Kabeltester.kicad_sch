@@ -1938,28 +1938,28 @@
       (reference "R22") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/2d2a4495-26b0-45a2-99c0-3b46b0630aef"
-      (reference "R87") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R87") (unit 1) (value "36k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/029a36e9-38cf-48da-9e72-a1c5f98d2eec"
-      (reference "R88") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R88") (unit 1) (value "16k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/b2dec995-3f1b-495e-aba2-49866f177e5a"
       (reference "R89") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/3b6d2c27-310a-4ca8-8d09-2091fa4266a1"
-      (reference "R90") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R90") (unit 1) (value "8,2k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/745a5c81-d445-4634-82ae-3c11dad2b68f"
-      (reference "R91") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R91") (unit 1) (value "43k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/5f1cfcf3-c521-4101-b498-c73ba6819c24"
       (reference "R92") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/fa0316c0-0df6-4182-bf0c-739830a42572"
-      (reference "RV2") (unit 1) (value "20k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+      (reference "RV2") (unit 1) (value "2k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/2e7dc300-a376-4071-ad6a-1935dcdaa3ff"
-      (reference "RV3") (unit 1) (value "20k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+      (reference "RV3") (unit 1) (value "2k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
     )
     (path "/9dfedc54-4d5e-45ef-a50a-32628d446e72/fb12636b-0d09-450c-8904-b27cbcfef604"
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
