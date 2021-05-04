@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  28 APR 2021 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  4 MAY 2021 13:38
 entering extended mode
 **./BA_Auftragsplaung.tex
 (BA_Auftragsplaung.tex
@@ -869,11 +869,19 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
  <./Bilder/BMK_LOGO.png>]
+Overfull \hbox (36.79996pt too wide) in alignment at lines 153--153
+[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 92.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 156.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -885,19 +893,19 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [2]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     92.
+(LaTeX3)     156.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     92.
+(LaTeX3)     156.
 
  (BA_Auftragsplaung.aux) ) 
 Here is how much of TeX's memory you used:
- 16923 strings out of 479618
- 345306 string characters out of 2864551
- 742058 words of memory out of 3000000
- 33813 multiletter control sequences out of 15000+200000
- 415892 words of font info for 38 fonts, out of 3000000 for 9000
+ 16942 strings out of 479618
+ 345508 string characters out of 2864551
+ 746058 words of memory out of 3000000
+ 33824 multiletter control sequences out of 15000+200000
+ 419005 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,15n,116p,10614b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\107475\AppData\Local\MiKTeX\fonts/pk/ljfou
@@ -905,7 +913,7 @@ r/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/107475/AppData/Local/Programs/MiKTeX
 /fonts/enc/dvips/base/8r.enc}<C:/Users/107475/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Auftragsplaung.pdf (2 pages, 93881 bytes).
+Output written on BA_Auftragsplaung.pdf (2 pages, 96087 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

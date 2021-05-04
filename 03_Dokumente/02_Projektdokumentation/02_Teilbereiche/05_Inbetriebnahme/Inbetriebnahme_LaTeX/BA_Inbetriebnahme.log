@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  27 APR 2021 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  4 MAY 2021 13:50
 entering extended mode
 **./BA_Inbetriebnahme.tex
 (BA_Inbetriebnahme.tex
@@ -1017,7 +1017,7 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
  (BA_Inbetriebnahme.aux) ) 
 Here is how much of TeX's memory you used:
  16951 strings out of 479618
- 345603 string characters out of 2864551
+ 345623 string characters out of 2864551
  750058 words of memory out of 3000000
  33833 multiletter control sequences out of 15000+200000
  419005 words of font info for 49 fonts, out of 3000000 for 9000
@@ -1036,7 +1036,7 @@ pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /helvetic/uhvr8a.pfb>
-Output written on BA_Inbetriebnahme.pdf (5 pages, 170405 bytes).
+Output written on BA_Inbetriebnahme.pdf (5 pages, 170300 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

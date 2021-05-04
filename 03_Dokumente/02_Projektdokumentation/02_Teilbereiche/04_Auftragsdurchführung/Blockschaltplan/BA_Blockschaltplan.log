@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  3 MAY 2021 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  4 MAY 2021 09:58
 entering extended mode
 **./BA_Blockschaltplan.tex
 (BA_Blockschaltplan.tex
@@ -864,18 +864,63 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
  <./Bilder/BMK_LOGO.png> <./Bilder/Blockschaltplan.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 38--47
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--47
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--76
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 49.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -888,17 +933,17 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 [2]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     49.
+(LaTeX3)     80.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     49.
+(LaTeX3)     80.
 
  (BA_Blockschaltplan.aux) ) 
 Here is how much of TeX's memory you used:
  16884 strings out of 479618
  344511 string characters out of 2864551
- 737060 words of memory out of 3000000
+ 743060 words of memory out of 3000000
  33778 multiletter control sequences out of 15000+200000
  412849 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -908,7 +953,7 @@ ur/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/107475/AppData/Local/Programs/MiKTe
 X/fonts/enc/dvips/base/8r.enc}<C:/Users/107475/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Blockschaltplan.pdf (2 pages, 116083 bytes).
+Output written on BA_Blockschaltplan.pdf (2 pages, 119185 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

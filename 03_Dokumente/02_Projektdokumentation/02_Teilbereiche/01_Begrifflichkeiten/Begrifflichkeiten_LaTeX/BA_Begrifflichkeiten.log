@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  28 APR 2021 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  4 MAY 2021 15:11
 entering extended mode
 **./BA_Begrifflichkeiten.tex
 (BA_Begrifflichkeiten.tex
@@ -845,19 +845,16 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 19.70294pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 41.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
-8.
-(C:\Users\107475\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 58.
-<Bilder/BMK_LOGO.png, id=4, 698.1282pt x 169.1118pt>
+<Bilder/BMK-IOT-MODUL.png, id=4, 588.69937pt x 424.58624pt>
+File: Bilder/BMK-IOT-MODUL.png Graphic file (type png)
+<use Bilder/BMK-IOT-MODUL.png>
+Package pdftex.def Info: Bilder/BMK-IOT-MODUL.png  used on input line 46.
+(pdftex.def)             Requested size: 284.52756pt x 205.21143pt.
+<Bilder/BMK_LOGO.png, id=6, 698.1282pt x 169.1118pt>
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 81.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 59.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -868,12 +865,36 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 [1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
- <./Bilder/BMK_LOGO.png>]
+ <./Bilder/BMK_LOGO.png> <./Bilder/BMK-IOT-MODUL.png>]
+<Bilder/PigTail.jpg, id=16, 1965.744pt x 1474.308pt>
+File: Bilder/PigTail.jpg Graphic file (type jpg)
+<use Bilder/PigTail.jpg>
+Package pdftex.def Info: Bilder/PigTail.jpg  used on input line 68.
+(pdftex.def)             Requested size: 284.52756pt x 213.3755pt.
+<Bilder/TP19-ohne-PigTail.png, id=17, 903.375pt x 677.53125pt>
+File: Bilder/TP19-ohne-PigTail.png Graphic file (type png)
+<use Bilder/TP19-ohne-PigTail.png>
+Package pdftex.def Info: Bilder/TP19-ohne-PigTail.png  used on input line 78.
+(pdftex.def)             Requested size: 227.62204pt x 170.71603pt.
+
+Overfull \hbox (9.95993pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+<Bilder/TP19-mit-PigTail.png, id=18, 903.375pt x 677.53125pt>
+File: Bilder/TP19-mit-PigTail.png Graphic file (type png)
+<use Bilder/TP19-mit-PigTail.png>
+Package pdftex.def Info: Bilder/TP19-mit-PigTail.png  used on input line 84.
+(pdftex.def)             Requested size: 227.62204pt x 170.71603pt.
+
+Overfull \hbox (9.95993pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
+
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 85.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 94.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -882,22 +903,23 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[2]
+[2 <./Bilder/PigTail.jpg> <./Bilder/TP19-ohne-PigTail.png (PNG copy)> <./Bilder
+/TP19-mit-PigTail.png (PNG copy)>]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     85.
+(LaTeX3)     94.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     85.
+(LaTeX3)     94.
 
  (BA_Begrifflichkeiten.aux) ) 
 Here is how much of TeX's memory you used:
- 16923 strings out of 479618
- 345360 string characters out of 2864551
- 743064 words of memory out of 3000000
- 33813 multiletter control sequences out of 15000+200000
- 415892 words of font info for 38 fonts, out of 3000000 for 9000
+ 16916 strings out of 479618
+ 345457 string characters out of 2864551
+ 740064 words of memory out of 3000000
+ 33805 multiletter control sequences out of 15000+200000
+ 415579 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,15n,116p,10617b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\107475\AppData\Local\MiKTeX\fonts/pk/lj
@@ -905,9 +927,9 @@ four/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/107475/AppData/Local/Programs/MiK
 TeX/fonts/enc/dvips/base/8r.enc}<C:/Users/107475/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Begrifflichkeiten.pdf (2 pages, 97215 bytes).
+Output written on BA_Begrifflichkeiten.pdf (2 pages, 7582812 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
