@@ -1,0 +1,83 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{tikz}   
+\usepackage[scaled]{helvet}
+\usepackage{tabto} 
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+
+\setkomafont{section}{\huge}
+\setkomafont{subsection}{\Large}
+
+
+\lhead{Maximilian Hoffmann}
+\chead{Betrieblicher Auftrag \\ \textbf{Kabeltester}}
+\rhead{\includegraphics[width=3cm]{Bilder/BMK_LOGO.png}}
+
+
+
+\begin{document}
+
+\begin{center}
+	\begin{huge}
+	\textcolor{white}{\tiny{Platzhalter wenn ein Kapitel auf einer neuen Seite beginnt\\}}
+	\textbf{Pflichtenheft}
+	\end{huge}
+\end{center}
+
+
+\textbf{Auftraggeber:}
+Herr Robert Schulz, BMK-Entwicklung
+
+\section{Technische Anforderungen}
+
+Der zu entwickelnde Prototyp soll folgende Funktionen haben:
+
+\begin{itemize}
+	\item{Möglichst verlustfreie Wandlung der Klemmspannung auf 5V TTL-Pegel.}
+	
+	\item{Kurzschluss -und Durchgangsprüfung.}
+	
+	\item{Indirekte Messung des Leitungswiderstand.}
+	
+	\item{Anzahl der Messlinien auf Prototyp: 4 Stück.}
+	
+	\item{Optisches Feedback des Messergebnis jeder einzelnen Ader.}
+	
+	\item{Einfaches verbinden mehrerer Messplatinen.}
+	
+	\item{Diskreter Aufbau mit Logik-IC's.}
+\end{itemize}
+
+\section{Pflichten}
+
+\begin{itemize}
+	\item{Bis zum 14.5.2021 wird dem Auftraggeber ein fertiger Prototyp mit einer voll umfänglichen Dokumentation übergeben.}
+	
+	\item{In einem Übergabegespräch werden dem Auftraggeber alle Ergebnisse der Entwicklungsarbeit mitgeteilt.}
+	
+	\item{Der Verlauf der Übergabe sowie die Ergebnisse werden schriftlich in einem Übergabeprotokoll festgehalten.}
+\end{itemize}
+
+\vspace{3cm}
+\begin{tabularx}{\textwidth}[b]{ p{5cm} } \cline{1-1} 
+Ort, Datum
+\end{tabularx}
+
+\vspace{1,5cm}
+\begin{tabularx}{\textwidth}[b]{ p{5cm} X p{5cm} } \cline{1-1} \cline{3-3} 
+Unterschrift Auftraggeber & & Unterschrift Auftragnehmer
+\end{tabularx}
+
+\end{document}

@@ -1,0 +1,86 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{tikz}   
+\usepackage[scaled]{helvet}
+\usepackage{tabto} 
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+
+\setkomafont{section}{\huge}
+\setkomafont{subsection}{\Large}
+
+
+\lhead{Maximilian Hoffmann}
+\chead{Betrieblicher Auftrag \\ \textbf{Kabeltester}}
+\rhead{\includegraphics[width=3cm]{Bilder/BMK_LOGO.png}}
+
+\begin{document}
+
+\begin{center}
+	\begin{huge}
+	\textcolor{white}{\tiny{Platzhalter wenn ein Kapitel auf einer neuen Seite beginnt\\}}
+	\textbf{Teilauftrag Layout}
+	\end{huge}
+\end{center}
+
+\textbf{Auftraggeber}	\\
+Maximilian Hoffmann		\\
+BMK Group GmbH Co.KG	\\
+Entwicklung Labor		\\
+\\
+
+\textbf{Auftragsnehmer}	\\
+Angelo Ostermair		\\
+BMK Group GmbH Co.KG	\\
+Entwicklung Labor		\\
+
+\section{Beschreibung}
+Erstellen eines Layouts anhand des vorliegenden Schaltplanes in „KiCad“. Den Schaltplansymbolen liegt ein passendes Footprintsymbol bei.
+
+\section{Anforderungen}
+
+\begin{itemize}
+	\item{4 Layer Design.}
+	
+	\item{Leiterplattengröße: 100 x 100 mm.}
+	
+	\item{Datenblatt spezifisches Layout des Schaltregler.}
+	
+	\item{Layer 2 und 3 sind mit \glqq GND \grqq{} und \glqq +5V \grqq{} Flächen zu füllen.}
+	
+	\item{Gegenüberliegende Platzierung von J1 und J2 (DSUB-Stecker)}
+	
+	\item{Erstellen von Gerberdateien: Signallayero; F B.Paste;	F B.Mask; Edge.Cuts}
+	
+	\item{KiCad-Version: 5.99-9156 (nightly Version)}
+\end{itemize}
+
+\section{Anlagen}
+
+\begin{itemize}
+	\item{KiCad-Projectfolder}
+\end{itemize}
+
+\vspace{1,5cm}
+\begin{tabularx}{\textwidth}[b]{ p{5cm} } \cline{1-1} 
+Ort, Datum
+\end{tabularx}
+
+\vspace{1,5cm}
+\begin{tabularx}{\textwidth}[b]{ p{5cm} X p{5cm} } \cline{1-1} \cline{3-3} 
+Unterschrift Auftraggeber & & Unterschrift Auftragnehmer
+\end{tabularx}
+
+
+\end{document}
