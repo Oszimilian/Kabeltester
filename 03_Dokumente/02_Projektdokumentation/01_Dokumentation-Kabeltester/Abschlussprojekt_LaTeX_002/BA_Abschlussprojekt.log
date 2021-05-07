@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  6 MAY 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  7 MAY 2021 14:46
 entering extended mode
 **./BA_Abschlussprojekt.tex
 (BA_Abschlussprojekt.tex
@@ -1454,14 +1454,11 @@ File: Bilder/Anzeige.png Graphic file (type png)
 Package pdftex.def Info: Bilder/Anzeige.png  used on input line 317.
 (pdftex.def)             Requested size: 341.43306pt x 341.43608pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 322--39
-
- []
-
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 39.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -1512,9 +1509,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
+<Bilder/Kippzeit.png, id=131, 903.375pt x 677.53125pt>
+File: Bilder/Kippzeit.png Graphic file (type png)
+<use Bilder/Kippzeit.png>
+Package pdftex.def Info: Bilder/Kippzeit.png  used on input line 129.
+(pdftex.def)             Requested size: 227.62204pt x 170.71603pt.
+
+Overfull \hbox (9.95993pt too wide) in paragraph at lines 129--130
+ [][] 
+ []
+
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 130.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 140.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1524,24 +1531,34 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[25]
-Overfull \hbox (25.02101pt too wide) in alignment at lines 180--180
+[25 <./Bilder/Kippzeit.png (PNG copy)>]
+Overfull \hbox (25.02101pt too wide) in alignment at lines 190--190
 [][][][] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 180--182
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 190--192
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
+ []
+
+<Bilder/Resetimpuls.png, id=136, 903.375pt x 677.53125pt>
+File: Bilder/Resetimpuls.png Graphic file (type png)
+<use Bilder/Resetimpuls.png>
+Package pdftex.def Info: Bilder/Resetimpuls.png  used on input line 197.
+(pdftex.def)             Requested size: 284.52756pt x 213.39246pt.
+
+Overfull \hbox (66.86545pt too wide) in paragraph at lines 197--198
+ [][] 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 188.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 208.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1551,39 +1568,39 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[26]
-Overfull \hbox (25.02101pt too wide) in alignment at lines 236--236
+[26 <./Bilder/Resetimpuls.png (PNG copy)>]
+Overfull \hbox (25.02101pt too wide) in alignment at lines 256--256
 [][][][] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 236--238
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 256--258
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 
  []
 
 
-Overfull \hbox (25.02101pt too wide) in alignment at lines 284--284
+Overfull \hbox (25.02101pt too wide) in alignment at lines 304--304
 [][][][] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 284--286
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 304--306
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--286
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 292.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 312.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1594,17 +1611,17 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
 [27]
-Overfull \hbox (25.02101pt too wide) in alignment at lines 332--332
+Overfull \hbox (25.02101pt too wide) in alignment at lines 352--352
 [][][][] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 332--334
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 352--354
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
 
  []
 
@@ -1655,7 +1672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<Bilder/LTC-SCHALTBILD.png, id=151, 798.73407pt x 330.48468pt>
+<Bilder/LTC-SCHALTBILD.png, id=153, 798.73407pt x 330.48468pt>
 File: Bilder/LTC-SCHALTBILD.png Graphic file (type png)
 <use Bilder/LTC-SCHALTBILD.png>
 Package pdftex.def Info: Bilder/LTC-SCHALTBILD.png  used on input line 6.
@@ -1670,7 +1687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
  []
 
-<Bilder/LTC-SIGNALVERLAUF1.png, id=152, 1023.07219pt x 383.93437pt>
+<Bilder/LTC-SIGNALVERLAUF1.png, id=154, 1023.07219pt x 383.93437pt>
 File: Bilder/LTC-SIGNALVERLAUF1.png Graphic file (type png)
 <use Bilder/LTC-SIGNALVERLAUF1.png>
 Package pdftex.def Info: Bilder/LTC-SIGNALVERLAUF1.png  used on input line 18.
@@ -1688,7 +1705,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
 [31 <./Bilder/LTC-SCHALTBILD.png> <./Bilder/LTC-SIGNALVERLAUF1.png>]
-<Bilder/LTC-SIGNALVERLAUF2.png, id=159, 1032.85875pt x 368.1253pt>
+<Bilder/LTC-SIGNALVERLAUF2.png, id=161, 1032.85875pt x 368.1253pt>
 File: Bilder/LTC-SIGNALVERLAUF2.png Graphic file (type png)
 <use Bilder/LTC-SIGNALVERLAUF2.png>
 Package pdftex.def Info: Bilder/LTC-SIGNALVERLAUF2.png  used on input line 27.
@@ -1710,7 +1727,112 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[32 <./Bilder/LTC-SIGNALVERLAUF2.png>] (BA_St√ºckliste_Stromaufnahme.tex)
+[32 <./Bilder/LTC-SIGNALVERLAUF2.png>] (BA_St√ºckliste_Stromaufnahme.tex
+
+LaTeX Warning: Command \" invalid in math mode on input line 11.
+
+Missing character: There is no ‰ in font cmr8!
+
+LaTeX Warning: Command \" invalid in math mode on input line 14.
+
+Missing character: There is no ‰ in font cmr8!
+
+LaTeX Warning: Command \" invalid in math mode on input line 17.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 17.
+
+Missing character: There is no ‰ in font cmr8!
+Missing character: There is no ‰ in font cmr8!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--21
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 27.
+
+Missing character: There is no ‰ in font cmr6!
+
+LaTeX Warning: Command \" invalid in math mode on input line 30.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 30.
+
+Missing character: There is no ‰ in font cmr6!
+Missing character: There is no ‰ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 37.
+
+Missing character: There is no ‰ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--44
+
+ []
+
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 45.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[33]
+Overfull \hbox (36.79996pt too wide) in alignment at lines 89--89
+[][][] 
+ []
+
+
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 89--91
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+)
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 47.
@@ -1724,7 +1846,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[33] (BA_Anhang.tex)
+[34] (BA_Anhang.tex)
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 54.
@@ -1738,7 +1860,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[34]
+[35]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 (LaTeX3)     54.
@@ -1749,10 +1871,10 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 
  (BA_Abschlussprojekt.aux) ) 
 Here is how much of TeX's memory you used:
- 17143 strings out of 479618
- 351917 string characters out of 2864551
+ 17155 strings out of 479618
+ 352187 string characters out of 2864551
  750064 words of memory out of 3000000
- 33971 multiletter control sequences out of 15000+200000
+ 33981 multiletter control sequences out of 15000+200000
  419005 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,15n,116p,10616b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1771,9 +1893,9 @@ c/amsfonts/cm/cmsy6.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/107475/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/107475/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Abschlussprojekt.pdf (34 pages, 7999392 bytes).
+Output written on BA_Abschlussprojekt.pdf (35 pages, 8067305 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
+ 224 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

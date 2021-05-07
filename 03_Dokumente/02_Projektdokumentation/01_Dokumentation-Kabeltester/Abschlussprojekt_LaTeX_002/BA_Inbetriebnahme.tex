@@ -122,6 +122,16 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 \end{tabularx}
 \renewcommand{\arraystretch}{1}
 
+\begin{figure}[htb]
+    \centering
+    \begin{minipage}[t]{0.45\linewidth}
+        \centering
+        \includegraphics[width=8cm]{Bilder/Kippzeit.png}
+        \caption{Kippzeit des Monoflop U14}
+    \end{minipage}% <- sonst wird hier ein Leerzeichen eingefügt
+    
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
 %														Taktgeber       												%
 %																														%
@@ -139,7 +149,7 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 \begin{itemize}
 	\item{Wenn die LED D2 (Grün) leuchtet, kann durch Betätigung von SW1 (START) der Messvorgang gestartet werden. Dies macht sich durch das Lauflicht (bestehend aus D39, D40, D41, D42) bemerkbar.}
 	
-	\item{Nach einer Zeit von ca. 3s (Messbar durch Impulszeit von TP20) soll das ganze System durch Betätigung von SW1 erneut gestartet werden können.}
+	\item{Nach einer Zeit von ca. 940ms (Messbar durch Impulszeit von TP20) soll das ganze System durch Betätigung von SW1 erneut gestartet werden können.}
 	
 	\item{Im Einschaltmoment soll ein verspäteter Nadelimpuls für das korrekte Setzen(default-states) der Schaltung am TP23 gemessen werden können.}
 	
@@ -171,7 +181,7 @@ Stromaufnahme & $I_{G}$: & [ ] & [ ] \\
 
 \multirow{2}{*}{Nadelimpuls}
 		& $t_{Delay}$:				&	[ ] & [ ] 	\\
-		& $t_{in}$: 				&	[ ]	& [ ] 	\\
+		& $t_{i}$: 					&	[ ]	& [ ] 	\\
 		
 \hline
 
@@ -179,6 +189,16 @@ Tastensperre & LED D1 und SW1 -> Messung Startet nicht & [ ] & [ ] \\
 		
 \end{tabularx}
 \renewcommand{\arraystretch}{1}
+
+\begin{figure}[htb]
+    \centering
+    \begin{minipage}[t]{0.45\linewidth}
+        \centering
+        \includegraphics[width=10cm]{Bilder/Resetimpuls.png}
+        \caption{Resetimpuls im Einschaltmoment}
+    \end{minipage}% <- sonst wird hier ein Leerzeichen eingefügt
+    
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%																																				%
 %														Taktgeber       												%
