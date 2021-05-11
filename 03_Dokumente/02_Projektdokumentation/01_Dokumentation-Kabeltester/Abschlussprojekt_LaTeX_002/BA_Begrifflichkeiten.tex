@@ -10,12 +10,26 @@ Die dafür benötigte Hardware findet auf einer kleinen Platine mit BGA-Sockel P
 \includegraphics[width=10cm]{Bilder/BMK-IOT-MODUL.png}
 \end{center}
 
+\subsection{eMMC}
+eMMC = embedded MultiMediaCard.
+\\
+Ein \glqq eMMC \grqq{} ist eine Variante eines Speicherkarten Standards. Durch seine preiswerte kompakte Größe wird diese Art häufig in mobile Endgeräte verbaut. Die verwendete Technologie ist die eines Flash-Speichers . Flash-Speicher und Flash-Controller werden auf dem selben Silizium-Chip integriert. Dabei sind Übertragungsraten bis zu 400MB/s möglich. eMMC's werden häufig direkt verlötet und sind deshalb ein Teil eines \glqq embedded System \grqq{}.
 
 
-\subsection{LaTeX}
-LaTeX ist wie MS-Word oder Libre-Office ein Textverarbeitungsprogramm. Werden in einem klassischen Word.doc, Text und Grafik gleichzeitig erstellt und während des gesamten Erstellungsprozesses auf dem Monitor dargestellt, so werden unter Latex diese Bereiche separiert. Inhalt und Layout werden erst durch einen separaten Schritt in eine Ausgabedatei generiert. Über viele Jahre hinweg wurden durch eine große Community immer mehr Libraries, welche wissenschaftliche Standards etablierten veröffentlicht und können in ein LaTeX-Dokument sehr einfach importiert werden. Bei richtiger Einbindung der Libraries wird das Geschriebene von LaTeX automatisch in ein richtiges Layout gebracht. Aus diesem Grund ist LaTeX ein sehr beliebtes Tool, zum Verfassen von wissenschaftlichen Arbeiten.
+\subsection{RTOS}
+RTOS = Real Time Operating System
+\\
+Ein \glqq Real Time Operating System \grqq{} besitzt die grundlegende Aufgabe, zu entscheiden welcher Task (Programmteil) wann ausgeführt wird. Für den Anwender, soll es dabei so aussehen, als ob die Anwendungen gleichzeitig abgearbeitet werden. In der Realität werden den Task's verschiedene Priorisierungen zugewiesen. Dadurch kann der Prozess-Scheduler entscheiden, welche Task wann und vor welchen anderen Task's abgearbeitet wird. 
+\\
+Nicht nur im Bereich des \glqq Event Handlings \grqq{} ist ein RTOS sehr wichtig, sondern auch im Bereich des Speicherzugriffes bieten sich RTOS-spezifische Funtionen an. Kommt es z.B. zu einem gleichzeitigen Speicherzugriff zweier Prozessorkerne, so kann es zu fatalen Fehlern kommen. Eine Priorisierung ist hier ebanfalls sehr wichtig.
 
 \newpage
+\subsection{BGA}
+BGA = Ball Grid Array
+\\
+Unter \glqq BGA\grqq versteht man eine Art der Gehäuseform, wobei die Anschlüsse für die SMD-Bestückung auf der Unterseite des Bauteiles liegen. Kleine Lötperlen auf der Unterseite, können dabei durch einen Reflow-Prozess mit der Platine verlötet werden. Diese Technologie lässt dabei eine große Menge an Pin's auf einem kleinen Chip zu. 
+
+
 \subsection{Pig-Tail}
 Um bei hohen Frequenzen mit einem Oszilloskop bessere Messergebnisse zu erhalten, ist es oft hilfreich, ein Pig-Tail zu verwenden. Diese können oft beim Hersteller gekauft oder mit Silberdraht selbst gewickelt werden. 
 \\

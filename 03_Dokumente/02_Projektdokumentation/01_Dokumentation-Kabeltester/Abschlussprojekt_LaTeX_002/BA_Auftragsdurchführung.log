@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  6 MAY 2021 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  10 MAY 2021 15:18
 entering extended mode
 **./BA_Auftragsdurchführung.tex
 (BA_Auftragsdurchführung.tex
@@ -2735,7 +2735,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[1{C:/Users/Maximilian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ! Undefined control sequence.
 l.66 \subsection
                 {NE555 Taktgeber}
@@ -7017,13 +7017,13 @@ Missing character: There is no t in font nullfont!
 <inserted text> 
                 $
 l.119 	t_
-         {Kipp} &= \frac{N_{DIV * R4}}{50k} * 1us = \frac{N_{32768 * 820k}}{...
+         {Kipp} &= \frac{N_{DIV * R4}}{50k} * 1us = \frac{32768 * 820k}{50k}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
 l.119 	t_{Kipp} &
-                 = \frac{N_{DIV * R4}}{50k} * 1us = \frac{N_{32768 * 820k}}{...
+                 = \frac{N_{DIV * R4}}{50k} * 1us = \frac{32768 * 820k}{50k}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -7186,7 +7186,7 @@ Overfull \hbox (25.9676pt too wide) in paragraph at lines 99--121
  []
 
 
-Overfull \hbox (49.00888pt too wide) in paragraph at lines 99--121
+Overfull \hbox (47.80644pt too wide) in paragraph at lines 99--121
 [] \OMS/cmsy/m/n/10 
  []
 
@@ -15509,11 +15509,16 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 320--323
+[]
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 320--323
+\/cmr/m/n/10 u
+ []
+
 )
 ! Emergency stop.
 <*> ./BA_Auftragsdurchführung.tex
@@ -15523,7 +15528,7 @@ Missing character: There is no o in font nullfont!
  
 Here is how much of TeX's memory you used:
  46 strings out of 479618
- 983 string characters out of 2864551
+ 991 string characters out of 2862651
  275099 words of memory out of 3000000
  17315 multiletter control sequences out of 15000+200000
  403738 words of font info for 28 fonts, out of 3000000 for 9000
