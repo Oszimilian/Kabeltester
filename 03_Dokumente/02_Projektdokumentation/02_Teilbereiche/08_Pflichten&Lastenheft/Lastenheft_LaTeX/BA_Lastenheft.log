@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  18 FEB 2021 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  13 MAY 2021 12:32
 entering extended mode
 **./BA_Lastenheft.tex
 (BA_Lastenheft.tex
@@ -903,7 +903,7 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
  (BA_Lastenheft.aux) ) 
 Here is how much of TeX's memory you used:
  16857 strings out of 479618
- 344628 string characters out of 2862651
+ 344770 string characters out of 2862651
  743279 words of memory out of 3000000
  33742 multiletter control sequences out of 15000+200000
  423631 words of font info for 52 fonts, out of 3000000 for 9000
@@ -914,7 +914,7 @@ r/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/Maximilian/AppData/Local/Programs/Mi
 KTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Maximilian/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Maximilian/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Lastenheft.pdf (1 page, 91310 bytes).
+Output written on BA_Lastenheft.pdf (1 page, 91335 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
