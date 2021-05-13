@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  13 MAY 2021 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  13 MAY 2021 13:13
 entering extended mode
 **./BA_Abschlussprojekt.tex
 (BA_Abschlussprojekt.tex
@@ -2361,7 +2361,7 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 Here is how much of TeX's memory you used:
  18048 strings out of 479618
  370073 string characters out of 2862651
- 766695 words of memory out of 3000000
+ 766731 words of memory out of 3000000
  34828 multiletter control sequences out of 15000+200000
  423259 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2382,7 +2382,7 @@ ilian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
 :/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8
 a.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on BA_Abschlussprojekt.pdf (51 pages, 9418730 bytes).
+Output written on BA_Abschlussprojekt.pdf (51 pages, 9418731 bytes).
 PDF statistics:
  377 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
