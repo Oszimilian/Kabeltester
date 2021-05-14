@@ -10,10 +10,10 @@
 Die Kernfunktion der Messplatine wird in diesem Dokumentationsteil anhand des Blockschaltbildes erklärt. 
 \end{center}
 
-Die Versorgung dieser Platine soll durch einen 9V Batterieblock erfolgen. Die Spannung wird dabei durch einen DC/DC - Wandler auf 5V gewandelt.
+Die Versorgung dieser Platine wird aufgrund des niedrigen Verbrauches durch einen 9V Batterieblock erfolgen. Ein DC/DC-Wandler, wandelt dabei die Eingangsspannung auf einen 5V TTL Pegel. 
 \\
 \\
-Ein interner sowie externen Takt kann Wahlweise als Systemtakt verwendet werden. Mit einem Taster wird zwischen diesen Taktquellen umgeschaltet.
+Ein interner sowie externen Takt kann Wahlweise als Systemtakt verwendet werden. Mit einem Taster wird zwischen den beiden Taktquellen umgeschaltet. Werden mehrere Messplatinen zusammengeschaltet, so wird der interne Takt der ersten Messplatine, als Takt für folgende Platinen verwendet. 
 \\
 \\
 Um den Systemtakt auf mehreren hintereinander geschalteten Messplatinen verwenden zu können, wird dieser über einen Stecker herausgeführt.
@@ -37,10 +37,10 @@ Zwischen den Leistungsstufen und dem Analogschalter wird das zu Messende Kabel  
 Der Analogschalter ist dafür verantwortlich zwischen der Konstantstrommessung und der Kurzschlussmessung sowie Durchgangsmessung, während der Prüfung umzuschalten. 
 \\
 \\
-Während der Pausenzeit des Messtaktes, wird ein konstanter Strom durch das Kabel fließen. Mit Hilfe des Spannungsfall über den strombegrenzenden MOSFET der Konstantstromquelle, kann indirekt der Kabelwiderstand bestimmt werden. Das Ergebnis dieser seriellen Messung wird durch ein Schieberegister parallel ausgegeben. Da die Konstantstromquelle bei jedem Kabel den Strom neu regeln muss, wird durch den zugeführten Systemtakt erst nach der Hälfte der Messzeit das Ergebnis via Schiebetakt übernommen.
+Während der Pausenzeit des Messtaktes, wird ein konstanter Strom durch das Kabel fließen. Mit Hilfe des Spannungsfall über den strombegrenzenden MOSFET der Konstantstromquelle, kann indirekt der Kabelwiderstand bestimmt werden. Das serielle Ergebnis dieser  Messung wird durch ein Schieberegister parallel ausgegeben. Da die Konstantstromquelle bei jedem Kabel den Strom neu regeln muss, wird durch den zugeführten Systemtakt erst nach der Hälfte der Messzeit das Ergebnis via Schiebetakt übernommen.
 \\
 \\
-Während der Impulszeit des Messtaktes, wird das Kabel auf Kurschluss sowie Durchgängigkeit überprüft. 
+Während der Impulszeit des Messtaktes, wird das Kabel auf Kurzschluss sowie Durchgängigkeit überprüft. 
 \\
 \\
 Liefern beide Messungen einer Ader ein High-Signal, leuchtet eine grüne LED. Liefert eine oder beide Messungen ein Low-Signal, leuchtet die rote LED.

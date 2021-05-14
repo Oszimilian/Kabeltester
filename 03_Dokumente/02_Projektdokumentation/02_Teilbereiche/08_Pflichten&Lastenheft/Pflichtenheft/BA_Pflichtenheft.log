@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  13 MAY 2021 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  14 MAY 2021 22:03
 entering extended mode
 **./BA_Pflichtenheft.tex
 (BA_Pflichtenheft.tex
@@ -740,7 +740,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 14.
+(scrartcl)              package `fancyhdr' on input line 25.
 
 
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.
@@ -757,102 +757,52 @@ Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
 \f@nch@O@olf=\skip75
 \f@nch@O@orf=\skip76
 )
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.
-sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip77
-\multirow@cntb=\count291
-\multirow@dima=\skip78
-\bigstrutjot=\dimen274
-)
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.
-sty
-Package: pdfpages 2021/01/09 v0.5r Insert pages of external PDF documents (AM)
-
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.s
-ty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count292
-\calc@Bcount=\count293
-\calc@Adimen=\dimen275
-\calc@Bdimen=\dimen276
-\calc@Askip=\skip79
-\calc@Bskip=\skip80
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count294
-\calc@Cskip=\skip81
-)
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.st
-y
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen277
-\ESO@tempdimb=\dimen278
-)
-\AM@pagewidth=\dimen279
-\AM@pageheight=\dimen280
-
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.
-def
-File: pppdftex.def 2021/01/09 v0.5r Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count295
-\AM@pagebox=\box64
-\AM@global@opts=\toks38
-\AM@pagecnt=\count296
-\AM@toc@title=\toks39
-\c@AM@survey=\count297
-\AM@templatesizebox=\box65
-)
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 30
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 31
 .
 
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 30.
+(Font)              scaled to size 10.40245pt on input line 31.
 
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count298
-\l__pdf_internal_box=\box66
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box64
 ) (BA_Pflichtenheft.aux)
 \openout1 = `BA_Pflichtenheft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
 df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen281
-\scratchbox=\box67
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen282
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count292
+\scratchdimen=\dimen274
+\scratchbox=\box65
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen275
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks39
 )
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty
@@ -869,14 +819,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(79.6678pt, 685.71124pt, 79.6678pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=685.71124pt
+* \textheight=702.78308pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-30.0022pt
+* \topmargin=-38.53812pt
 * \headheight=17.0pt
 * \headsep=20.40001pt
 * \topskip=11.0pt
@@ -894,52 +844,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscap
-e.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.st
-y
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 33.
+(Font)              scaled to size 19.70294pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 34.
+(Font)              scaled to size 5.69998pt on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 35.
+(Font)              scaled to size 19.70294pt on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 40.
+(Font)              scaled to size 10.40245pt on input line 41.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 44.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
-8.
-
+7.
 (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 48.
+(Font)              scaled to size 10.40245pt on input line 47.
 
-Underfull \hbox (badness 10000) in alignment at lines 74--74
+Underfull \hbox (badness 10000) in alignment at lines 91--91
 [] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 74--75
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
 
-Overfull \hbox (10.40245pt too wide) in paragraph at lines 79--80
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
 <Bilder/BMK_LOGO.png, id=4, 698.1282pt x 169.1118pt>
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 81.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -954,27 +894,27 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
  <./Bilder/BMK_LOGO.png>]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     81.
+(LaTeX3)     98.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     81.
+(LaTeX3)     98.
 
  (BA_Pflichtenheft.aux) ) 
 Here is how much of TeX's memory you used:
- 17693 strings out of 479618
- 358550 string characters out of 2862651
- 756669 words of memory out of 3000000
- 34550 multiletter control sequences out of 15000+200000
- 420901 words of font info for 50 fonts, out of 3000000 for 9000
+ 16857 strings out of 479618
+ 344791 string characters out of 2862651
+ 743288 words of memory out of 3000000
+ 33742 multiletter control sequences out of 15000+200000
+ 423631 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,15n,116p,10613b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,15n,116p,10613b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Maximilian\AppData\Local\MiKTeX\fonts/pk/lj
 four/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/Maximilian/AppData/Local/Programs
 /MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Maximilian/AppData/Local/Programs
 /MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Maximilian/AppData/Local/
 Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on BA_Pflichtenheft.pdf (1 page, 90720 bytes).
+Output written on BA_Pflichtenheft.pdf (1 page, 92153 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -47,12 +47,15 @@ Die grünen LED's D36 und D38 sorgen für ein optisches Feedback der Versorgungs
 \\
 Allgemein wurde der Wandler für eine Ausgangsspannung von +5V und einen Ausgangsstrom von ca. 1,5A dimensioniert. Mit den Widerständen R73 und R74 kann der Schaltregler bei Über/-Unterspannung abschalten. Dafür wird eine oberer sowie untere Schaltschwelle berechnet.
 
+
 \begin{center}
-\begin{align}
+\begin{align*}
 	R73 &= \dfrac{V_{\Delta}}{3uA} = \dfrac{2V}{3uA} = 666k  \Rightarrow 680k\\
+	\\
 	R74 &= \dfrac{1,25V}{\dfrac{Vs - 1,25V}{R73} + 1uA} = \dfrac{1,25V}{\dfrac{8V - 1,25V}{680k} + 1uA} = 126k \Rightarrow 150k	\\
+	\\
 	V_{OUT}	&= V_{REF} + (\dfrac{R45}{R46} + 1) = 0,8V + (\dfrac{10,2k}{1,96k} + 1) = 4,96V
-\end{align}
+\end{align*}
 \end{center}
 
 
@@ -71,15 +74,15 @@ Allgemein wurde der Wandler für eine Ausgangsspannung von +5V und einen Ausgang
 \includegraphics[width=10cm]{Bilder/Takt.png}
 \end{center}
 
-Als Taktgeber kommt der \glqq NE555 \grqq{} zum Einsatz. Dieser wird als astabile Kippstufe betrieben. Mit Hilfe der Diode D43 kommt eis zu einem symetrischen Verhältnis des Tastgrad. Über das Poti (Connector) J3 soll die Ausgangsfrequenz auf ca. 10Hz eingestellt werden können. 
+Als Taktgeber kommt der \glqq NE555 \grqq{} zum Einsatz. Dieser wird als astabile Kippstufe betrieben und versorgt die Schaltung mit einem rechteckförmigen Taktsignal. Mit Hilfe der Diode D43 kommt eis zu einem symetrischen Verhältnis des Tastgrad. Über das Poti (Connector) J3 soll die Ausgangsfrequenz auf ca. 10Hz eingestellt werden können. 
 \\
 \\
-Im Einschaltmoment ist C9 entladen. Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über R2, J3 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang schaltet auf Low. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange eine Versorgungsspannung anliegt. 
+Im Einschaltmoment ist C9 entladen (Kurzschluss). Somit liegt das Signal am Triggereingang (PIN 2) unterhalb von $\frac{1}{3} VCC$. Das interne FlipFlop wird gesetzt und der Ausgang (PIN 3) erfährt einen High-Pegel. Der Kondensator C9 lädt sich nun über R2, J3 und D43 auf. Der Ladevorgang hält so lange an, bis das Spannungspotential an Pin 6 (Threshold) einen höheren Wert als $\frac{2}{3} VCC$ aufweist. Das interne FlipFlop's wird zurückgesetzt und der Ausgang schaltet auf Low. Der Kondensator C9 entlädt sich nun über R72 und den (auf GND durchgeschaltenen) Pin 7 (Discharge). Hat sich der Kondensator nun wieder auf ein Spannungspotential unterhalb von $\frac{1}{3}$ entladen, so wird er Ausgang wieder gesetzt und der Entladevorgang über Pin 7 unterbunden. Dieser Vorgang wiederholt sich solange eine Versorgungsspannung anliegt. 
 
 \begin{center}
-\begin{align}
+\begin{align*}
 	f_{OUT} &= \dfrac{1}{0,69*R2*C9 + 0,69*(R72+R_{J3})* C9} = \dfrac{1}{0,69*18k*3,9uF*2} = 10,3Hz
-\end{align} 
+\end{align*} 
 \end{center}
 
 \newpage
@@ -115,9 +118,9 @@ Das Oder-Gatter überträgt entweder das Signal von U10B oder das Signal von U10
 \\
 \textbf{Kippzeit für $N_{DIV} = 32 768$}
 \\
-\begin{align}
+\begin{align*}
 	t_{Kipp} &= \frac{N_{DIV * R4}}{50k} * 1us = \frac{32768 * 820k}{50k} * 1us = 537ms
-\end{align}
+\end{align*}
 
 
 \newpage
@@ -141,7 +144,10 @@ D3 und D4 geben ein optisches Feedback des Mess- und Grundtaktes.
 \includegraphics[width=12cm]{Bilder/Start.png}
 \end{center}
 
-Die Messung kann über Betätigung des Tasters SW1 (START) oder über ein externes Signal (Label: INPUT MEASURE GOON) gestartet werden. Befindet sich die Messplatine im \glqq Master Mode \grqq{} (\textbf{Master Mode:}  Grundtakt = Interner Takt \textbf{Slave Mode:} Grundtakt = Externer Takt), so kann die Messung durch den Tasters SW1 gestartet werden. Befindet sich die Messplatine im \glqq Slave Mode \grqq{} so kann nur durch ein externes Signal die Messung gestartet werden. Der Taster SW1 (START) ist gesperrt.
+Die Messung kann über Betätigung des Tasters SW1 (START) oder über ein externes Signal (Label: INPUT MEASURE GOON) gestartet werden. In einem Verbund aus mehreren Messplatinen hintereinander, führt der Abschlussimpuls einer Messung auf einer Messplatine, auch zu einem Startimpuls für weitere Messplatinen.
+\\
+\\ 
+Befindet sich die Messplatine im \glqq Master Mode \grqq{} (\textbf{Master Mode:}  Grundtakt = Interner Takt \textbf{Slave Mode:} Grundtakt = Externer Takt), so kann die Messung durch den Tasters SW1 gestartet werden. Befindet sich die Messplatine im \glqq Slave Mode \grqq{} so kann nur durch ein externes Signal die Messung gestartet werden. Der Taster SW1 (START) ist gesperrt.
 
 \newpage
 \subsubsection{Reset}
@@ -188,7 +194,7 @@ Der Nadelimpuls an TP19, führt somit zu einem Rücksetzen des IC U2D. Das darau
 \includegraphics[width=16cm]{Bilder/Dezimalzähler.png}
 \end{center}
 
-Die Aufgabe dieser Schaltung besteht darin, durch ein Eingangssignal "OUTPUT DEC" von 0 bis 15 dezimal hoch zu zählen. Dabei sollen alle Leitungen, des zu prüfenden Kabels ein, der Reihe nach ein Messsignal erhalten.
+Die Aufgabe dieser Schaltung besteht darin, durch ein Eingangssignal \glqq OUTPUT DEC\grqq  von 0 bis 15 dezimal hoch zu zählen. Dabei sollen alle Leitungen, des zu prüfenden Kabels ein, der Reihe nach ein Messsignal erhalten.
 \\
 \\
 U6A ist dabei ein Binärzähler. Liegt an Pin 2 und 3 ein Low-Signal an, kann das Signal an Pin 4 binär hochgezählt werden. Liegt an Pin 2 und 3 ein High-Signal an, werden die Ausgänge zurückgesetzt.
@@ -197,7 +203,8 @@ U6A ist dabei ein Binärzähler. Liegt an Pin 2 und 3 ein Low-Signal an, kann da
 Der Encoder U5A wandelt dabei das 4 Bit Binärsignal in ein 16 Fach Dezimal Signal um. Liegt an Pin 23 ein Low-Signal, so werden alle Ausgänge frei geschalten. Liegt ein High-Signal an, werden die Ausgänge gesperrt.
 \\
 \\
-der Ausgang Y0 (Pin11) wird für die Messung nicht verwendet, da die länge dieses Signales nicht konstant ist.
+der Ausgang Y0 (Pin11) wird für die Messung nicht verwendet, da die Länge dieses Signales nicht konstant ist. 
+\\
 \\
 Erreicht der Dezimalzähler den Wert 16, so wird die Schaltung zurückgesetzt und gegebenenfalls die Messung einer weiteren Messplatine gestartet.
 
@@ -264,9 +271,9 @@ Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indi
 \textbf{30mA Messstrom}
 \\
 \begin{center}
-\begin{align}
+\begin{align*}
 	U_{PIN1_{U17A}} &= (1 + \dfrac{49,9k}{R12}) * (R13 * 0,03A) = (1 + \dfrac{49,9k}{1k}) * (1R * 0,03A) = 1,53V
-\end{align} 
+\end{align*} 
 \end{center}
 
 
@@ -275,7 +282,9 @@ Mit Hilfe der Spannung über Q1 wird der ohmsche Widerstand der Messleitung indi
 \begin{center}
 \includegraphics[width=15cm]{Bilder/Auswertung.png}
 \end{center}
-
+NP = Not Placed
+\\
+\\
 Der Operationsverstärker greift diese Spannung hochohmig an Q1 ab. 
 \\
 Über den nachfolgenden Low-Pass Filter R89 und C51, werden Störungen gefiltert.
@@ -288,9 +297,15 @@ Diese Reverenzspannung gibt den maximal zulässigen Leitungswiderstand des Prüf
 \textbf{5R max. Aderwiderstand}
 \\
 \begin{center}
-\begin{align}
+\begin{align*}
 	U_{TP30} &= (\dfrac{5V}{30mA} - (R_{L_{MAX}} + R13 + R92)) * 0,03A = (\dfrac{5V}{30mA} - (5R + 1R + 22R)) * 0,03A = 4,16V
-\end{align}
+\end{align*}
+\end{center}
+\textbf{Grenzfrequenz:}
+\begin{center}
+\begin{align*}
+	f_{c} &= \dfrac{1}{2 * \pi * R_{89} * C_{51}} = \dfrac{1}{2 * \pi * 10k * 100nF} = 159Hz
+\end{align*}
 \end{center}
 
 \newpage
