@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  14 MAY 2021 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  18 MAY 2021 20:50
 entering extended mode
 **./BA_Abschlussprojekt.tex
 (BA_Abschlussprojekt.tex
@@ -915,25 +915,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 
 {C:/Users/Maximilian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(BA_Abschlussprojekt.toc
+(BA_Anfang.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 5.
+)
 <Bilder/BMK_LOGO.png, id=10, 698.1282pt x 169.1118pt>
-File: Bilder/BMK_LOGO.png Graphic file (type png)
-<use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 48.
-(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
-
-Package fancyhdr Warning: \headheight is too small (17.0pt): 
-(fancyhdr)                Make it at least 25.33102pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.33102pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
-
-[2 <./Bilder/BMK_LOGO.png>])
-\tf@toc=\write4
-\openout4 = `BA_Abschlussprojekt.toc'.
-
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 40.
@@ -947,10 +935,41 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[3] (BA_Begrifflichkeiten.tex
+[2 <./Bilder/BMK_LOGO.png>] (BA_Abschlussprojekt.toc
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 48.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[3])
+\tf@toc=\write4
+\openout4 = `BA_Abschlussprojekt.toc'.
+
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 43.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[4] (BA_Begrifflichkeiten.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 5.
-<Bilder/BMK-IOT-MODUL.png, id=20, 588.69937pt x 424.58624pt>
+<Bilder/BMK-IOT-MODUL.png, id=23, 588.69937pt x 424.58624pt>
 File: Bilder/BMK-IOT-MODUL.png Graphic file (type png)
 <use Bilder/BMK-IOT-MODUL.png>
 Package pdftex.def Info: Bilder/BMK-IOT-MODUL.png  used on input line 10.
@@ -968,13 +987,13 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[4 <./Bilder/BMK-IOT-MODUL.png>]
-<Bilder/PigTail.jpg, id=25, 1965.744pt x 1474.308pt>
+[5 <./Bilder/BMK-IOT-MODUL.png>]
+<Bilder/PigTail.jpg, id=28, 1965.744pt x 1474.308pt>
 File: Bilder/PigTail.jpg Graphic file (type jpg)
 <use Bilder/PigTail.jpg>
 Package pdftex.def Info: Bilder/PigTail.jpg  used on input line 41.
 (pdftex.def)             Requested size: 284.52756pt x 213.3755pt.
-<Bilder/TP19-ohne-PigTail.png, id=26, 903.375pt x 677.53125pt>
+<Bilder/TP19-ohne-PigTail.png, id=29, 903.375pt x 677.53125pt>
 File: Bilder/TP19-ohne-PigTail.png Graphic file (type png)
 <use Bilder/TP19-ohne-PigTail.png>
 Package pdftex.def Info: Bilder/TP19-ohne-PigTail.png  used on input line 51.
@@ -984,7 +1003,7 @@ Overfull \hbox (9.95993pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-<Bilder/TP19-mit-PigTail.png, id=27, 903.375pt x 677.53125pt>
+<Bilder/TP19-mit-PigTail.png, id=30, 903.375pt x 677.53125pt>
 File: Bilder/TP19-mit-PigTail.png Graphic file (type png)
 <use Bilder/TP19-mit-PigTail.png>
 Package pdftex.def Info: Bilder/TP19-mit-PigTail.png  used on input line 57.
@@ -997,7 +1016,7 @@ Overfull \hbox (9.95993pt too wide) in paragraph at lines 57--58
 )
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 43.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 48.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1008,11 +1027,11 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[5 <./Bilder/PigTail.jpg> <./Bilder/TP19-ohne-PigTail.png (PNG copy)> <./Bilder
+[6 <./Bilder/PigTail.jpg> <./Bilder/TP19-ohne-PigTail.png (PNG copy)> <./Bilder
 /TP19-mit-PigTail.png (PNG copy)>] (BA_Ausgangssituation.tex)
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 45.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1023,7 +1042,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[6] (BA_Auftragsplaung.tex
+[7] (BA_Auftragsplaung.tex
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
 9.
 
@@ -1045,19 +1064,19 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[7]
+[8]
 Overfull \hbox (36.79996pt too wide) in alignment at lines 113--113
 [][][] 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 113--47
+Underfull \hbox (badness 10000) in paragraph at lines 113--52
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 47.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 52.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1067,8 +1086,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[8] (BA_Blockschaltplan.tex
-<Bilder/Blockschaltplan.png, id=41, 920.68968pt x 582.67688pt>
+[9] (BA_Blockschaltplan.tex
+<Bilder/Blockschaltplan.png, id=44, 920.68968pt x 582.67688pt>
 File: Bilder/Blockschaltplan.png Graphic file (type png)
 <use Bilder/Blockschaltplan.png>
 Package pdftex.def Info: Bilder/Blockschaltplan.png  used on input line 4.
@@ -1086,64 +1105,64 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[9 <./Bilder/Blockschaltplan.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+[10 <./Bilder/Blockschaltplan.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--49
+Underfull \hbox (badness 10000) in paragraph at lines 13--54
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 49.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1153,8 +1172,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[10] (BA_Auftragsdurchführung.tex
-<Bilder/Schutzbeschaltung.png, id=49, 1204.5pt x 938.00438pt>
+[11] (BA_Auftragsdurchführung.tex
+<Bilder/Schutzbeschaltung.png, id=52, 1204.5pt x 938.00438pt>
 File: Bilder/Schutzbeschaltung.png Graphic file (type png)
 <use Bilder/Schutzbeschaltung.png>
 Package pdftex.def Info: Bilder/Schutzbeschaltung.png  used on input line 13.
@@ -1179,7 +1198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--35
 
  []
 
-<Bilder/DCDCWandler.png, id=50, 2028.07687pt x 986.18437pt>
+<Bilder/DCDCWandler.png, id=53, 2028.07687pt x 986.18437pt>
 File: Bilder/DCDCWandler.png Graphic file (type png)
 <use Bilder/DCDCWandler.png>
 Package pdftex.def Info: Bilder/DCDCWandler.png  used on input line 39.
@@ -1196,7 +1215,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[11 <./Bilder/Schutzbeschaltung.png>]
+[12 <./Bilder/Schutzbeschaltung.png>]
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 62.
@@ -1210,8 +1229,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[12 <./Bilder/DCDCWandler.png>]
-<Bilder/Takt.png, id=64, 708.39656pt x 922.19531pt>
+[13 <./Bilder/DCDCWandler.png>]
+<Bilder/Takt.png, id=68, 708.39656pt x 922.19531pt>
 File: Bilder/Takt.png Graphic file (type png)
 <use Bilder/Takt.png>
 Package pdftex.def Info: Bilder/Takt.png  used on input line 74.
@@ -1233,8 +1252,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[13 <./Bilder/Takt.png>]
-<Bilder/Taktumschaltung.png, id=70, 921.4425pt x 922.19531pt>
+[14 <./Bilder/Takt.png>]
+<Bilder/Taktumschaltung.png, id=73, 921.4425pt x 922.19531pt>
 File: Bilder/Taktumschaltung.png Graphic file (type png)
 <use Bilder/Taktumschaltung.png>
 Package pdftex.def Info: Bilder/Taktumschaltung.png  used on input line 92.
@@ -1252,7 +1271,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[14 <./Bilder/Taktumschaltung.png>]
+[15 <./Bilder/Taktumschaltung.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 102--121
 
  []
@@ -1284,13 +1303,13 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[15]
-<Bilder/Taktteilung.png, id=79, 517.935pt x 797.98125pt>
+[16]
+<Bilder/Taktteilung.png, id=82, 517.935pt x 797.98125pt>
 File: Bilder/Taktteilung.png Graphic file (type png)
 <use Bilder/Taktteilung.png>
 Package pdftex.def Info: Bilder/Taktteilung.png  used on input line 131.
 (pdftex.def)             Requested size: 199.16928pt x 306.86453pt.
-<Bilder/Start.png, id=80, 1123.94907pt x 755.82375pt>
+<Bilder/Start.png, id=83, 1123.94907pt x 755.82375pt>
 File: Bilder/Start.png Graphic file (type png)
 <use Bilder/Start.png>
 Package pdftex.def Info: Bilder/Start.png  used on input line 144.
@@ -1308,7 +1327,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[16 <./Bilder/Taktteilung.png>]
+[17 <./Bilder/Taktteilung.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
@@ -1325,8 +1344,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[17 <./Bilder/Start.png>]
-<Bilder/Reset.png, id=89, 1179.65718pt x 792.71156pt>
+[18 <./Bilder/Start.png>]
+<Bilder/Reset.png, id=92, 1179.65718pt x 792.71156pt>
 File: Bilder/Reset.png Graphic file (type png)
 <use Bilder/Reset.png>
 Package pdftex.def Info: Bilder/Reset.png  used on input line 156.
@@ -1353,8 +1372,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[18 <./Bilder/Reset.png>]
-<Bilder/Controlling.png, id=94, 843.15pt x 805.50937pt>
+[19 <./Bilder/Reset.png>]
+<Bilder/Controlling.png, id=98, 843.15pt x 805.50937pt>
 File: Bilder/Controlling.png Graphic file (type png)
 <use Bilder/Controlling.png>
 Package pdftex.def Info: Bilder/Controlling.png  used on input line 171.
@@ -1381,8 +1400,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[19 <./Bilder/Controlling.png>]
-<Bilder/Dezimalzähler.png, id=100, 1727.70468pt x 830.35219pt>
+[20 <./Bilder/Controlling.png>]
+<Bilder/Dezimalzähler.png, id=103, 1727.70468pt x 830.35219pt>
 File: Bilder/Dezimalzähler.png Graphic file (type png)
 <use Bilder/Dezimalzähler.png>
 Package pdftex.def Info: Bilder/Dezimalzähler.png  used on input line 194.
@@ -1419,8 +1438,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[20 <./Bilder/Dezimalzähler.png>]
-<Bilder/Leitungstreiber.png, id=105, 934.99312pt x 934.99312pt>
+[21 <./Bilder/Dezimalzähler.png>]
+<Bilder/Leitungstreiber.png, id=108, 934.99312pt x 934.99312pt>
 File: Bilder/Leitungstreiber.png Graphic file (type png)
 <use Bilder/Leitungstreiber.png>
 Package pdftex.def Info: Bilder/Leitungstreiber.png  used on input line 216.
@@ -1442,8 +1461,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[21 <./Bilder/Leitungstreiber.png>]
-<Bilder/Durchgangsprüfung.png, id=110, 1157.82562pt x 776.9025pt>
+[22 <./Bilder/Leitungstreiber.png>]
+<Bilder/Durchgangsprüfung.png, id=113, 1157.82562pt x 776.9025pt>
 File: Bilder/Durchgangsprüfung.png Graphic file (type png)
 <use Bilder/Durchgangsprüfung.png>
 Package pdftex.def Info: Bilder/Durchgangsprüfung.png  used on input line 234.
@@ -1466,8 +1485,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[22 <./Bilder/Durchgangsprüfung.png>]
-<Bilder/Konstantstromquelle.png, id=115, 1490.56876pt x 888.31876pt>
+[23 <./Bilder/Durchgangsprüfung.png>]
+<Bilder/Konstantstromquelle.png, id=118, 1490.56876pt x 888.31876pt>
 File: Bilder/Konstantstromquelle.png Graphic file (type png)
 <use Bilder/Konstantstromquelle.png>
 Package pdftex.def Info: Bilder/Konstantstromquelle.png  used on input line 255
@@ -1505,8 +1524,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[23 <./Bilder/Konstantstromquelle.png>]
-<Bilder/Auswertung.png, id=122, 1562.08594pt x 931.22906pt>
+[24 <./Bilder/Konstantstromquelle.png>]
+<Bilder/Auswertung.png, id=125, 1562.08594pt x 931.22906pt>
 File: Bilder/Auswertung.png Graphic file (type png)
 <use Bilder/Auswertung.png>
 Package pdftex.def Info: Bilder/Auswertung.png  used on input line 283.
@@ -1538,8 +1557,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[24 <./Bilder/Auswertung.png>]
-<Bilder/Anzeige-Logik.png, id=127, 1324.19719pt x 1193.20781pt>
+[25 <./Bilder/Auswertung.png>]
+<Bilder/Anzeige-Logik.png, id=131, 1324.19719pt x 1193.20781pt>
 File: Bilder/Anzeige-Logik.png Graphic file (type png)
 <use Bilder/Anzeige-Logik.png>
 Package pdftex.def Info: Bilder/Anzeige-Logik.png  used on input line 314.
@@ -1561,8 +1580,8 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[25 <./Bilder/Anzeige-Logik.png>]
-<Bilder/Anzeige.png, id=133, 878.53218pt x 876.27374pt>
+[26 <./Bilder/Anzeige-Logik.png>]
+<Bilder/Anzeige.png, id=136, 878.53218pt x 876.27374pt>
 File: Bilder/Anzeige.png Graphic file (type png)
 <use Bilder/Anzeige.png>
 Package pdftex.def Info: Bilder/Anzeige.png  used on input line 332.
@@ -1570,7 +1589,7 @@ Package pdftex.def Info: Bilder/Anzeige.png  used on input line 332.
 )
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 51.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1581,7 +1600,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[26 <./Bilder/Anzeige.png>] (BA_Inbetriebnahme.tex
+[27 <./Bilder/Anzeige.png>] (BA_Inbetriebnahme.tex
 Overfull \hbox (25.02101pt too wide) in alignment at lines 58--58
 [][][][] 
  []
@@ -1608,7 +1627,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[27]
+[28]
 Overfull \hbox (25.02101pt too wide) in alignment at lines 122--122
 [][][][] 
  []
@@ -1623,7 +1642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<Bilder/Kippzeit.png, id=141, 903.375pt x 677.53125pt>
+<Bilder/Kippzeit.png, id=144, 903.375pt x 677.53125pt>
 File: Bilder/Kippzeit.png Graphic file (type png)
 <use Bilder/Kippzeit.png>
 Package pdftex.def Info: Bilder/Kippzeit.png  used on input line 129.
@@ -1645,7 +1664,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[28 <./Bilder/Kippzeit.png (PNG copy)>]
+[29 <./Bilder/Kippzeit.png (PNG copy)>]
 Overfull \hbox (25.02101pt too wide) in alignment at lines 190--190
 [][][][] 
  []
@@ -1660,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-<Bilder/Resetimpuls.png, id=145, 903.375pt x 677.53125pt>
+<Bilder/Resetimpuls.png, id=148, 903.375pt x 677.53125pt>
 File: Bilder/Resetimpuls.png Graphic file (type png)
 <use Bilder/Resetimpuls.png>
 Package pdftex.def Info: Bilder/Resetimpuls.png  used on input line 197.
@@ -1682,7 +1701,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[29 <./Bilder/Resetimpuls.png (PNG copy)>]
+[30 <./Bilder/Resetimpuls.png (PNG copy)>]
 Overfull \hbox (25.02101pt too wide) in alignment at lines 256--256
 [][][][] 
  []
@@ -1724,7 +1743,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[30]
+[31]
 Overfull \hbox (25.02101pt too wide) in alignment at lines 352--352
 [][][][] 
  []
@@ -1742,7 +1761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--354
 )
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 53.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 58.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1753,7 +1772,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[31] (BA_Fehleranalyse.tex
+[32] (BA_Fehleranalyse.tex
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
 Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 30.
@@ -1767,10 +1786,10 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[32])
+[33])
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 55.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 60.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 
@@ -1781,12 +1800,12 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[33] (BA_Kabelanalyse.tex
+[34] (BA_Kabelanalyse.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<Bilder/LTC-SCHALTBILD.png, id=163, 798.73407pt x 330.48468pt>
+<Bilder/LTC-SCHALTBILD.png, id=166, 798.73407pt x 330.48468pt>
 File: Bilder/LTC-SCHALTBILD.png Graphic file (type png)
 <use Bilder/LTC-SCHALTBILD.png>
 Package pdftex.def Info: Bilder/LTC-SCHALTBILD.png  used on input line 6.
@@ -1801,7 +1820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
  []
 
-<Bilder/LTC-SIGNALVERLAUF1.png, id=164, 1023.07219pt x 383.93437pt>
+<Bilder/LTC-SIGNALVERLAUF1.png, id=167, 1023.07219pt x 383.93437pt>
 File: Bilder/LTC-SIGNALVERLAUF1.png Graphic file (type png)
 <use Bilder/LTC-SIGNALVERLAUF1.png>
 Package pdftex.def Info: Bilder/LTC-SIGNALVERLAUF1.png  used on input line 18.
@@ -1818,20 +1837,20 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[34 <./Bilder/LTC-SCHALTBILD.png> <./Bilder/LTC-SIGNALVERLAUF1.png>]
-<Bilder/LTC-SIGNALVERLAUF2.png, id=170, 1032.85875pt x 368.1253pt>
+[35 <./Bilder/LTC-SCHALTBILD.png> <./Bilder/LTC-SIGNALVERLAUF1.png>]
+<Bilder/LTC-SIGNALVERLAUF2.png, id=173, 1032.85875pt x 368.1253pt>
 File: Bilder/LTC-SIGNALVERLAUF2.png Graphic file (type png)
 <use Bilder/LTC-SIGNALVERLAUF2.png>
 Package pdftex.def Info: Bilder/LTC-SIGNALVERLAUF2.png  used on input line 27.
 (pdftex.def)             Requested size: 483.69684pt x 172.39542pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 30--62
 
  []
 
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 57.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 62.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1841,7 +1860,7 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
-[35 <./Bilder/LTC-SIGNALVERLAUF2.png>] (BA_Stückliste_Stromaufnahme.tex
+[36 <./Bilder/LTC-SIGNALVERLAUF2.png>] (BA_Stückliste_Stromaufnahme.tex
 
 LaTeX Warning: Command \" invalid in math mode on input line 11.
 
@@ -1900,44 +1919,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--31
 
  []
 
-)
+
+LaTeX Warning: Command \" invalid in math mode on input line 38.
+
+Missing character: There is no � in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--48
+
+ []
+
 File: Bilder/BMK_LOGO.png Graphic file (type png)
 <use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 59.
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 49.
 (pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
-
-Package fancyhdr Warning: \headheight is too small (17.0pt): 
-(fancyhdr)                Make it at least 25.33102pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.33102pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
-
-[36] (BA_Anhang.tex
-<PDF/BA_Lastenheft.pdf, id=178, 597.50829pt x 845.0471pt>
-File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
-<use PDF/BA_Lastenheft.pdf>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf  used on input line 13.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
-<use PDF/BA_Lastenheft.pdf>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf  used on input line 13.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<PDF/BA_Lastenheft.pdf, id=181, page=1, 597.50829pt x 845.0471pt>
-File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
-<use PDF/BA_Lastenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
-<use PDF/BA_Lastenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Bilder/BMK_LOGO.png Graphic file (type png)
-<use Bilder/BMK_LOGO.png>
-Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 13.
-(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
-
 
 Package fancyhdr Warning: \headheight is too small (17.0pt): 
 (fancyhdr)                Make it at least 25.33102pt, for example:
@@ -1947,129 +1956,253 @@ Package fancyhdr Warning: \headheight is too small (17.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
 
 [37]
+Overfull \hbox (36.79996pt too wide) in alignment at lines 93--93
+[][][] 
+ []
+
+
+Overfull \hbox (10.40245pt too wide) in paragraph at lines 93--95
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+)
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 64.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[38] (BA_Anhang.tex
+<PDF/BA_Lastenheft.pdf, id=185, 597.50829pt x 845.0471pt>
+File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
+<use PDF/BA_Lastenheft.pdf>
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
+<use PDF/BA_Lastenheft.pdf>
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<PDF/BA_Lastenheft.pdf, id=188, page=1, 597.50829pt x 845.0471pt>
 File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Lastenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 13.
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
+<use PDF/BA_Lastenheft.pdf, page 1>
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 14.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.33102pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.33102pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.33102pt}.
+
+[39]
+File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
+<use PDF/BA_Lastenheft.pdf, page 1>
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Lastenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 13.
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Lastenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Lastenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 13.
+Package pdftex.def Info: PDF/BA_Lastenheft.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [38 <./PDF/BA_Lastenheft.pdf>]
-<PDF/BA_Pflichtenheft.pdf, id=208, 597.50829pt x 845.0471pt>
+ [40 <./PDF/BA_Lastenheft.pdf>]
+<PDF/BA_Pflichtenheft.pdf, id=214, 597.50829pt x 845.0471pt>
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf  used on input line 15.
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf  used on input line 15.
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<PDF/BA_Pflichtenheft.pdf, id=211, page=1, 597.50829pt x 845.0471pt>
+<PDF/BA_Pflichtenheft.pdf, id=217, page=1, 597.50829pt x 845.0471pt>
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 15
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 16
 .
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 15
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 16
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 15
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 16
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 15
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 16
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Pflichtenheft.pdf Graphic file (type pdf)
 <use PDF/BA_Pflichtenheft.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 15
+Package pdftex.def Info: PDF/BA_Pflichtenheft.pdf , page1 used on input line 16
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [39 <./PDF/BA_Pflichtenheft.pdf>]
-<PDF/BA_Tailauftrag_Layout.pdf, id=230, 597.50829pt x 845.0471pt>
+ [41 <./PDF/BA_Pflichtenheft.pdf>]
+<PDF/BA_Tailauftrag_Layout.pdf, id=236, 597.50829pt x 845.0471pt>
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf>
-Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf  used on input line 17.
+Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf  used on input line 18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf>
-Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf  used on input line 17.
+Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf  used on input line 18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<PDF/BA_Tailauftrag_Layout.pdf, id=233, page=1, 597.50829pt x 845.0471pt>
+<PDF/BA_Tailauftrag_Layout.pdf, id=239, page=1, 597.50829pt x 845.0471pt>
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf , page1 used on input li
-ne 17.
+ne 18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf , page1 used on input li
-ne 17.
+ne 18.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf , page1 used on input li
-ne 17.
+ne 18.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf , page1 used on input li
-ne 17.
+ne 18.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Tailauftrag_Layout.pdf Graphic file (type pdf)
 <use PDF/BA_Tailauftrag_Layout.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Tailauftrag_Layout.pdf , page1 used on input li
-ne 17.
+ne 18.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [40 <./PDF/BA_Tailauftrag_Layout.pdf>]
-<PDF/BA_Teilauftrag.pdf, id=252, 597.50829pt x 845.0471pt>
+ [42 <./PDF/BA_Tailauftrag_Layout.pdf>]
+<PDF/BA_Teilauftrag.pdf, id=258, 597.50829pt x 845.0471pt>
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf  used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf  used on input line 20.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf  used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf  used on input line 20.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<PDF/BA_Teilauftrag.pdf, id=255, page=1, 597.50829pt x 845.0471pt>
+<PDF/BA_Teilauftrag.pdf, id=261, page=1, 597.50829pt x 845.0471pt>
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: PDF/BA_Teilauftrag.pdf Graphic file (type pdf)
 <use PDF/BA_Teilauftrag.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 19.
+Package pdftex.def Info: PDF/BA_Teilauftrag.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [41 <./PDF/BA_Teilauftrag.pdf>]
+ [43 <./PDF/BA_Teilauftrag.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDF/Stueckliste.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<PDF/Stueckliste.pdf, id=281, 597.55246pt x 845.07724pt>
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf>
+Package pdftex.def Info: PDF/Stueckliste.pdf  used on input line 22.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file ./PDF/Stueckliste.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf>
+Package pdftex.def Info: PDF/Stueckliste.pdf  used on input line 22.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file ./PDF/Stueckliste.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./PDF/Stueckliste.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<PDF/Stueckliste.pdf, id=284, page=1, 597.55246pt x 845.07724pt>
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 1>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 1>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 1>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 1>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 1>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[44 <./PDF/Stueckliste.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDF/Stueckliste.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<PDF/Stueckliste.pdf, id=305, page=2, 597.55246pt x 845.07724pt>
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 2>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 2>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: PDF/Stueckliste.pdf Graphic file (type pdf)
+<use PDF/Stueckliste.pdf, page 2>
+Package pdftex.def Info: PDF/Stueckliste.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[45 <./PDF/Stueckliste.pdf>]
 
 pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=274, 845.07724pt x 597.55246pt>
+<PDF/Schaltplan_Kabeltester.pdf, id=309, 845.07724pt x 597.55246pt>
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf  used on input line 21.
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf  used on input line 24.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
@@ -2078,7 +2211,7 @@ pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf  used on input line 21.
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf  used on input line 24.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
@@ -2089,180 +2222,180 @@ pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=277, page=1, 845.07724pt x 597.55246pt>
+<PDF/Schaltplan_Kabeltester.pdf, id=312, page=1, 845.07724pt x 597.55246pt>
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf, page 1>
 Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 1>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
-ine 21.
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf, page 1>
 Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
-ine 21.
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf, page 1>
 Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
-ine 21.
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
 <use PDF/Schaltplan_Kabeltester.pdf, page 1>
 Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[42 <./PDF/Schaltplan_Kabeltester.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=282, page=2, 845.07724pt x 597.55246pt>
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 2>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
-ine 21.
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 2>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 2>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[43 <./PDF/Schaltplan_Kabeltester.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=287, page=3, 845.07724pt x 597.55246pt>
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 3>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 3>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 3>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[44 <./PDF/Schaltplan_Kabeltester.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=291, page=4, 845.07724pt x 597.55246pt>
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 4>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 4>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 4>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[45 <./PDF/Schaltplan_Kabeltester.pdf>]
-
-pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=295, page=5, 845.07724pt x 597.55246pt>
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 5>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 5>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
-ine 21.
-(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 5>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 1>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page1 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [46 <./PDF/Schaltplan_Kabeltester.pdf>]
 
 pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=299, page=6, 845.07724pt x 597.55246pt>
+<PDF/Schaltplan_Kabeltester.pdf, id=317, page=2, 845.07724pt x 597.55246pt>
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 6>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 2>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 6>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 2>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 6>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 2>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page2 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [47 <./PDF/Schaltplan_Kabeltester.pdf>]
 
 pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=303, page=7, 845.07724pt x 597.55246pt>
+<PDF/Schaltplan_Kabeltester.pdf, id=321, page=3, 845.07724pt x 597.55246pt>
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 7>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 3>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 7>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 3>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 7>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 3>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page3 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [48 <./PDF/Schaltplan_Kabeltester.pdf>]
 
 pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDF/Schaltplan_Kabeltester.pdf, id=307, page=8, 845.07724pt x 597.55246pt>
+<PDF/Schaltplan_Kabeltester.pdf, id=325, page=4, 845.07724pt x 597.55246pt>
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 8>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 4>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 8>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 4>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
-<use PDF/Schaltplan_Kabeltester.pdf, page 8>
-Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
-ine 21.
+<use PDF/Schaltplan_Kabeltester.pdf, page 4>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page4 used on input l
+ine 24.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 [49 <./PDF/Schaltplan_Kabeltester.pdf>]
 
+pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<PDF/Schaltplan_Kabeltester.pdf, id=330, page=5, 845.07724pt x 597.55246pt>
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 5>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 5>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 5>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page5 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[50 <./PDF/Schaltplan_Kabeltester.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<PDF/Schaltplan_Kabeltester.pdf, id=334, page=6, 845.07724pt x 597.55246pt>
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 6>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 6>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 6>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page6 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[51 <./PDF/Schaltplan_Kabeltester.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<PDF/Schaltplan_Kabeltester.pdf, id=338, page=7, 845.07724pt x 597.55246pt>
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 7>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 7>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 7>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page7 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[52 <./PDF/Schaltplan_Kabeltester.pdf>]
+
+pdfTeX warning: pdflatex (file ./PDF/Schaltplan_Kabeltester.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<PDF/Schaltplan_Kabeltester.pdf, id=342, page=8, 845.07724pt x 597.55246pt>
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 8>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 8>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: PDF/Schaltplan_Kabeltester.pdf Graphic file (type pdf)
+<use PDF/Schaltplan_Kabeltester.pdf, page 8>
+Package pdftex.def Info: PDF/Schaltplan_Kabeltester.pdf , page8 used on input l
+ine 24.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+[53 <./PDF/Schaltplan_Kabeltester.pdf>]
+
 pdfTeX warning: pdflatex (file ./PDF/BA_Layout_Bouth.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<PDF/BA_Layout_Bouth.pdf, id=312, 845.07724pt x 597.55246pt>
+<PDF/BA_Layout_Bouth.pdf, id=346, 845.07724pt x 597.55246pt>
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf  used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf  used on input line 26.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2270,7 +2403,7 @@ pdfTeX warning: pdflatex (file ./PDF/BA_Layout_Bouth.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf  used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf  used on input line 26.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2280,40 +2413,40 @@ pdfTeX warning: pdflatex (file ./PDF/BA_Layout_Bouth.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex (file ./PDF/BA_Layout_Bouth.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<PDF/BA_Layout_Bouth.pdf, id=315, page=1, 845.07724pt x 597.55246pt>
+<PDF/BA_Layout_Bouth.pdf, id=349, page=1, 845.07724pt x 597.55246pt>
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 26.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 26.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 26.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 26.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Layout_Bouth.pdf Graphic file (type pdf)
 <use PDF/BA_Layout_Bouth.pdf, page 1>
-Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 23.
+Package pdftex.def Info: PDF/BA_Layout_Bouth.pdf , page1 used on input line 26.
 
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[50 <./PDF/BA_Layout_Bouth.pdf>]
+[54 <./PDF/BA_Layout_Bouth.pdf>]
 
 pdfTeX warning: pdflatex (file ./PDF/BA_Bestueckungsplan.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<PDF/BA_Bestueckungsplan.pdf, id=320, 845.07724pt x 597.55246pt>
+<PDF/BA_Bestueckungsplan.pdf, id=354, 845.07724pt x 597.55246pt>
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf>
-Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf  used on input line 25.
+Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf  used on input line 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2321,7 +2454,7 @@ pdfTeX warning: pdflatex (file ./PDF/BA_Bestueckungsplan.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf>
-Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf  used on input line 25.
+Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf  used on input line 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 
 
@@ -2331,54 +2464,54 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./PDF/BA_Bestueckungsplan.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<PDF/BA_Bestueckungsplan.pdf, id=323, page=1, 845.07724pt x 597.55246pt>
+<PDF/BA_Bestueckungsplan.pdf, id=357, page=1, 845.07724pt x 597.55246pt>
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf , page1 used on input line
- 25.
+ 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf , page1 used on input line
- 25.
+ 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf , page1 used on input line
- 25.
+ 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf , page1 used on input line
- 25.
+ 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
 File: PDF/BA_Bestueckungsplan.pdf Graphic file (type pdf)
 <use PDF/BA_Bestueckungsplan.pdf, page 1>
 Package pdftex.def Info: PDF/BA_Bestueckungsplan.pdf , page1 used on input line
- 25.
+ 28.
 (pdftex.def)             Requested size: 845.07518pt x 597.551pt.
-[51 <./PDF/BA_Bestueckungsplan.pdf>])
+[55 <./PDF/BA_Bestueckungsplan.pdf>])
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     66.
-
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     66.
+(LaTeX3)     71.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     66.
+(LaTeX3)     71.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     71.
 
  (BA_Abschlussprojekt.aux) ) 
 Here is how much of TeX's memory you used:
- 18047 strings out of 479618
- 370058 string characters out of 2862651
+ 18069 strings out of 479618
+ 370702 string characters out of 2862651
  766731 words of memory out of 3000000
- 34827 multiletter control sequences out of 15000+200000
- 423259 words of font info for 56 fonts, out of 3000000 for 9000
+ 34843 multiletter control sequences out of 15000+200000
+ 427725 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,19n,116p,10616b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,19n,116p,10616b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Maximilian\AppData\Local\MiKTeX\fonts/pk
 /ljfour/jknappen/ec/dpi600\ecrm1095.pk>{C:/Users/Maximilian/AppData/Local/Progr
 ams/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Maximilian/AppData/Local/Progr
@@ -2395,9 +2528,9 @@ ilian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
 :/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8
 a.pfb><C:/Users/Maximilian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on BA_Abschlussprojekt.pdf (51 pages, 9420395 bytes).
+Output written on BA_Abschlussprojekt.pdf (55 pages, 9505587 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 412 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

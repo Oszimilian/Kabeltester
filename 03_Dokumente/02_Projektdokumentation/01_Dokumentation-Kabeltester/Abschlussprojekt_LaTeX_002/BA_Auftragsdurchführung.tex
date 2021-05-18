@@ -316,11 +316,11 @@ Diese Reverenzspannung gibt den maximal zulässigen Leitungswiderstand des Prüf
 
 Die Aufgabe der Schaltung ist es, die seriellen Widerstandsmessergebnisse parallel darzustellen. 
 \\
-\textcolor{red}{Da das Schieberegister U20A die seriellen Daten mit steigender Taktflanke übernimmt und die Konstantstromquelle eine bestimmte Regelzeit zum Einstellen des Stromes benötigt, muss der Schiebetakt verzögert zur Messung erfolgen. Durch die Teilung des NE555-Taktes, kann nun durch die Invertierung dieses Taktes eine Speicherung nach der Hälfte des Messzyklus der Konstantstromquelle erfolgen.
+Da das Schieberegister U20A die seriellen Daten mit steigender Taktflanke übernimmt und die Konstantstromquelle eine bestimmte Regelzeit zum Einstellen des Stromes benötigt, muss der Schiebetakt verzögert zur Messung erfolgen. Durch die Teilung des NE555-Taktes, kann nun durch die Invertierung dieses Taktes eine Speicherung nach der Hälfte des Messzyklus der Konstantstromquelle erfolgen.
 \\
 Ist der Jumpermittelpunkt JP1 mit dem Label \glqq SYSTEM STATUS SR INV \grqq{} verbunden, so erfolgt die Ausgabe/Übergabe der Daten mit dem Ende der Messung. Ist der Jumper mit +5V verbunden, so werden die Daten sofort auf den Ausgang übertragen.
 \\
-Wird der Jumpermittelpunkt mit dem Label \glqq RESET \grqq{} verbunden, wird die Schaltung nicht funktionieren (Behandlung in Fehleranalyse). Eine Verbindung mit +5V führt zu keinem Rücksetzen.}
+Wird der Jumpermittelpunkt mit dem Label \glqq RESET \grqq{} verbunden, wird die Schaltung nicht funktionieren (Behandlung in Fehleranalyse). Eine Verbindung mit +5V führt zu keinem Rücksetzen.
 \\
 \\
 U9A, U22A und U22B erzeugen den Takt für das Schieberegister. 
@@ -332,7 +332,7 @@ U9A, U22A und U22B erzeugen den Takt für das Schieberegister.
 \includegraphics[width=12cm]{Bilder/Anzeige.png}
 \end{center}
 
-\textcolor{red}{
+
 Ist das Ergebnis beider Messungen positiv, so gibt das AND-Gatter U23A ein High-Signal aus. Die LED D6 leuchtet demnach grün. 
-Ist das Ergebnis einer oder beider Messungen negativ, so liegt an dem Ausgang des AND-Gatter ein Low-Pegel. Die LED D5 leuchtet rot.}
+Ist das Ergebnis einer oder beider Messungen negativ, so liegt an dem Ausgang des AND-Gatter ein Low-Pegel. Die LED D5 leuchtet rot.
 

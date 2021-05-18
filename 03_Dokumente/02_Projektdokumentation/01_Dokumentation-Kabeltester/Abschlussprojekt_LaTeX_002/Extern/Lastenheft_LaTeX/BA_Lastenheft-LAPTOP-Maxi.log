@@ -1,0 +1,926 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  11 FEB 2021 19:58
+entering extended mode
+**./BA_Lastenheft.tex
+(BA_Lastenheft.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrart
+cl.cls
+Document Class: scrartcl 2020/09/21 v3.32 KOMA-Script document class (article)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkba
+se.sty
+Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbas
+e.sty
+Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfi
+le.sty
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfi
+le-hook.sty
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlog
+o.sty
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.st
+y
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbas
+ic.sty
+Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box47
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 135.
+Package scrartcl Info: You've used standard option `11pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=11pt' there
+(scrartcl)             instead of `11pt', too.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2222.
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsiz
+e11pt.clo
+File: scrsize11pt.clo 2020/09/21 v3.32 KOMA-Script font size class option (11pt
+)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typear
+ea.sty
+Package: typearea 2020/09/21 v3.32 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count177
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1740.
+)
+\c@part=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\scr@dte@section@maxnumwidth=\skip53
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4795.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4795.
+\scr@dte@part@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4803.
+\scr@dte@subsection@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4813.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4813.
+\scr@dte@subsubsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4823.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4823.
+\scr@dte@paragraph@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4834.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4834.
+\scr@dte@subparagraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4844.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4844.
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\c@pti@nb@sid@b@x=\box48
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6076.
+
+\scr@dte@figure@maxnumwidth=\skip61
+\c@figure=\count184
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6088.
+
+\scr@dte@table@maxnumwidth=\skip62
+\c@table=\count185
+Class scrartcl Info: Redefining `\numberline' on input line 6252.
+\bibindent=\dimen138
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.st
+y
+Package: babel 2020/12/16 3.52 The Babel package
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count186
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.d
+ef)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count187
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerm
+an.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
+phy)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerm
+anb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.st
+y
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen140
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks19
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks20
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks21
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
+sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
+sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
+ics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdfte
+x.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabula
+rx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.
+sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen151
+\ar@mcellbox=\box51
+\extrarowheight=\dimen152
+\NC@list=\toks23
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box52
+)
+\TX@col@width=\dimen153
+\TX@old@table=\dimen154
+\TX@old@col=\dimen155
+\TX@target=\dimen156
+\TX@delta=\dimen157
+\TX@cols=\count266
+\TX@ftn=\toks24
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count267
+\Gm@cntv=\count268
+\c@Gm@tempcnt=\count269
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
+\Gm@dimlist=\toks25
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+cfg))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\
+tikz.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf
+.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfr
+cs.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+futil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen166
+\pgfutil@tempdimb=\dimen167
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+futil-common-lists.tex))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+futil-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+frcs.code.tex
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision
+.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf
+core.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pg
+fsys.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen168
+\pgf@y=\dimen169
+\pgf@xa=\dimen170
+\pgf@ya=\dimen171
+\pgf@xb=\dimen172
+\pgf@yb=\dimen173
+\pgf@xc=\dimen174
+\pgf@yc=\dimen175
+\pgf@xd=\dimen176
+\pgf@yd=\dimen177
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count274
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count275
+\pgfsyssoftpath@bigbuffer@items=\count276
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
+.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+.code.tex
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+calc.code.tex
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+util.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+parser.code.tex
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count277
+\pgfmath@box=\box54
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.code.tex
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.random.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.base.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.round.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+float.code.tex
+\c@pgfmathroundto@lastzeros=\count278
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.
+code.tex)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count279
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen197
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen257
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count280
+\pgf@shadingcount=\count281
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box58
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgff
+or.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfk
+eys.sty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+fkeys.code.tex))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.s
+ty
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+.code.tex))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pg
+ffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath
+.code.tex)
+\pgffor@iter=\dimen261
+\pgffor@skip=\dimen262
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count282
+\pgfplotmarksize=\dimen263
+)
+\tikz@lastx=\dimen264
+\tikz@lasty=\dimen265
+\tikz@lastxsaved=\dimen266
+\tikz@lastysaved=\dimen267
+\tikz@lastmovetox=\dimen268
+\tikz@lastmovetoy=\dimen269
+\tikzleveldistance=\dimen270
+\tikzsiblingdistance=\dimen271
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count283
+\tikznumberofchildren=\count284
+\tikznumberofcurrentchild=\count285
+\tikz@fig@count=\count286
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count287
+\pgfmatrixcurrentcolumn=\count288
+\pgf@matrix@numberofcolumns=\count289
+)
+\tikz@expandcount=\count290
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/tabto-ltx\tabto.st
+y
+Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
+\CurrentLineWidth=\dimen272
+\TabPrevPos=\dimen273
+)
+
+Class scrartcl Warning: Usage of package `fancyhdr' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use 
+(scrartcl)              package `scrlayer' or `scrlayer-scrpage', because
+(scrartcl)              they support KOMA-Script classes.
+(scrartcl)              With `fancyhdr' several features of class `scrartcl'
+(scrartcl)              like options `headsepline', `footsepline' or command
+(scrartcl)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrartcl)              `\addtokomafont' for the page style elements need
+(scrartcl)              explicite user intervention to work.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `fancyhdr' on input line 23.
+
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.
+sty
+Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
+d-pdftex.def
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box64
+) (BA_Lastenheft.aux)
+\openout1 = `BA_Lastenheft.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
+df.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen274
+\scratchbox=\box65
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen275
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks39
+)
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=674.33032pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-24.31174pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 45
+.
+(C:\Users\Maximilian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 45.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 45.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 45.
+
+Underfull \hbox (badness 10000) in alignment at lines 89--89
+[] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 89--90
+[][] 
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 94--95
+[][] 
+ []
+
+<Bilder/BMK_LOGO.png, id=4, 698.1282pt x 169.1118pt>
+File: Bilder/BMK_LOGO.png Graphic file (type png)
+<use Bilder/BMK_LOGO.png>
+Package pdftex.def Info: Bilder/BMK_LOGO.png  used on input line 98.
+(pdftex.def)             Requested size: 85.35826pt x 20.67444pt.
+
+Package fancyhdr Warning: \headheight is too small (17.0pt): 
+(fancyhdr)                Make it at least 25.22153pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.22153pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-8.22153pt}.
+
+[1{C:/Users/Maximilian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+ <./Bilder/BMK_LOGO.png>]
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     98.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     98.
+
+ (BA_Lastenheft.aux) ) 
+Here is how much of TeX's memory you used:
+ 16894 strings out of 479618
+ 345664 string characters out of 2862651
+ 744824 words of memory out of 3000000
+ 33780 multiletter control sequences out of 15000+200000
+ 416385 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 111i,15n,116p,10610b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Maximilian\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\tcrm1095.pk>{C:/Users/Maximilian/AppData/Local/Programs/Mi
+KTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Maximilian\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Maximilian\AppData\Local
+\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Maximilian\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk><C:/Users/Max
+imilian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on BA_Lastenheft.pdf (1 page, 107421 bytes).
+PDF statistics:
+ 114 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+

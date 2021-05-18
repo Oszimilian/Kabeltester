@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  14 MAY 2021 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  18 MAY 2021 20:42
 entering extended mode
 **./BA_Anhang.tex
 (BA_Anhang.tex
@@ -166,6 +166,24 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.7 \subsection
+               {Stückliste}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.8 \subsection
                {Schaltplan}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -184,7 +202,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.8 \subsection
+l.9 \subsection
                {Layout}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -199,8 +217,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.9 \subsection
-               {Bestückungsplan}
+l.10 \subsection
+                {Bestückungsplan}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -222,22 +240,27 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--10
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--11
 []
  []
 
 
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 3--10
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 3--11
 \/cmr/m/n/10 u
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 3--10
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 3--11
+\/cmr/m/n/10 u
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 3--11
 \/cmr/m/n/10 u 
  []
 
 ! Undefined control sequence.
-l.13 \includepdf
+l.14 \includepdf
                 [pages = 1] {PDF/BA_Lastenheft.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -252,7 +275,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \includepdf[
+l.14 \includepdf[
                  pages = 1] {PDF/BA_Lastenheft.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -275,17 +298,17 @@ Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 \includepdf[pages = 1] {PDF/BA_
+l.14 \includepdf[pages = 1] {PDF/BA_
                                     Lastenheft.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 13.
+(Font)              <5> on input line 14.
 ! Extra }, or forgotten $.
-l.13 ...ludepdf[pages = 1] {PDF/BA_Lastenheft.pdf}
+l.14 ...ludepdf[pages = 1] {PDF/BA_Lastenheft.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -296,23 +319,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.14 
+l.15 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
 []
  []
 
 
-Overfull \hbox (67.54997pt too wide) in paragraph at lines 13--14
+Overfull \hbox (67.54997pt too wide) in paragraph at lines 14--15
 []\OML/cmm/m/it/10 astenheft:pdf$ 
  []
 
 ! Undefined control sequence.
-l.15 \includepdf
+l.16 \includepdf
                 [pages = 1] {PDF/BA_Pflichtenheft.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -327,7 +350,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \includepdf[
+l.16 \includepdf[
                  pages = 1] {PDF/BA_Pflichtenheft.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -350,13 +373,13 @@ Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 \includepdf[pages = 1] {PDF/BA_
+l.16 \includepdf[pages = 1] {PDF/BA_
                                     Pflichtenheft.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.15 ...epdf[pages = 1] {PDF/BA_Pflichtenheft.pdf}
+l.16 ...epdf[pages = 1] {PDF/BA_Pflichtenheft.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -367,23 +390,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.16 
+l.17 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
 []
  []
 
 
-Overfull \hbox (80.94525pt too wide) in paragraph at lines 15--16
+Overfull \hbox (80.94525pt too wide) in paragraph at lines 16--17
 []\OML/cmm/m/it/10 flichtenheft:pdf$ 
  []
 
 ! Undefined control sequence.
-l.17 \includepdf
+l.18 \includepdf
                 [pages = 1] {PDF/BA_Tailauftrag_Layout.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -398,7 +421,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \includepdf[
+l.18 \includepdf[
                  pages = 1] {PDF/BA_Tailauftrag_Layout.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -421,13 +444,13 @@ Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 \includepdf[pages = 1] {PDF/BA_
+l.18 \includepdf[pages = 1] {PDF/BA_
                                     Tailauftrag_Layout.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.17 ...pages = 1] {PDF/BA_Tailauftrag_Layout.pdf}
+l.18 ...pages = 1] {PDF/BA_Tailauftrag_Layout.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -438,23 +461,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.18 
+l.19 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
 []
  []
 
 
-Overfull \hbox (101.68607pt too wide) in paragraph at lines 17--18
+Overfull \hbox (101.68607pt too wide) in paragraph at lines 18--19
 []\OML/cmm/m/it/10 ailauftrag[]ayout:pdf$ 
  []
 
 ! Undefined control sequence.
-l.19 \includepdf
+l.20 \includepdf
                 [pages = 1] {PDF/BA_Teilauftrag.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -469,7 +492,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \includepdf[
+l.20 \includepdf[
                  pages = 1] {PDF/BA_Teilauftrag.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -492,13 +515,13 @@ Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19 \includepdf[pages = 1] {PDF/BA_
+l.20 \includepdf[pages = 1] {PDF/BA_
                                     Teilauftrag.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.19 ...udepdf[pages = 1] {PDF/BA_Teilauftrag.pdf}
+l.20 ...udepdf[pages = 1] {PDF/BA_Teilauftrag.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -509,23 +532,79 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.20 
+l.21 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--21
 []
  []
 
 
-Overfull \hbox (70.69867pt too wide) in paragraph at lines 19--20
+Overfull \hbox (70.69867pt too wide) in paragraph at lines 20--21
 []\OML/cmm/m/it/10 eilauftrag:pdf$ 
  []
 
 ! Undefined control sequence.
-l.21 \includepdf
+l.22 \includepdf
+                [pages = 1-2] {PDF/Stueckliste.pdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \includepdf[
+                 pages = 1-2] {PDF/Stueckliste.pdf}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
+[]
+ []
+
+! Undefined control sequence.
+l.24 \includepdf
                 [pages = 1-8, angle = 90] {PDF/Schaltplan_Kabeltester.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -540,7 +619,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \includepdf[
+l.24 \includepdf[
                  pages = 1-8, angle = 90] {PDF/Schaltplan_Kabeltester.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -582,13 +661,13 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.21 ...[pages = 1-8, angle = 90] {PDF/Schaltplan_
+l.24 ...[pages = 1-8, angle = 90] {PDF/Schaltplan_
                                                   Kabeltester.pdf}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.21 ...gle = 90] {PDF/Schaltplan_Kabeltester.pdf}
+l.24 ...gle = 90] {PDF/Schaltplan_Kabeltester.pdf}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -596,26 +675,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--22
-[]
- []
-
-
-Overfull \hbox (67.8997pt too wide) in paragraph at lines 21--22
-[]\OML/cmm/m/it/10 abeltester:pdf$ 
- []
-
 ! Undefined control sequence.
-l.23 \includepdf
+l.26 \includepdf
                 [pages = 1, angle = 90] {PDF/BA_Layout_Bouth.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -623,79 +684,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \includepdf[
-                 pages = 1, angle = 90] {PDF/BA_Layout_Bouth.pdf}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no A in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 \includepdf[pages = 1, angle = 90] {PDF/BA_
-                                                Layout_Bouth.pdf}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.23 ...= 1, angle = 90] {PDF/BA_Layout_Bouth.pdf}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
-[]
- []
-
-
-Overfull \hbox (74.86354pt too wide) in paragraph at lines 23--24
-[]\OML/cmm/m/it/10 ayout[]outh:pdf$ 
- []
-
 ! Undefined control sequence.
-l.25 \includepdf
+l.28 \includepdf
                 [pages = 1, angle = 90] {PDF/BA_Bestueckungsplan.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -703,75 +693,43 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \includepdf[
-                 pages = 1, angle = 90] {PDF/BA_Bestueckungsplan.pdf}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.25 \includepdf[pages = 1, angle = 90] {PDF/BA_
-                                                Bestueckungsplan.pdf}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.25 ... angle = 90] {PDF/BA_Bestueckungsplan.pdf}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 
+l.29 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--29
 []
  []
 
 
-Overfull \hbox (98.42957pt too wide) in paragraph at lines 25--26
-[]\OML/cmm/m/it/10 estueckungsplan:pdf$ 
+Overfull \hbox (106.02237pt too wide) in paragraph at lines 24--29
+[]\OML/cmm/m/it/10 abeltester:pdf\/cmr/m/n/10 [\OML/cmm/m/it/10 pages \/cmr/m/n
+/10 =
+ []
+
+
+Overfull \hbox (44.25348pt too wide) in paragraph at lines 24--29
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; angle \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (169.98074pt too wide) in paragraph at lines 24--29
+\/cmr/m/n/10 90][][\OML/cmm/m/it/10 pages \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (44.25348pt too wide) in paragraph at lines 24--29
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; angle \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (155.4241pt too wide) in paragraph at lines 24--29
+\/cmr/m/n/10 90][]$ 
  []
 
 )
@@ -788,5 +746,5 @@ Here is how much of TeX's memory you used:
  17302 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,1n,42p,88b,91s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,2n,42p,88b,91s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

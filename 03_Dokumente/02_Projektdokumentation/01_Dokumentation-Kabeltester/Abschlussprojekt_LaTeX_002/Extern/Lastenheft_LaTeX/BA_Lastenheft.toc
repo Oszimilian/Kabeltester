@@ -1,0 +1,7 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Zielsetzung}{1}{}%
+\contentsline {section}{\numberline {2}Anwendungsgebiet}{1}{}%
+\contentsline {section}{\numberline {3}Technische Anforderungen}{1}{}%
+\contentsline {section}{\numberline {4}Sonstige Anforderungen}{1}{}%
+\contentsline {section}{\numberline {5}Rahmenbedingungen}{2}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
