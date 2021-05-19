@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  11 MAY 2021 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  19 MAY 2021 09:35
 entering extended mode
 **./BA_Auftragsplaung.tex
 (BA_Auftragsplaung.tex
@@ -2393,7 +2393,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2432,7 +2432,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2519,7 +2519,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/Users/Maximilian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 Overfull \hbox (54.49289pt too wide) in paragraph at lines 40--41
 []\OT1/cmr/bx/n/10 Extern
  []
@@ -3085,6 +3085,14 @@ l.77 \hline
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.78 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 Missing character: There is no E in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3117,7 +3125,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Misplaced alignment tab character &.
-l.79 Erstellen eines Blockschaltplanes				&
+l.80 Erstellen eines Blockschaltplanes				&
                                            	2	&	4\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3128,7 +3136,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 2 in font nullfont!
 ! Misplaced alignment tab character &.
-l.79 Erstellen eines Blockschaltplanes				&	2	&
+l.80 Erstellen eines Blockschaltplanes				&	2	&
                                                	4\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3139,14 +3147,14 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 4 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 79--80
+Overfull \hbox (20.0pt too wide) in paragraph at lines 80--81
 []
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.81 \hline
+l.82 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3186,7 +3194,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Misplaced alignment tab character &.
-l.83 Zeichen der Einzelnen Schaltplanteile			&
+l.84 Zeichen der Einzelnen Schaltplanteile			&
                                               	9	&	16\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3197,7 +3205,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 9 in font nullfont!
 ! Misplaced alignment tab character &.
-l.83 Zeichen der Einzelnen Schaltplanteile			&	9	&
+l.84 Zeichen der Einzelnen Schaltplanteile			&	9	&
                                                   	16\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3209,14 +3217,14 @@ might try typing `S' now just to see what is salvageable.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 83--84
+Overfull \hbox (20.0pt too wide) in paragraph at lines 84--85
 []
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.85 \hline
+l.86 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3251,7 +3259,7 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Misplaced alignment tab character &.
-l.87 Bestimmen der Bauteilreferenzen					&
+l.88 Bestimmen der Bauteilreferenzen					&
                                           	1	&	3\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3262,7 +3270,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 1 in font nullfont!
 ! Misplaced alignment tab character &.
-l.87 Bestimmen der Bauteilreferenzen					&	1	&
+l.88 Bestimmen der Bauteilreferenzen					&	1	&
                                               	3\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3273,14 +3281,14 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 3 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 87--88
+Overfull \hbox (20.0pt too wide) in paragraph at lines 88--89
 []
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.89 \hline
+l.90 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3310,7 +3318,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Misplaced alignment tab character &.
-l.91 Übergabe an Layoutabteilung						&
+l.92 Übergabe an Layoutabteilung						&
                                         	0,5	&	0,5\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3323,7 +3331,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Misplaced alignment tab character &.
-l.91 Übergabe an Layoutabteilung						&	0,5	&
+l.92 Übergabe an Layoutabteilung						&	0,5	&
                                               	0,5\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3336,14 +3344,14 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 5 in font nullfont!
 
-Overfull \hbox (27.50002pt too wide) in paragraph at lines 91--92
+Overfull \hbox (27.50002pt too wide) in paragraph at lines 92--93
 [][]\/cmr/m/n/10 U
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.93 \hline
+l.94 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3367,7 +3375,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Misplaced alignment tab character &.
-l.95 Übergabe an Bestückung							&
+l.96 Übergabe an Bestückung							&
                                      	0,5	&	0,5\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3380,7 +3388,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Misplaced alignment tab character &.
-l.95 Übergabe an Bestückung							&	0,5	&
+l.96 Übergabe an Bestückung							&	0,5	&
                                            	0,5\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3393,19 +3401,19 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 5 in font nullfont!
 
-Overfull \hbox (27.50002pt too wide) in paragraph at lines 95--96
+Overfull \hbox (27.50002pt too wide) in paragraph at lines 96--97
 [][]\/cmr/m/n/10 U
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 95--96
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 96--97
 \/cmr/m/n/10 u
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.97 \hline
+l.98 \hline
            
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3425,8 +3433,8 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Misplaced alignment tab character &.
-l.99 Inbetriebnahme									&
-                             	2	&	4\\
+l.100 Inbetriebnahme									&
+                              	2	&	4\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3436,8 +3444,8 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 2 in font nullfont!
 ! Misplaced alignment tab character &.
-l.99 Inbetriebnahme									&	2	&
-                                 	4\\
+l.100 Inbetriebnahme									&	2	&
+                                  	4\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3447,14 +3455,14 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 4 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 99--100
+Overfull \hbox (20.0pt too wide) in paragraph at lines 100--101
 []
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.101 \hline
+l.102 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3490,7 +3498,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Misplaced alignment tab character &.
-l.103 Fehleranalyse und Fehlerbehebung				&
+l.104 Fehleranalyse und Fehlerbehebung				&
                                            	3	&	12\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3501,7 +3509,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 3 in font nullfont!
 ! Misplaced alignment tab character &.
-l.103 Fehleranalyse und Fehlerbehebung				&	3	&
+l.104 Fehleranalyse und Fehlerbehebung				&	3	&
                                                	12\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3513,14 +3521,63 @@ might try typing `S' now just to see what is salvageable.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--104
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--105
 []
  []
 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.105 \hline
+l.106 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Misplaced alignment tab character &.
+l.108 Dokumentation									&
+                             	5	&	16
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no 5 in font nullfont!
+! Misplaced alignment tab character &.
+l.108 Dokumentation									&	5	&
+                                 	16
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--109
+[]
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.110 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -3547,7 +3604,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Misplaced alignment tab character &.
-l.107 Übergabe an Auftraggeber						&
+l.112 Übergabe an Auftraggeber						&
                                       	1	&	1\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3558,7 +3615,7 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 1 in font nullfont!
 ! Misplaced alignment tab character &.
-l.107 Übergabe an Auftraggeber						&	1	&
+l.112 Übergabe an Auftraggeber						&	1	&
                                           	1\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3569,12 +3626,12 @@ might try typing `S' now just to see what is salvageable.
 
 Missing character: There is no 1 in font nullfont!
 
-Overfull \hbox (27.50002pt too wide) in paragraph at lines 107--108
+Overfull \hbox (27.50002pt too wide) in paragraph at lines 112--113
 [][]\/cmr/m/n/10 U
  []
 
 ! Misplaced alignment tab character &.
-l.109 &
+l.114 &
        &\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3584,7 +3641,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.109 &&
+l.114 &&
         \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3600,14 +3657,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 
+l.115 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.111 \textbf{Gesamt}	&
+l.116 \textbf{Gesamt}	&
                        	36h		&	81h
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3620,7 +3677,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Misplaced alignment tab character &.
-l.111 \textbf{Gesamt}	&	36h		&
+l.116 \textbf{Gesamt}	&	36h		&
                               	81h
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3633,7 +3690,7 @@ Missing character: There is no 8 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no h in font nullfont!
 
-Overfull \hbox (58.17476pt too wide) in paragraph at lines 111--112
+Overfull \hbox (58.17476pt too wide) in paragraph at lines 116--117
 []\OT1/cmr/bx/n/10 Gesamt
  []
 
@@ -3644,7 +3701,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{tabularx}
+l.118 \end{tabularx}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3659,7 +3716,7 @@ or  <return>  to continue without it.
  
 Here is how much of TeX's memory you used:
  40 strings out of 479618
- 875 string characters out of 2862651
+ 867 string characters out of 2864551
  274099 words of memory out of 3000000
  17309 multiletter control sequences out of 15000+200000
  403738 words of font info for 28 fonts, out of 3000000 for 9000

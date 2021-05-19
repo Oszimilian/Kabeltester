@@ -19,7 +19,7 @@ Im Schaltungsteil \glqq NE555 Taktgeber \grqq{} auf Seite 3, wurde im Abschnitt 
 
 \subsection{Fehler 3}
 
-Bei der Inbetriebnahme der Konstantstromquelle auf Seite 7 stellte sich heraus, dass die Schaltung in dieser Konstellation zum schwingen beginnt. Durch einen Beitrag in einem Forum wurde ich auf einen fehlenden Widerstand zwischen TP3 und Pin 7 (U19A) hingewiesen. Mir wahr aus vorangegangenen Simulationen klar, dass der Kondensator C22 zum unterdrücken von Schwingungen benötigt wird. Der durch hohe Frequenzen auftretende Impedanzeinbruch, welcher die Ausgänge U19A Pin 7 und U17A Pin 4 miteinander kurzschließt, wurde mir in früheren Simulationen aus irgend einen Grund nicht Angezeigt und von meiner Seite aus nicht bedacht. Zur Fehlerbehebung wurde die Leiterbahn zwischen TP3 und Pin 7 (U19A) aufgetrennt und mit einem 10k Widerstand versehen. 
+Bei der Inbetriebnahme der Konstantstromquelle auf Seite 7 stellte sich heraus, dass die Schaltung in dieser Konstellation zum schwingen beginnt. Durch einen Mitarbeiter der Entwicklung wurde ich auf einen fehlenden Widerstand zwischen TP3 und Pin 7 (U19A) hingewiesen. Durch eine fehlerhafte Einstellung des Simulationsprogrammes, konnte ich im Vorfeld den Fehler nicht erkennen. Der durch hohe Frequenzen auftretende Impedanzeinbruch, welcher die Ausgänge U19A Pin 7 und U17A Pin 4 miteinander kurzschließt, wurde mir in früheren Simulationen nicht Angezeigt und von meiner Seite aus nicht bedacht. Zur Fehlerbehebung wurde die Leiterbahn zwischen TP3 und Pin 7 (U19A) aufgetrennt und mit einem 10k Widerstand versehen. 
 
 
 
