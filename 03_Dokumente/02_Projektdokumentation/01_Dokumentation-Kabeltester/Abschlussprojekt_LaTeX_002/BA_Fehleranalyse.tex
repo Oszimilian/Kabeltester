@@ -1,19 +1,19 @@
 \section{Fehleranalyse}
 
-\begin{center}
+
 In diesem Kapitel werden die Fehler, welche bei der Inbetriebnahme aufgedeckt wurden behandelt. Der sich im Anhang befindenden Schaltplan \glqq Abschlussprojekt Kabeltester  V-01\grqq{} vermerkt diese mit der Beschriftung \glqq Fehler 1-5\grqq{}. Schaltungsdesignefehler wurden mit Fädeldraht verbessert.  
-\end{center}
+
 
 
 
 \subsection{Fehler 1}
 
-Bei dem ersten Fehler handelt es sich um ein Footprintfehler. Der Sicherung F1 wurde im Schaltungsteil \glqq Versorgung \grqq{} auf Seite 2, ein Falsches Footprint zugewiesen. Somit ist es nicht möglich den Sicherungssockel zu verlöten. 
+Bei dem ersten Fehler handelt es sich um einen Footprintfehler. Der Sicherung F1 wurde im Schaltungsteil \glqq Versorgung \grqq{} auf Seite 2 ein falsches Footprint zugewiesen. Somit war es nicht möglich den Sicherungssockel zu verlöten. 
 
 
 \subsection{Fehler 2}
 
-Im Schaltungsteil \glqq NE555 Taktgeber \grqq{} auf Seite 3, wurde im Abschnitt \glqq Taktteilung \grqq{} das IC U8A (Inverter) verpolt. Durch anheben der Pin's 3 und 4 wurde mit der Hilfe von Fädeldraht dieser Fehler behoben.
+Im Schaltungsteil \glqq NE555 Taktgeber\grqq{} auf Seite 3 wurde im Abschnitt \glqq Taktteilung\grqq{} das IC U8A (Inverter) verpolt. Durch anheben der Pins 3 und 4 wurde mit der Hilfe von Fädeldraht dieser Fehler behoben.
 
 
 
@@ -25,7 +25,7 @@ Bei der Inbetriebnahme der Konstantstromquelle auf Seite 7 stellte sich heraus, 
 
 \subsection{Fehler 4}
 
-Nach Behebung des \glqq Fehler 3 \grqq{} war ein korrektes einstellen des Konstantstromes nicht möglich. Das Problem hierbei liegt in der Versorgung von U19. Bei einem Idealen Leitungswiderstand von 0R liegt an Pin 4 die Versorgungsspannung von U19 an. Intern wird dieses Signal durch einen \glqq Nicht invertierenden Verstärker \grqq{} verstärkt. Da ein OP das Eingangssignal nie auf einen Pegel, größer als seine Betriebsspannung verstärken kann und durch Spannungsabfall am \glqq High und Low - Side Transistor \grqq{} der Ausgangsstufe das verstärkte Signal nicht den Wert der Versorgungsspannung erreichen kann, kommt es zu einer falschen Strommessung. Durch Trennung der Leitung, welche U19 mit +5V versorgt und anschließender Versorgung von U19 mit der Eingangsspannung (+9V) wurde dieses Problem behoben. 
+Nach Behebung des \glqq Fehler 3 \grqq{} war ein korrektes einstellen des Konstantstromes nicht möglich. Das Problem hierbei liegt in der Versorgung von U19. Bei einem idealen Leitungswiderstand von 0R liegt an Pin 4 die Versorgungsspannung von U19 an. Intern wird dieses Signal durch einen \glqq nichtinvertierenden Verstärker \grqq{} verstärkt. Da ein OP das Eingangssignal nie auf einen Pegel größer als seine Betriebsspannung verstärken kann und durch Spannungsabfall am \glqq High und Low - Side Transistor\grqq{} der Ausgangsstufe das verstärkte Signal nicht den Wert der Versorgungsspannung erreichen kann, kommt es zu einer falschen Strommessung. Durch Trennung der Leitung, welche U19 mit +5V versorgt und anschließender Versorgung von U19 mit der Eingangsspannung (+9V) wurde dieses Problem behoben. 
 
 \newpage
 
@@ -41,4 +41,4 @@ Das zu erwartende Signal an TP36 konnte nicht gemessen werden. Der Schiebeimpuls
 Wird der Eingang \glqq SRCLR \grqq{} der Schieberegister U20A und U21A mit dem Label \glqq RESET \grqq{} verbunden, so wird die Schaltung dauerhaft zurückgesetzt. 
 Wird eine Messung gestartet, so kommt es zu einen positiven Nadelimpuls. Die \glqq Clear-Eingänge \grqq{} der Schieberegister sind dabei Low-Aktiv. 
 \\
-Durch eine Invertierung des RESET-Impulses oder durch das Verbinden mit +5V kann dieser Fehler behoben oder unterdrückt werden.
+Durch eine Invertierung des RESET-Impulses oder alternativ durch das Verbinden mit +5V konnte dieser Fehler bzw. oder unterdrückt werden.

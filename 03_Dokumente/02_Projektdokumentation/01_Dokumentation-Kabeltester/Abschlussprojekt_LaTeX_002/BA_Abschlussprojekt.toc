@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {7.4}Fehler 4}{34}{}%
 \contentsline {subsection}{\numberline {7.5}Fehler 5}{35}{}%
 \contentsline {subsection}{\numberline {7.6}Fehler 6}{35}{}%
-\contentsline {section}{\numberline {8}Analyse Leitungswiderstandes}{36}{}%
+\contentsline {section}{\numberline {8}Analyse Leitungswiderstand}{36}{}%
 \contentsline {section}{\numberline {9}Leistungsaufnahme}{38}{}%
 \contentsline {subsection}{\numberline {9.1}Ruheleistung}{38}{}%
 \contentsline {subsection}{\numberline {9.2}Messleistung}{38}{}%

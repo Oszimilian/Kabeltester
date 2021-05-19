@@ -10,7 +10,7 @@
 Die Kernfunktion der Messplatine wird in diesem Dokumentationsteil anhand des Blockschaltbildes erklärt. 
 \end{center}
 
-Die Versorgung dieser Platine wird aufgrund des niedrigen Verbrauches durch einen 9V Batterieblock erfolgen. Ein DC/DC-Wandler, wandelt dabei die Eingangsspannung auf einen 5V TTL Pegel. 
+Die Versorgung der Platine wird aufgrund des niedrigen Verbrauches durch einen 9V Batterieblock erfolgen. Ein DC/DC-Wandler, wandelt dabei die Eingangsspannung auf einen 5V TTL Pegel. 
 \\
 \\
 Ein interner sowie externen Takt kann Wahlweise als Systemtakt verwendet werden. Mit einem Taster wird zwischen den beiden Taktquellen umgeschaltet. Werden mehrere Messplatinen zusammengeschaltet, so wird der interne Takt der ersten Messplatine, als Takt für folgende Platinen verwendet. 
@@ -22,22 +22,22 @@ Um den Systemtakt auf mehreren hintereinander geschalteten Messplatinen verwende
 Der Systemtakt wird nun durch den Faktor zwei geteilt und bildet den Messtakt. Synchron zu diesen Takt werden die einzelnen Adern geprüft.
 \\
 \\
-Um jede einzelne Ader nach einander messen zu können, wird mit Hilfe des Messtaktes, durch einen 4 Bit Zählerbaustein von 0 bis 15 hochgezählt. Über einen Taster wird der Zählvorgang gestartet.
+Um jede einzelne Ader nacheinander messen zu können, wird mit Hilfe des Messtaktes durch einen 4 Bit Zählerbaustein von 0 bis 15 hochgezählt. Über einen Taster wird der Zählvorgang gestartet.
 \\
 \\
-Der 4Bit Decoder schaltet dabei für jeden möglichen Zählerstand den passenden Ausgang auf High. Läuft keine Messung, so weißen alle Ausgänge ein Low-Pegel auf. 
+Der 4Bit Decoder schaltet dabei für jeden möglichen Zählerstand den passenden Ausgang auf High. Läuft keine Messung, so weisen alle Ausgänge ein Low-Pegel auf. 
 \\
 \\
 Da bei der Konstantstrommessung ein Strom bis zu 100mA durch das Kabel fließen kann, steuert der 4 Bit Decoder mit seinen Ausgängen die Leistungsstufen an.
 \\
 \\
-Zwischen den Leistungsstufen und dem Analogschalter wird das zu Messende Kabel  (Ader) gesteckt. 
+Zwischen den Leistungsstufen und dem Analogschalter wird das zu messende Kabel  (Ader) gesteckt. 
 \\
 \\
-Der Analogschalter ist dafür verantwortlich zwischen der Konstantstrommessung und der Kurzschlussmessung sowie Durchgangsmessung, während der Prüfung umzuschalten. 
+Der Analogschalter ist dafür verantwortlich, zwischen der Konstantstrommessung, der Kurzschlussmessung, sowie der Durchgangsmessung während der Prüfung umzuschalten. 
 \\
 \\
-Während der Pausenzeit des Messtaktes, wird ein konstanter Strom durch das Kabel fließen. Mit Hilfe des Spannungsfall über den strombegrenzenden MOSFET der Konstantstromquelle, kann indirekt der Kabelwiderstand bestimmt werden. Das serielle Ergebnis dieser  Messung wird durch ein Schieberegister parallel ausgegeben. Da die Konstantstromquelle bei jedem Kabel den Strom neu regeln muss, wird durch den zugeführten Systemtakt erst nach der Hälfte der Messzeit das Ergebnis via Schiebetakt übernommen.
+Während der Pausenzeit des Messtaktes, wird ein konstanter Strom durch das Kabel fließen. Mit Hilfe des Spannungsfalls über den strombegrenzenden MOSFET der Konstantstromquelle kann indirekt der Kabelwiderstand bestimmt werden. Das serielle Ergebnis dieser  Messung wird durch ein Schieberegister parallel ausgegeben. Da die Konstantstromquelle bei jedem Kabel den Strom neu regeln muss, wird durch den zugeführten Systemtakt erst nach der Hälfte der Messzeit das Ergebnis via Schiebetakt übernommen.
 \\
 \\
 Während der Impulszeit des Messtaktes, wird das Kabel auf Kurzschluss sowie Durchgängigkeit überprüft. 
