@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.26)  10 MAY 2021 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.17)  20 MAY 2021 15:18
 entering extended mode
 **./BA_Begrifflichkeiten.tex
 (BA_Begrifflichkeiten.tex
@@ -233,14 +233,15 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no - in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -1104,7 +1105,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 l.22 Ein \glqq
-               Real Time Operating System \grqq{} besitzt die grundlegende A...
+               Real Time Operating System\grqq{} besitzt die grundlegende Au...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1135,8 +1136,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.22 Ein \glqq Real Time Operating System \grqq
-                                               {} besitzt die grundlegende A...
+l.22 Ein \glqq Real Time Operating System\grqq
+                                              {} besitzt die grundlegende Au...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1340,7 +1341,6 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no k in font nullfont!
-Missing character: There is no ' in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1461,7 +1461,6 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no k in font nullfont!
-Missing character: There is no ' in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -1810,7 +1809,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/Users/Maximilian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[1{C:/Users/107475/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 ! Undefined control sequence.
 l.27 \subsection
                 {BGA}
@@ -1847,7 +1846,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
 l.30 Unter \glqq
-                 BGA\grqq versteht man eine Art der Gehäuseform, wobei die ...
+                 BGA\grqq{} versteht man eine Art der Gehäuseform, wobei di...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1859,7 +1858,7 @@ Missing character: There is no G in font nullfont!
 Missing character: There is no A in font nullfont!
 ! Undefined control sequence.
 l.30 Unter \glqq BGA\grqq
-                          versteht man eine Art der Gehäuseform, wobei die ...
+                         {} versteht man eine Art der Gehäuseform, wobei di...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2103,7 +2102,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no ' in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -2316,9 +2314,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2460,6 +2455,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no - in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no w in font nullfont!
@@ -2472,6 +2468,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -2780,10 +2777,10 @@ or  <return>  to continue without it.
  
 Here is how much of TeX's memory you used:
  35 strings out of 479618
- 846 string characters out of 2862651
+ 826 string characters out of 2864551
  272099 words of memory out of 3000000
  17305 multiletter control sequences out of 15000+200000
  403430 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,4n,42p,521b,96s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,4n,42p,520b,96s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

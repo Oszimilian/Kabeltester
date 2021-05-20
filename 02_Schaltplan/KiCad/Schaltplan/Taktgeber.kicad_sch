@@ -4208,7 +4208,7 @@
     (property "Reference" "C9" (id 0) (at 38.4811 99.8156 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3,9uF" (id 1) (at 38.481 102.114 0)
+    (property "Value" "4,7uF" (id 1) (at 38.481 102.114 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 36.5252 104.775 0)
