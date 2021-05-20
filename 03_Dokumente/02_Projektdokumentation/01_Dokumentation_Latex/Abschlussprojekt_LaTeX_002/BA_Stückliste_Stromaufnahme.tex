@@ -1,11 +1,11 @@
 \section{Leistungsaufnahme}
 
 \subsection{Ruheleistung}
-Für die Berechnung der Strom / Leistungsaufnahme auf der Sekundärseite wurden aus den Datenblättern der verbauten IC's die typische nominale Stromaufnahme übernommen. Dabei kam ich auf einen Wert von 10,23mA. Hinzu kommt der Gemessene Ruhestrom der Konstantstromquelle von ca. 800uA. 
+Für die Berechnung der Strom / Leistungsaufnahme auf der Sekundärseite, wurden aus den Datenblättern der verbauten IC's die typische nominale Stromaufnahme übernommen. Dabei kam ich auf einen Wert von 10,23mA. Hinzu kommt der gemessene Ruhestrom der Konstantstromquelle von ca. 800uA. 
 \\
 Der Gesamtstromfluss der Sekundärseite liegt dementsprechend bei ca 11,03mA.
 \\
-Die Stromaufnahme der Primärseite liegt durch den Verpolungsschutz, der LED, dem INA und dem Spannungsteiler bei etwa 2,61mA. 
+Die Stromaufnahme der Primärseite liegt durch den Verpolungsschutz, der LED, dem INA und dem Spannungsteiler bei\\ etwa 2,61mA. 
 \\
 Bei der Berechnung der gesamten Ruheleistung wurde mit einem Wirkungsgrad des DC/DC-Wandlers von 98 Prozent gerechnet. 
 \\
@@ -19,11 +19,11 @@ Sekundärleistung: $P_{Sekundär} = 4,91V * 11,03mA = 54,1mW$
 Gesamtleistung: $P_{G_{Ruhestrom}} = P_{Primär} + \dfrac{P_{Sekundär}}{\eta} = 24,5mW + \dfrac{54,1mW}{0,98} = 79,7mW$
 \\
 \\
-Bei der Inbetriebnahme wurde eine Leistungsaufnahme von ca 100mW gemessen. Das entspricht einem vernachlässigbaren Delta von ca.20mW. Dies kann durch die Messung, sowie durch die Bauteiltoleranzen auftreten und ist somit vernachlässigbar.
+Bei der Inbetriebnahme wurde eine Leistungsaufnahme von ca. 100mW gemessen. Das entspricht einem vernachlässigbaren Delta von ca. 20mW. Dies kann durch die Messung, sowie durch die Bauteiltoleranzen auftreten und ist somit vernachlässigbar.
 
 \subsection{Messleistung}
 
-Der Messstrom während der Durchgangs und Kurzschlussmessung ist zu vernachlässigen. Die Konstantstrommessung zieht auf der Sekundärseite für 4 Impulse mit einer Dauer von jeweils ca. 108ms einen Strom von 30mA.
+Der Messstrom während der Durchgangs- und Kurzschlussmessung ist zu vernachlässigen. Die Konstantstrommessung zieht auf der Sekundärseite für 4 Impulse mit einer Dauer von jeweils ca. 108ms einen Strom von 30mA.
 \\
 \\
 Messleistung Sekundär: $P_{Messtrom_{Sekundär}} = +4,91V * I_{Messstrom} = 4,91V * 30mA = 147mW$

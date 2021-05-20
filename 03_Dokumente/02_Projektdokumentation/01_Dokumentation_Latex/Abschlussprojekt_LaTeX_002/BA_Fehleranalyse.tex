@@ -13,19 +13,19 @@ Bei dem ersten Fehler handelt es sich um einen Footprintfehler. Der Sicherung F1
 
 \subsection{Fehler 2}
 
-Im Schaltungsteil \glqq NE555 Taktgeber\grqq{} auf Seite 3 wurde im Abschnitt \glqq Taktteilung\grqq{} das IC U8A (Inverter) verpolt. Durch anheben der Pins 3 und 4 wurde mit der Hilfe von Fädeldraht dieser Fehler behoben.
+Im Schaltungsteil \glqq NE555 Taktgeber\grqq{} auf Seite 3 wurde im Abschnitt \glqq Taktteilung\grqq{} das IC U8A (Inverter) verpolt. Durch Anheben der Pins 3 und 4 wurde mit der Hilfe von Fädeldraht dieser Fehler behoben.
 
 
 
 \subsection{Fehler 3}
 
-Bei der Inbetriebnahme der Konstantstromquelle auf Seite 7 stellte sich heraus, dass die Schaltung in dieser Konstellation zum schwingen beginnt. Durch einen Mitarbeiter der Entwicklung wurde ich auf einen fehlenden Widerstand zwischen TP3 und Pin 7 (U19A) hingewiesen. Durch eine fehlerhafte Einstellung des Simulationsprogrammes, konnte ich im Vorfeld den Fehler nicht erkennen. Der durch hohe Frequenzen auftretende Impedanzeinbruch, welcher die Ausgänge U19A Pin 7 und U17A Pin 4 miteinander kurzschließt, wurde mir in früheren Simulationen nicht Angezeigt und von meiner Seite aus nicht bedacht. Zur Fehlerbehebung wurde die Leiterbahn zwischen TP3 und Pin 7 (U19A) aufgetrennt und mit einem 10k Widerstand versehen. 
+Bei der Inbetriebnahme der Konstantstromquelle auf Seite 7 stellte sich heraus, dass die Schaltung in dieser Konstellation zum Schwingen beginnt. Durch einen Mitarbeiter der Entwicklung wurde ich auf einen fehlenden Widerstand zwischen TP3 und Pin 7 (U19A) hingewiesen. Durch eine fehlerhafte Einstellung des Simulationsprogrammes, konnte ich im Vorfeld den Fehler nicht erkennen. Der durch hohe Frequenzen auftretende Impedanzeinbruch, welcher die Ausgänge U19A Pin 7 und U17A Pin 4 miteinander kurzschließt, wurde mir in früheren Simulationen nicht Angezeigt und von meiner Seite aus nicht bedacht. Zur Fehlerbehebung wurde die Leiterbahn zwischen TP3 und Pin 7 (U19A) aufgetrennt und mit einem 10k Widerstand versehen. 
 
 
 
 \subsection{Fehler 4}
 
-Nach Behebung des \glqq Fehler 3 \grqq{} war ein korrektes einstellen des Konstantstromes nicht möglich. Das Problem hierbei liegt in der Versorgung von U19. Bei einem idealen Leitungswiderstand von 0R liegt an Pin 4 die Versorgungsspannung von U19 an. Intern wird dieses Signal durch einen \glqq nichtinvertierenden Verstärker \grqq{} verstärkt. Da ein OP das Eingangssignal nie auf einen Pegel größer als seine Betriebsspannung verstärken kann und durch Spannungsabfall am \glqq High und Low - Side Transistor\grqq{} der Ausgangsstufe das verstärkte Signal nicht den Wert der Versorgungsspannung erreichen kann, kommt es zu einer falschen Strommessung. Durch Trennung der Leitung, welche U19 mit +5V versorgt und anschließender Versorgung von U19 mit der Eingangsspannung (+9V) wurde dieses Problem behoben. 
+Nach Behebung des \glqq Fehler 3 \grqq{} war ein korrektes Einstellen des Konstantstromes nicht möglich. Das Problem hierbei liegt in der Versorgung von U19. Bei einem idealen Leitungswiderstand von 0R liegt an Pin 4 die Versorgungsspannung von U19 an. Intern wird dieses Signal durch einen \glqq nichtinvertierenden Verstärker \grqq{} verstärkt. Da ein OP das Eingangssignal nie auf einen Pegel größer als seine Betriebsspannung verstärken kann und durch Spannungsabfall am \glqq High und Low - Side Transistor\grqq{} der Ausgangsstufe das verstärkte Signal nicht den Wert der Versorgungsspannung erreichen kann, kommt es zu einer falschen Strommessung. Durch Trennung der Leitung, welche U19 mit +5V versorgt und anschließender Versorgung von U19 mit der Eingangsspannung (+9V) wurde dieses Problem behoben. 
 
 \newpage
 
