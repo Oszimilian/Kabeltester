@@ -1,0 +1,88 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[a4paper, left=2cm, right=2cm, top=2.8cm, bottom=2.8cm]{geometry}
+\usepackage{tikz}   
+\usepackage[scaled]{helvet}
+\usepackage{tabto} 
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{pdfpages}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+
+\setkomafont{section}{\huge}
+\setkomafont{subsection}{\Large}
+
+
+\lhead{Maximilian Hoffmann}
+\chead{Betrieblicher Auftrag \\ \textbf{Kabeltester}}
+\rhead{\includegraphics[width=3cm]{Bilder/BMK_LOGO.png}}
+
+
+\title{Abschlussprojekt \\ Kabeltester}
+\author{Maximilian Hoffmann}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+   \includegraphics[width=15cm]{Bilder/Kabeltester.jpg}
+\end{center}
+
+\vspace{1,5cm}
+
+\renewcommand{\arraystretch}{2}
+\begin{center}
+\begin{tabular}[h] {c|c}
+\textbf{Auftragnehmer} 		& 	\textbf{Auftraggeber} 		\\
+Maximilian Hoffmann			& 	Robert Schulz				\\
+BMK Group GmbH Co.KG		&	BMK Group GmbH Co.KG		\\
+Werner-von-Siemens-Straße 6	&	Werner-von-Siemens-Straße 6 \\
+Entwicklung Labor			& 	Entwicklung		
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+
+\newpage
+
+\input{BA_Anfang}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{BA_Begrifflichkeiten}
+\newpage
+\input{BA_Ausgangssituation}
+\newpage
+\input{BA_Auftragsplaung}
+\newpage
+\input{BA_Blockschaltplan}
+\newpage
+\input{BA_Auftragsdurchführung}
+\newpage
+\input{BA_Inbetriebnahme}
+\newpage
+\input{BA_Fehleranalyse}
+\newpage
+\input{BA_Kabelanalyse}
+\newpage
+\input{BA_Stückliste_Stromaufnahme}
+\newpage
+\input{BA_Anhang}
+
+
+
+
+
+\end{document}

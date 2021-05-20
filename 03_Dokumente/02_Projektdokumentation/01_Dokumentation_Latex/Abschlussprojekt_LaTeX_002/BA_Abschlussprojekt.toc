@@ -1,0 +1,70 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Klärung der Begrifflichkeiten}{6}{}%
+\contentsline {subsection}{\numberline {1.1}BMK-IoT Modul}{6}{}%
+\contentsline {subsection}{\numberline {1.2}eMMC}{6}{}%
+\contentsline {subsection}{\numberline {1.3}RTOS}{6}{}%
+\contentsline {subsection}{\numberline {1.4}BGA}{7}{}%
+\contentsline {subsection}{\numberline {1.5}Pig-Tail}{7}{}%
+\contentsline {section}{\numberline {2}Ausgangssituation}{8}{}%
+\contentsline {subsection}{\numberline {2.1}BMK-Entwicklung}{8}{}%
+\contentsline {subsection}{\numberline {2.2}BMK-Testentwicklung / Testentwicklungslabor}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Aktuelles Testverfahren für Programmierkabel sowie Flachbandkabel}{8}{}%
+\contentsline {section}{\numberline {3}Auftragsplanung}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Auftragsziel}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Anforderungen}{9}{}%
+\contentsline {subsection}{\numberline {3.3}Teilaufträge}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Bauteilbeschaffung}{9}{}%
+\contentsline {subsection}{\numberline {3.5}Zeitplanung}{10}{}%
+\contentsline {section}{\numberline {4}Blockschaltbild}{11}{}%
+\contentsline {section}{\numberline {5}Schaltplanentwurf}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Versorgung}{13}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Schutzbeschaltung}{13}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}DC/DC Wandler}{14}{}%
+\contentsline {subsection}{\numberline {5.2}NE555 Taktgeber}{15}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Takt}{15}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Taktumschaltung}{16}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Taktteilung}{18}{}%
+\contentsline {subsection}{\numberline {5.3}Dezimal Zähler}{19}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Messung starten}{19}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Reset}{20}{}%
+\contentsline {subsubsection}{\numberline {5.3.3}Ablauf Steuerung}{21}{}%
+\contentsline {subsubsection}{\numberline {5.3.4}Dezimalzähler}{22}{}%
+\contentsline {subsection}{\numberline {5.4}Leitungstreiber und Umschaltung}{23}{}%
+\contentsline {subsection}{\numberline {5.5}Durchgangs und Kurzschlussprüfung}{24}{}%
+\contentsline {subsection}{\numberline {5.6}Konstantstrommessung}{25}{}%
+\contentsline {subsubsection}{\numberline {5.6.1}Konstantstrommessung}{25}{}%
+\contentsline {subsubsection}{\numberline {5.6.2}Auswertung}{26}{}%
+\contentsline {subsubsection}{\numberline {5.6.3}Ausgabe}{27}{}%
+\contentsline {subsection}{\numberline {5.7}Anzeige}{28}{}%
+\contentsline {section}{\numberline {6}Inbetriebnahme}{29}{}%
+\contentsline {subsection}{\numberline {6.1}Spannungsversorgung}{29}{}%
+\contentsline {subsection}{\numberline {6.2}Taktgeber}{30}{}%
+\contentsline {subsection}{\numberline {6.3}DEZ-Zähler}{31}{}%
+\contentsline {subsection}{\numberline {6.4}Leitungstreiber und Umschaltung}{32}{}%
+\contentsline {subsection}{\numberline {6.5}Durchgangsprüfung und Kurzschlussmessung}{33}{}%
+\contentsline {subsection}{\numberline {6.6}Konstantstrommessung}{34}{}%
+\contentsline {section}{\numberline {7}Fehleranalyse}{35}{}%
+\contentsline {subsection}{\numberline {7.1}Fehler 1}{35}{}%
+\contentsline {subsection}{\numberline {7.2}Fehler 2}{35}{}%
+\contentsline {subsection}{\numberline {7.3}Fehler 3}{35}{}%
+\contentsline {subsection}{\numberline {7.4}Fehler 4}{35}{}%
+\contentsline {subsection}{\numberline {7.5}Fehler 5}{36}{}%
+\contentsline {subsection}{\numberline {7.6}Fehler 6}{36}{}%
+\contentsline {section}{\numberline {8}Analyse Leitungswiderstand}{37}{}%
+\contentsline {section}{\numberline {9}Leistungsaufnahme}{39}{}%
+\contentsline {subsection}{\numberline {9.1}Ruheleistung}{39}{}%
+\contentsline {subsection}{\numberline {9.2}Messleistung}{39}{}%
+\contentsline {subsection}{\numberline {9.3}Elektrische Arbeit}{39}{}%
+\contentsline {subsection}{\numberline {9.4}Mögliche Messzyklen}{39}{}%
+\contentsline {section}{\numberline {10}Anhang}{41}{}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{41}{}%
+\contentsline {subsection}{\numberline {10.2}Pflichtenheft}{41}{}%
+\contentsline {subsection}{\numberline {10.3}Übergabeprotokoll}{41}{}%
+\contentsline {subsection}{\numberline {10.4}Teilauftrag Layout}{41}{}%
+\contentsline {subsection}{\numberline {10.5}Teilauftrag Bestückung}{41}{}%
+\contentsline {subsection}{\numberline {10.6}Stückliste}{41}{}%
+\contentsline {subsection}{\numberline {10.7}Bedienungsanleitung}{41}{}%
+\contentsline {subsection}{\numberline {10.8}Schaltplan}{41}{}%
+\contentsline {subsection}{\numberline {10.9}Layout}{41}{}%
+\contentsline {subsection}{\numberline {10.10}Bestückungsplan}{41}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
